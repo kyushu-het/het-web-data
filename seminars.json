@@ -2475,11 +2475,23 @@
     "id": 207,
     "date": "2026-12-04",
     "time": "",
-    "room": "W1-D316",
+    "room": "W1-D315",
     "speaker": "Yuma Furuta",
     "affiliation": "Kyushu University",
     "title": "【Journal Club】",
     "abstract": "",
+    "note": "",
+    "fy": 2026
+  },
+  {
+    "id": 208,
+    "date": "2026-12-14",
+    "time": "15:00",
+    "room": "W1-D315",
+    "speaker": "Tatsuhiro Misumi",
+    "affiliation": "Kindai University",
+    "title": "Numerical tests of continuum chiral fermions coupled to lattice gauge fields",
+    "abstract": "We present numerical studies of a formulation of chiral gauge theories in which continuum Weyl fermions are coupled to interpolated lattice gauge fields. The fermion weight consists of a Pauli-Villars regularized magnitude and an eta-invariant phase evaluated with APS boundary conditions in one higher dimension. In two dimensions, we test this formulation in the 3450 chiral Schwinger model by comparing complex fermion weights, physical observables, and correlation functions involving zero modes with exact continuum results. In four dimensions, we examine the magnitude and phase of fermion weights in an anomaly-free SU(5) gauge theory for both Abelian and non-Abelian backgrounds. Particular attention is paid to the cancellation of bulk-extension dependence in both dimensions. Finally, we discuss our ongoing numerical studies based on a second-order formulation with local boundary conditions.",
     "note": "",
     "fy": 2026
   }
