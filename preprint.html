@@ -1,1 +1,221 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KYUSHU-HET Preprints & Papers</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      margin: 0;
+      padding: 16px;
+      color: #24292f;
+      background-color: #ffffff;
+      font-size: 14px;
+      line-height: 1.5;
+    }
+    .toolbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 14px;
+    }
+    #searchBox {
+      padding: 8px 12px;
+      width: 100%;
+      max-width: 380px;
+      border: 1px solid #d0d7de;
+      border-radius: 6px;
+      font-size: 14px;
+      outline: none;
+    }
+    #searchBox:focus {
+      border-color: #0969da;
+      box-shadow: 0 0 0 3px rgba(9, 105, 218, 0.15);
+    }
+    #statusText {
+      font-size: 13px;
+      color: #57606a;
+    }
+    .table-container {
+      width: 100%;
+      overflow-x: auto;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 10px 10px;
+      border-bottom: 1px solid #e1e4e8;
+      text-align: left;
+      vertical-align: top;
+    }
+    th {
+      background-color: #f6f8fa;
+      font-weight: 600;
+      white-space: nowrap;
+      border-top: 1px solid #e1e4e8;
+    }
+    tr:hover {
+      background-color: #f9fbfd;
+    }
+    a {
+      color: #0969da;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .nowrap {
+      white-space: nowrap;
+    }
+    .paper-title {
+      font-weight: 600;
+      margin-bottom: 4px;
+      color: #1f2328;
+    }
+    .paper-authors {
+      color: #57606a;
+      font-size: 13px;
+    }
+    .btn-link {
+      display: inline-block;
+      padding: 2px 8px;
+      margin: 0 4px 4px 0;
+      font-size: 12px;
+      border: 1px solid #d0d7de;
+      border-radius: 4px;
+      background-color: #f6f8fa;
+      color: #0969da;
+      white-space: nowrap;
+    }
+    .btn-link:hover {
+      background-color: #eaeef2;
+      text-decoration: none;
+    }
+    .center-msg {
+      text-align: center;
+      padding: 32px;
+      color: #57606a;
+    }
+  </style>
+</head>
+<body>
 
+  <div class="toolbar">
+    <input type="text" id="searchBox" placeholder="検索 (Preprint番号, Title, Authors, arXiv, 雑誌名...)">
+    <div id="statusText">Loading publications...</div>
+  </div>
+
+  <div class="table-container">
+    <table>
+      <thead>
+        <tr>
+          <th>Preprint</th>
+          <th>Title / Authors</th>
+          <th>Links</th>
+          <th>Publication</th>
+        </tr>
+      </thead>
+      <tbody id="pubTableBody">
+        <tr><td colspan="4" class="center-msg">Loading publications...</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <script>
+    const DATA_URL = 'https://kyushu-het.github.io/het-web-data/preprints.json';
+    let publications = [];
+
+    // JSONデータの取得
+    fetch(DATA_URL + '?t=' + Date.now())
+      .then(res => {
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        return res.json();
+      })
+      .then(data => {
+        // 新しいプレプリントが上に来るように逆順に表示（古い順にする場合は .reverse() を削除）
+        publications = data.slice().reverse();
+        renderTable(publications);
+      })
+      .catch(err => {
+        console.error('Fetch error:', err);
+        document.getElementById('statusText').textContent = 'Error';
+        document.getElementById('pubTableBody').innerHTML =
+          '<tr><td colspan="4" class="center-msg" style="color:#cf222e;">データの読み込みに失敗しました。</td></tr>';
+      });
+
+    // テーブル描画
+    function renderTable(list) {
+      const tbody = document.getElementById('pubTableBody');
+      const status = document.getElementById('statusText');
+      status.textContent = `${list.length} publications`;
+
+      if (list.length === 0) {
+        tbody.innerHTML = '<tr><td colspan="4" class="center-msg">該当する論文がありません。</td></tr>';
+        return;
+      }
+
+      tbody.innerHTML = list.map(item => {
+        const arxivBtn = item.arxivUrl
+          ? `<a class="btn-link" href="${esc(item.arxivUrl)}" target="_blank" rel="noopener">arXiv:${esc(item.arxivId)}</a>`
+          : '';
+        const inspireBtn = item.inspireUrl
+          ? `<a class="btn-link" href="${esc(item.inspireUrl)}" target="_blank" rel="noopener">INSPIRE</a>`
+          : '';
+        const pubHtml = item.journalRef
+          ? (item.doiUrl
+              ? `<a href="${esc(item.doiUrl)}" target="_blank" rel="noopener">${esc(item.journalRef)}</a>`
+              : esc(item.journalRef))
+          : '';
+
+        return `
+          <tr>
+            <td class="nowrap"><strong>${esc(item.reportNumber)}</strong></td>
+            <td>
+              <div class="paper-title">${esc(item.title)}</div>
+              <div class="paper-authors">${esc(item.authors)}</div>
+            </td>
+            <td class="nowrap">${arxivBtn}${inspireBtn}</td>
+            <td>${pubHtml}</td>
+          </tr>
+        `;
+      }).join('');
+    }
+
+    // 検索機能
+    document.getElementById('searchBox').addEventListener('input', function(e) {
+      const q = e.target.value.trim().toLowerCase();
+      if (!q) {
+        renderTable(publications);
+        return;
+      }
+      const filtered = publications.filter(item =>
+        (item.reportNumber && item.reportNumber.toLowerCase().includes(q)) ||
+        (item.title && item.title.toLowerCase().includes(q)) ||
+        (item.authors && item.authors.toLowerCase().includes(q)) ||
+        (item.arxivId && item.arxivId.toLowerCase().includes(q)) ||
+        (item.journalRef && item.journalRef.toLowerCase().includes(q))
+      );
+      renderTable(filtered);
+    });
+
+    // HTMLエスケープ処理
+    function esc(s) {
+      if (!s) return '';
+      return String(s)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+    }
+  </script>
+</body>
+</html>
