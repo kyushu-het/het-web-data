@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KYUSHU-HET Seminars</title>
+  <style>
+    :root {
+      --text-main: #2D2D2D;
+      --text-muted: #64748B;
+      --border-color: #E2E8F0;
+      --bg-header: #F8FAFC;
+      --link-main: #0969DA;
+      --badge-upcoming-text: #1E40AF;
+      --badge-upcoming-bg: #EFF6FF;
+      --badge-location-text: #065F46;
+      --badge-location-bg: #ECFDF5;
+      --badge-online-text: #7C2D12;
+      --badge-online-bg: #FFEDD5;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Hiragino Kaku Gothic ProN", "Segoe UI", Roboto, sans-serif;
+      margin: 0;
+      padding: 16px;
+      color: var(--text-main);
+      background-color: #ffffff;
+      font-size: 0.88rem;
+      line-height: 1.5;
+    }
+
+    .het-container {
+      width: 100%;
+      margin: 0 auto;
+      min-height: 120px;
+    }
+
+    .het-toolbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 14px;
+      flex-wrap: wrap;
+    }
+
+    .het-search-box {
+      position: relative;
+      flex: 1;
+      min-width: 240px;
+      max-width: 460px;
+    }
+
+    .search-icon {
+      position: absolute;
+      left: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 16px;
+      height: 16px;
+      color: #94A3B8;
+      pointer-events: none;
+    }
+
+    #searchBox {
+      width: 100%;
+      padding: 8px 32px 8px 34px;
+      font-size: 0.88rem;
+      border: 1px solid var(--border-color);
+      border-radius: 6px;
+      background-color: #FFFFFF;
+      color: var(--text-main);
+      outline: none;
+      transition: border-color 0.15s ease, box-shadow 0.15s ease;
+    }
+
+    #searchBox:focus {
+      border-color: #94A3B8;
+      box-shadow: 0 0 0 2px rgba(148, 163, 184, 0.15);
+    }
+
+    .het-search-clear {
+      position: absolute;
+      right: 8px;
+      top: 50%;
+      transform: translateY(-50%);
+      background: none;
+      border: none;
+      color: #94A3B8;
+      font-size: 16px;
+      cursor: pointer;
+      padding: 0 4px;
+      line-height: 1;
+    }
+
+    .het-search-clear:hover {
+      color: var(--text-main);
+    }
+
+    .het-count-badge {
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      white-space: nowrap;
+    }
+
+    .het-table-container {
+      width: 100%;
+      overflow-x: auto;
+    }
+
+    .het-table {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 0;
+      font-size: 0.88rem;
+      line-height: 1.5;
+    }
+
+    .het-table th {
+      background-color: var(--bg-header);
+      color: var(--text-muted);
+      font-weight: 600;
+      text-align: left;
+      padding: 10px 14px;
+      border-top: 1px solid var(--border-color);
+      border-bottom: 1px solid var(--border-color);
+      letter-spacing: 0.02em;
+    }
+
+    .het-table td {
+      padding: 12px 14px;
+      border-bottom: 1px solid var(--border-color);
+      vertical-align: top;
+    }
+
+    .het-table tr:hover td {
+      background-color: #FAFAFA;
+    }
+
+    .date-col {
+      white-space: nowrap;
+    }
+
+    .seminar-date {
+      font-family: "SFMono-Regular", Consolas, Menlo, monospace;
+      font-weight: 600;
+      color: var(--text-main);
+      font-size: 0.85rem;
+    }
+
+    .seminar-time {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      margin-top: 2px;
+    }
+
+    .speaker-name {
+      font-weight: 600;
+      color: var(--text-main);
+      letter-spacing: -0.01em;
+    }
+
+    .speaker-affil {
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      margin-top: 2px;
+      line-height: 1.35;
+    }
+
+    .seminar-title {
+      font-weight: 600;
+      color: var(--text-main);
+      margin-bottom: 4px;
+      letter-spacing: -0.01em;
+    }
+
+    .seminar-abstract {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      line-height: 1.45;
+      margin-top: 4px;
+      white-space: pre-line;
+    }
+
+    .badge-group {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      align-items: flex-start;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 2px 7px;
+      border-radius: 4px;
+      font-size: 0.76rem;
+      text-decoration: none;
+      line-height: 1.4;
+      white-space: nowrap;
+    }
+
+    .badge-place {
+      background: var(--badge-location-bg);
+      border: 1px solid #A7F3D0;
+      color: var(--badge-location-text);
+      font-weight: 500;
+    }
+
+    .badge-online {
+      background: var(--badge-online-bg);
+      border: 1px solid #FED7AA;
+      color: var(--badge-online-text);
+      font-weight: 500;
+    }
+
+    .badge-link {
+      background: var(--bg-header);
+      border: 1px solid var(--border-color);
+      color: var(--link-main);
+      text-decoration: none;
+    }
+
+    .badge-link:hover {
+      opacity: 0.8;
+      text-decoration: underline;
+    }
+
+    .center-msg {
+      text-align: center;
+      padding: 30px 15px;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      letter-spacing: 0.03em;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="het-container">
+    <div class="het-toolbar">
+      <div class="het-search-box">
+        <svg class="search-icon" viewBox="0 0 20 20" fill="currentColor">
+          <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd" />
+        </svg>
+        <input type="text" id="searchBox" placeholder="Filter by speaker, title, affiliation, date, or place..." autocomplete="off">
+        <button type="button" id="searchClear" class="het-search-clear" style="display: none;" title="クリア">×</button>
+      </div>
+      <div id="statusText" class="het-count-badge">Loading seminars...</div>
+    </div>
+
+    <div class="het-table-container">
+      <table class="het-table">
+        <thead>
+          <tr>
+            <th style="width: 15%;">Date &amp; Time</th>
+            <th style="width: 25%;">Speaker</th>
+            <th style="width: 45%;">Title</th>
+            <th style="width: 15%;">Place / Link</th>
+          </tr>
+        </thead>
+        <tbody id="seminarTableBody">
+          <tr><td colspan="4" class="center-msg">Loading seminars...</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <script>
+    // GitHub Pages 上の RAW JSON URL
+    const DATA_URL = 'https://kyushu-het.github.io/het-web-data/seminars.json';
+    let seminars = [];
+
+    fetch(DATA_URL + '?t=' + Date.now())
+      .then(res => {
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        return res.json();
+      })
+      .then(data => {
+        // 新しいセミナーが上に来るように逆順ソート（日付ソートが必要な場合はここで調整可能）
+        seminars = data.slice().reverse();
+        renderTable(seminars);
+      })
+      .catch(err => {
+        console.error('Fetch error:', err);
+        document.getElementById('statusText').textContent = 'Error';
+        document.getElementById('seminarTableBody').innerHTML =
+          '<tr><td colspan="4" class="center-msg" style="color:#DC2626;">セミナー情報の読み込みに失敗しました。</td></tr>';
+      });
+
+    function renderTable(list) {
+      const tbody = document.getElementById('seminarTableBody');
+      const status = document.getElementById('statusText');
+      status.textContent = `${list.length} 件 / 全 ${seminars.length} 件`;
+
+      if (list.length === 0) {
+        tbody.innerHTML = '<tr><td colspan="4" class="center-msg">一致するセミナーが見つかりませんでした。</td></tr>';
+        return;
+      }
+
+      tbody.innerHTML = list.map(item => {
+        // フィールド名ゆれ（date/time, speaker/affiliation, title/abstract, place/location/url）に対応
+        const dateStr = item.date || item.datetime || '';
+        const timeStr = item.time || '';
+        const speaker = item.speaker || item.name || '';
+        const affiliation = item.affiliation || item.institution || '';
+        const title = item.title || '(No Title)';
+        const abstract = item.abstract || '';
+        const place = item.place || item.location || item.room || '';
+        const linkUrl = item.url || item.link || '';
+
+        // 日時ブロック
+        let dateHtml = `<div class="seminar-date">${esc(dateStr)}</div>`;
+        if (timeStr) {
+          dateHtml += `<div class="seminar-time">${esc(timeStr)}</div>`;
+        }
+
+        // 講演者ブロック
+        let speakerHtml = `<div class="speaker-name">${esc(speaker)}</div>`;
+        if (affiliation) {
+          speakerHtml += `<div class="speaker-affil">${esc(affiliation)}</div>`;
+        }
+
+        // タイトル＆アブストラクト
+        let contentHtml = `<div class="seminar-title">${esc(title)}</div>`;
+        if (abstract) {
+          contentHtml += `<div class="seminar-abstract">${esc(abstract)}</div>`;
+        }
+
+        // 場所・URLブロック（緑色系バッジで統一）
+        let badgeHtml = '<div class="badge-group">';
+        if (place) {
+          const isZoomOrOnline = /zoom|online|teams/i.test(place);
+          const badgeClass = isZoomOrOnline ? 'badge-online' : 'badge-place';
+          badgeHtml += `<span class="badge ${badgeClass}">${esc(place)}</span>`;
+        }
+        if (linkUrl) {
+          badgeHtml += `<a href="${esc(linkUrl)}" target="_blank" rel="noopener" class="badge badge-link">Details &rarr;</a>`;
+        }
+        badgeHtml += '</div>';
+
+        return `
+          <tr>
+            <td class="date-col">${dateHtml}</td>
+            <td>${speakerHtml}</td>
+            <td>${contentHtml}</td>
+            <td>${badgeHtml}</td>
+          </tr>
+        `;
+      }).join('');
+    }
+
+    // 検索処理
+    const searchInput = document.getElementById('searchBox');
+    const searchClear = document.getElementById('searchClear');
+
+    searchInput.addEventListener('input', function(e) {
+      const q = e.target.value.trim().toLowerCase();
+      searchClear.style.display = q ? 'block' : 'none';
+
+      if (!q) {
+        renderTable(seminars);
+        return;
+      }
+
+      const terms = q.split(/\s+/).filter(t => t.length > 0);
+      const filtered = seminars.filter(item => {
+        const fullText = `
+          ${item.date || ''} ${item.time || ''} 
+          ${item.speaker || item.name || ''} 
+          ${item.affiliation || item.institution || ''} 
+          ${item.title || ''} 
+          ${item.abstract || ''} 
+          ${item.place || item.location || ''}
+        `.toLowerCase();
+        return terms.every(term => fullText.includes(term));
+      });
+      renderTable(filtered);
+    });
+
+    searchClear.addEventListener('click', function() {
+      searchInput.value = '';
+      searchClear.style.display = 'none';
+      renderTable(seminars);
+      searchInput.focus();
+    });
+
+    function esc(s) {
+      if (!s) return '';
+      return String(s)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+    }
+  </script>
+</body>
+</html>
