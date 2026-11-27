@@ -38,19 +38,18 @@
       min-height: 120px;
     }
 
-    /* 検索バーのみを上部に追従固定 */
+    /* 検索バー：最上部に固定 */
     .het-toolbar {
       position: sticky;
       top: 0;
       z-index: 100;
       background-color: #ffffff;
-      padding: 10px 0 14px 0;
+      padding: 10px 0 12px 0;
       display: flex;
       justify-content: space-between;
       align-items: center;
       gap: 12px;
-      margin-bottom: 8px;
-      flex-wrap: wrap;
+      margin-bottom: 0;
       border-bottom: 1px solid var(--border-color);
     }
 
@@ -113,10 +112,14 @@
       white-space: nowrap;
     }
 
+    /* テーブルのスクロール枠：内部スクロールを確立してstickyを正常に機能させる */
     .het-table-container {
       width: 100%;
+      max-height: calc(100vh - 80px);
+      overflow-y: auto;
       overflow-x: auto;
       -webkit-overflow-scrolling: touch;
+      position: relative;
     }
 
     .het-table {
@@ -129,11 +132,12 @@
       line-height: 1.5;
     }
 
+    /* ヘッダー：コンテナの最上部(top: 0)に吸着固定（392の上に被さりません） */
     .het-table th {
       position: sticky;
-      top: 62px; /* 検索ツールバーの高さに合わせて固定 */
-      z-index: 80;
-      background-color: #F8FAFC; /* 下の文字が透けないように不透明な背景色 */
+      top: 0;
+      z-index: 50;
+      background-color: #F8FAFC;
       color: var(--text-muted);
       font-weight: 600;
       text-align: left;
