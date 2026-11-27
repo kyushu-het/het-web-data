@@ -5,146 +5,262 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>KYUSHU-HET Preprints & Papers</title>
   <style>
+    :root {
+      --text-main: #2D2D2D;
+      --text-muted: #64748B;
+      --border-color: #E2E8F0;
+      --bg-header: #F8FAFC;
+      --link-arxiv: #334155;
+      --badge-arxiv-bg: #F1F5F9;
+      --badge-inspire-text: #1E40AF;
+      --badge-inspire-bg: #EFF6FF;
+      --badge-pub-text: #065F46;
+      --badge-pub-bg: #ECFDF5;
+    }
+
     * {
       box-sizing: border-box;
     }
+
     body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, "Hiragino Kaku Gothic ProN", "Segoe UI", Roboto, sans-serif;
       margin: 0;
       padding: 16px;
-      color: #24292f;
+      color: var(--text-main);
       background-color: #ffffff;
-      font-size: 14px;
+      font-size: 0.88rem;
       line-height: 1.5;
     }
-    .toolbar {
+
+    .het-container {
+      width: 100%;
+      margin: 0 auto;
+      min-height: 120px;
+    }
+
+    .het-toolbar {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      flex-wrap: wrap;
-      gap: 10px;
+      gap: 12px;
       margin-bottom: 14px;
+      flex-wrap: wrap;
     }
+
+    .het-search-box {
+      position: relative;
+      flex: 1;
+      min-width: 240px;
+      max-width: 460px;
+    }
+
+    .search-icon {
+      position: absolute;
+      left: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 16px;
+      height: 16px;
+      color: #94A3B8;
+      pointer-events: none;
+    }
+
     #searchBox {
-      padding: 8px 12px;
       width: 100%;
-      max-width: 380px;
-      border: 1px solid #d0d7de;
+      padding: 8px 32px 8px 34px;
+      font-size: 0.88rem;
+      border: 1px solid var(--border-color);
       border-radius: 6px;
-      font-size: 14px;
+      background-color: #FFFFFF;
+      color: var(--text-main);
       outline: none;
+      transition: border-color 0.15s ease, box-shadow 0.15s ease;
     }
+
     #searchBox:focus {
-      border-color: #0969da;
-      box-shadow: 0 0 0 3px rgba(9, 105, 218, 0.15);
+      border-color: #94A3B8;
+      box-shadow: 0 0 0 2px rgba(148, 163, 184, 0.15);
     }
-    #statusText {
-      font-size: 13px;
-      color: #57606a;
+
+    .het-search-clear {
+      position: absolute;
+      right: 8px;
+      top: 50%;
+      transform: translateY(-50%);
+      background: none;
+      border: none;
+      color: #94A3B8;
+      font-size: 16px;
+      cursor: pointer;
+      padding: 0 4px;
+      line-height: 1;
     }
-    .table-container {
+
+    .het-search-clear:hover {
+      color: var(--text-main);
+    }
+
+    .het-count-badge {
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      white-space: nowrap;
+    }
+
+    .het-table-container {
       width: 100%;
       overflow-x: auto;
     }
-    table {
+
+    .het-table {
       width: 100%;
-      border-collapse: collapse;
+      border-collapse: separate;
+      border-spacing: 0;
+      font-size: 0.88rem;
+      line-height: 1.5;
     }
-    th, td {
-      padding: 10px 10px;
-      border-bottom: 1px solid #e1e4e8;
+
+    .het-table th {
+      background-color: var(--bg-header);
+      color: var(--text-muted);
+      font-weight: 600;
       text-align: left;
+      padding: 10px 14px;
+      border-top: 1px solid var(--border-color);
+      border-bottom: 1px solid var(--border-color);
+      letter-spacing: 0.02em;
+    }
+
+    .het-table td {
+      padding: 12px 14px;
+      border-bottom: 1px solid var(--border-color);
       vertical-align: top;
     }
-    th {
-      background-color: #f6f8fa;
+
+    .het-table tr:hover td {
+      background-color: #FAFAFA;
+    }
+
+    .report-no {
+      font-family: "SFMono-Regular", Consolas, Menlo, monospace;
       font-weight: 600;
+      color: var(--text-main);
       white-space: nowrap;
-      border-top: 1px solid #e1e4e8;
+      font-size: 0.85rem;
     }
-    tr:hover {
-      background-color: #f9fbfd;
-    }
-    a {
-      color: #0969da;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    .nowrap {
-      white-space: nowrap;
-    }
+
     .paper-title {
       font-weight: 600;
+      color: var(--text-main);
       margin-bottom: 4px;
-      color: #1f2328;
+      letter-spacing: -0.01em;
     }
+
     .paper-authors {
-      color: #57606a;
-      font-size: 13px;
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      line-height: 1.4;
     }
-    .btn-link {
+
+    .btn-group {
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .badge {
       display: inline-block;
-      padding: 2px 8px;
-      margin: 0 4px 4px 0;
-      font-size: 12px;
-      border: 1px solid #d0d7de;
+      padding: 2px 7px;
       border-radius: 4px;
-      background-color: #f6f8fa;
-      color: #0969da;
+      font-size: 0.76rem;
+      text-decoration: none;
+      line-height: 1.4;
+      transition: opacity 0.15s ease;
       white-space: nowrap;
     }
-    .btn-link:hover {
-      background-color: #eaeef2;
+
+    .badge:hover {
+      opacity: 0.75;
       text-decoration: none;
     }
-    .pub-info, .pub-info a {
-      color: #137333;
+
+    .badge-arxiv {
+      background: var(--badge-arxiv-bg);
+      border: 1px solid #CBD5E1;
+      color: var(--link-arxiv);
+      font-family: monospace;
+    }
+
+    .badge-inspire {
+      background: var(--badge-inspire-bg);
+      border: 1px solid #BFDBFE;
+      color: var(--badge-inspire-text);
       font-weight: 500;
     }
+
+    .badge-pub {
+      background: var(--badge-pub-bg);
+      border: 1px solid #A7F3D0;
+      color: var(--badge-pub-text);
+      font-weight: 500;
+    }
+
+    .status-preprint {
+      color: #94A3B8;
+      font-size: 0.8rem;
+      font-style: italic;
+    }
+
     .center-msg {
       text-align: center;
-      padding: 32px;
-      color: #57606a;
+      padding: 30px 15px;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      letter-spacing: 0.03em;
     }
   </style>
 </head>
 <body>
 
-  <div class="toolbar">
-    <input type="text" id="searchBox" placeholder="検索 (Preprint番号, Title, Authors, arXiv, 雑誌名...)">
-    <div id="statusText">Loading publications...</div>
-  </div>
+  <div class="het-container">
+    <div class="het-toolbar">
+      <div class="het-search-box">
+        <svg class="search-icon" viewBox="0 0 20 20" fill="currentColor">
+          <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd" />
+        </svg>
+        <input type="text" id="searchBox" placeholder="Filter by title, author, arXiv ID, or journal..." autocomplete="off">
+        <button type="button" id="searchClear" class="het-search-clear" style="display: none;" title="クリア">×</button>
+      </div>
+      <div id="statusText" class="het-count-badge">Loading publications...</div>
+    </div>
 
-  <div class="table-container">
-    <table>
-      <thead>
-        <tr>
-          <th>Preprint</th>
-          <th>Title / Authors</th>
-          <th>Links</th>
-          <th>Publication</th>
-        </tr>
-      </thead>
-      <tbody id="pubTableBody">
-        <tr><td colspan="4" class="center-msg">Loading publications...</td></tr>
-      </tbody>
-    </table>
+    <div class="het-table-container">
+      <table class="het-table">
+        <thead>
+          <tr>
+            <th style="width: 16%;">Preprint</th>
+            <th style="width: 48%;">Title / Authors</th>
+            <th style="width: 16%;">Links</th>
+            <th style="width: 20%;">Publication</th>
+          </tr>
+        </thead>
+        <tbody id="pubTableBody">
+          <tr><td colspan="4" class="center-msg">Loading publications...</td></tr>
+        </tbody>
+      </table>
+    </div>
   </div>
 
   <script>
     const DATA_URL = 'https://kyushu-het.github.io/het-web-data/preprints.json';
     let publications = [];
 
-    // JSONデータの取得
     fetch(DATA_URL + '?t=' + Date.now())
       .then(res => {
         if (!res.ok) throw new Error('HTTP ' + res.status);
         return res.json();
       })
       .then(data => {
-        // 新しいプレプリントが上に来るように逆順に表示（古い順にする場合は .reverse() を削除）
         publications = data.slice().reverse();
         renderTable(publications);
       })
@@ -152,65 +268,80 @@
         console.error('Fetch error:', err);
         document.getElementById('statusText').textContent = 'Error';
         document.getElementById('pubTableBody').innerHTML =
-          '<tr><td colspan="4" class="center-msg" style="color:#cf222e;">データの読み込みに失敗しました。</td></tr>';
+          '<tr><td colspan="4" class="center-msg" style="color:#DC2626;">データの読み込みに失敗しました。</td></tr>';
       });
 
-    // テーブル描画
     function renderTable(list) {
       const tbody = document.getElementById('pubTableBody');
       const status = document.getElementById('statusText');
-      status.textContent = `${list.length} publications`;
+      status.textContent = `${list.length} 件 / 全 ${publications.length} 件`;
 
       if (list.length === 0) {
-        tbody.innerHTML = '<tr><td colspan="4" class="center-msg">該当する論文がありません。</td></tr>';
+        tbody.innerHTML = '<tr><td colspan="4" class="center-msg">一致する論文が見つかりませんでした。</td></tr>';
         return;
       }
 
       tbody.innerHTML = list.map(item => {
-        const arxivBtn = item.arxivUrl
-          ? `<a class="btn-link" href="${esc(item.arxivUrl)}" target="_blank" rel="noopener">arXiv:${esc(item.arxivId)}</a>`
-          : '';
-        const inspireBtn = item.inspireUrl
-          ? `<a class="btn-link" href="${esc(item.inspireUrl)}" target="_blank" rel="noopener">INSPIRE</a>`
-          : '';
-        const pubHtml = item.journalRef
-          ? (item.doiUrl
-              ? `<a href="${esc(item.doiUrl)}" target="_blank" rel="noopener">${esc(item.journalRef)}</a>`
-              : esc(item.journalRef))
-          : '';
+        let linksHtml = '<div class="btn-group">';
+        if (item.arxivUrl) {
+          const rawId = item.arxivId || item.arxivUrl.split('/').pop();
+          linksHtml += `<a href="${esc(item.arxivUrl)}" target="_blank" rel="noopener" class="badge badge-arxiv">arXiv:${esc(rawId)}</a>`;
+        }
+        if (item.inspireUrl) {
+          linksHtml += `<a href="${esc(item.inspireUrl)}" target="_blank" rel="noopener" class="badge badge-inspire">inspire</a>`;
+        }
+        linksHtml += '</div>';
+
+        let pubHtml = '<span class="status-preprint">Preprint</span>';
+        if (item.journalRef) {
+          if (item.doiUrl) {
+            pubHtml = `<a href="${esc(item.doiUrl)}" target="_blank" rel="noopener" class="badge badge-pub">${esc(item.journalRef)}</a>`;
+          } else {
+            pubHtml = `<span class="badge badge-pub">${esc(item.journalRef)}</span>`;
+          }
+        }
 
         return `
           <tr>
-            <td class="nowrap"><strong>${esc(item.reportNumber)}</strong></td>
+            <td class="report-no">${esc(item.reportNumber)}</td>
             <td>
               <div class="paper-title">${esc(item.title)}</div>
               <div class="paper-authors">${esc(item.authors)}</div>
             </td>
-            <td class="nowrap">${arxivBtn}${inspireBtn}</td>
-            <td class="pub-info">${pubHtml}</td>
+            <td>${linksHtml}</td>
+            <td>${pubHtml}</td>
           </tr>
         `;
       }).join('');
     }
 
-    // 検索機能
-    document.getElementById('searchBox').addEventListener('input', function(e) {
+    const searchInput = document.getElementById('searchBox');
+    const searchClear = document.getElementById('searchClear');
+
+    searchInput.addEventListener('input', function(e) {
       const q = e.target.value.trim().toLowerCase();
+      searchClear.style.display = q ? 'block' : 'none';
+
       if (!q) {
         renderTable(publications);
         return;
       }
-      const filtered = publications.filter(item =>
-        (item.reportNumber && item.reportNumber.toLowerCase().includes(q)) ||
-        (item.title && item.title.toLowerCase().includes(q)) ||
-        (item.authors && item.authors.toLowerCase().includes(q)) ||
-        (item.arxivId && item.arxivId.toLowerCase().includes(q)) ||
-        (item.journalRef && item.journalRef.toLowerCase().includes(q))
-      );
+
+      const terms = q.split(/\s+/).filter(t => t.length > 0);
+      const filtered = publications.filter(item => {
+        const fullText = `${item.reportNumber || ''} ${item.title || ''} ${item.authors || ''} ${item.arxivId || ''} ${item.journalRef || ''}`.toLowerCase();
+        return terms.every(term => fullText.includes(term));
+      });
       renderTable(filtered);
     });
 
-    // HTMLエスケープ処理
+    searchClear.addEventListener('click', function() {
+      searchInput.value = '';
+      searchClear.style.display = 'none';
+      renderTable(publications);
+      searchInput.focus();
+    });
+
     function esc(s) {
       if (!s) return '';
       return String(s)
