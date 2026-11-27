@@ -107,14 +107,18 @@
       white-space: nowrap;
     }
 
+    /* Google Sitesのiframe幅が狭い場合でも潰さずスクロールさせるコンテナ */
     .het-table-container {
       width: 100%;
       overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
     }
 
+    /* 列幅固定・最小幅の確保 */
     .het-table {
       width: 100%;
-      table-layout: fixed;
+      min-width: 680px;      /* 狭い画面でも押し潰れを防止 */
+      table-layout: fixed;   /* thの%配分を強制維持 */
       border-collapse: separate;
       border-spacing: 0;
       font-size: 0.88rem;
@@ -136,7 +140,7 @@
       padding: 12px 14px;
       border-bottom: 1px solid var(--border-color);
       vertical-align: top;
-      word-break: break-word;
+      word-break: break-word;     /* 長い文字列・数式の枠外はみ出し防止 */
       overflow-wrap: break-word;
     }
 
@@ -144,8 +148,9 @@
       background-color: #FAFAFA;
     }
 
-    .date-col {
-      white-space: nowrap;
+    /* Upcomingの行をほんのり青みがかった背景で強調 */
+    .row-upcoming {
+      background-color: #F8FAFD;
     }
 
     .seminar-date {
@@ -206,6 +211,14 @@
       white-space: nowrap;
     }
 
+    .badge-upcoming {
+      background: var(--badge-upcoming-bg);
+      border: 1px solid #BFDBFE;
+      color: var(--badge-upcoming-text);
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+
     .badge-place {
       background: var(--badge-location-bg);
       border: 1px solid #A7F3D0;
@@ -224,11 +237,9 @@
       background: var(--bg-header);
       border: 1px solid var(--border-color);
       color: var(--link-main);
-      text-decoration: none;
     }
 
     .badge-link:hover {
-      opacity: 0.8;
       text-decoration: underline;
     }
 
@@ -259,10 +270,10 @@
       <table class="het-table">
         <thead>
           <tr>
-            <th style="width: 10%;">Date &amp; Time</th>
-            <th style="width: 24%;">Speaker</th>
-            <th style="width: 60%;">Title</th>
-            <th style="width: 6%;">Place / Link</th>
+            <th style="width: 12%;">Date &amp; Time</th>
+            <th style="width: 22%;">Speaker</th>
+            <th style="width: 56%;">Title</th>
+            <th style="width: 8%;">Place / Link</th>
           </tr>
         </thead>
         <tbody id="seminarTableBody">
@@ -273,9 +284,16 @@
   </div>
 
   <script>
-    // GitHub Pages 上の RAW JSON URL
     const DATA_URL = 'https://kyushu-het.github.io/het-web-data/seminars.json';
-    let seminars = [];
+    let processedSeminars = [];
+
+    // 日付文字列のパース（"YYYY-MM-DD" や "YYYY.MM.DD" に対応）
+    function parseDate(dStr) {
+      if (!dStr) return null;
+      const clean = dStr.replace(/\./g, '-');
+      const d = new Date(clean);
+      return isNaN(d.getTime()) ? null : d;
+    }
 
     fetch(DATA_URL + '?t=' + Date.now())
       .then(res => {
@@ -283,9 +301,35 @@
         return res.json();
       })
       .then(data => {
-        // 新しいセミナーが上に来るように逆順ソート（日付ソートが必要な場合はここで調整可能）
-        seminars = data.slice().reverse();
-        renderTable(seminars);
+        const today = new Date();
+        today.setHours(0, 0, 0, 0);
+
+        const upcoming = [];
+        const past = [];
+
+        data.forEach(item => {
+          const d = parseDate(item.date || item.datetime);
+          // 今日の日付以降なら Upcoming
+          if (d && d >= today) {
+            upcoming.push({ ...item, _dateObj: d, _isUpcoming: true });
+          } else {
+            past.push({ ...item, _dateObj: d, _isUpcoming: false });
+          }
+        });
+
+        // 今後の予定: 直近が一番上（日付が早い順 / 昇順）
+        upcoming.sort((a, b) => a._dateObj - b._dateObj);
+
+        // 過去の記録: 直近の過去が一番上（日付が新しい順 / 降順）
+        past.sort((a, b) => {
+          if (!a._dateObj) return 1;
+          if (!b._dateObj) return -1;
+          return b._dateObj - a._dateObj;
+        });
+
+        // Upcoming を先頭にして結合
+        processedSeminars = [...upcoming, ...past];
+        renderTable(processedSeminars);
       })
       .catch(err => {
         console.error('Fetch error:', err);
@@ -297,7 +341,7 @@
     function renderTable(list) {
       const tbody = document.getElementById('seminarTableBody');
       const status = document.getElementById('statusText');
-      status.textContent = `${list.length} 件 / 全 ${seminars.length} 件`;
+      status.textContent = `${list.length} 件 / 全 ${processedSeminars.length} 件`;
 
       if (list.length === 0) {
         tbody.innerHTML = '<tr><td colspan="4" class="center-msg">一致するセミナーが見つかりませんでした。</td></tr>';
@@ -305,7 +349,6 @@
       }
 
       tbody.innerHTML = list.map(item => {
-        // フィールド名ゆれ（date/time, speaker/affiliation, title/abstract, place/location/url）に対応
         const dateStr = item.date || item.datetime || '';
         const timeStr = item.time || '';
         const speaker = item.speaker || item.name || '';
@@ -315,25 +358,29 @@
         const place = item.place || item.location || item.room || '';
         const linkUrl = item.url || item.link || '';
 
-        // 日時ブロック
-        let dateHtml = `<div class="seminar-date">${esc(dateStr)}</div>`;
+        // 日時（Upcomingは青バッジ付与）
+        let dateHtml = '';
+        if (item._isUpcoming) {
+          dateHtml += '<div><span class="badge badge-upcoming">Upcoming</span></div>';
+        }
+        dateHtml += `<div class="seminar-date">${esc(dateStr)}</div>`;
         if (timeStr) {
           dateHtml += `<div class="seminar-time">${esc(timeStr)}</div>`;
         }
 
-        // 講演者ブロック
+        // 講演者・所属
         let speakerHtml = `<div class="speaker-name">${esc(speaker)}</div>`;
         if (affiliation) {
           speakerHtml += `<div class="speaker-affil">${esc(affiliation)}</div>`;
         }
 
-        // タイトル＆アブストラクト
+        // タイトル・要旨
         let contentHtml = `<div class="seminar-title">${esc(title)}</div>`;
         if (abstract) {
           contentHtml += `<div class="seminar-abstract">${esc(abstract)}</div>`;
         }
 
-        // 場所・URLブロック（緑色系バッジで統一）
+        // 場所・リンクバッジ
         let badgeHtml = '<div class="badge-group">';
         if (place) {
           const isZoomOrOnline = /zoom|online|teams/i.test(place);
@@ -345,9 +392,11 @@
         }
         badgeHtml += '</div>';
 
+        const trClass = item._isUpcoming ? 'class="row-upcoming"' : '';
+
         return `
-          <tr>
-            <td class="date-col">${dateHtml}</td>
+          <tr ${trClass}>
+            <td>${dateHtml}</td>
             <td>${speakerHtml}</td>
             <td>${contentHtml}</td>
             <td>${badgeHtml}</td>
@@ -356,7 +405,7 @@
       }).join('');
     }
 
-    // 検索処理
+    // 検索フィルタリング
     const searchInput = document.getElementById('searchBox');
     const searchClear = document.getElementById('searchClear');
 
@@ -365,12 +414,12 @@
       searchClear.style.display = q ? 'block' : 'none';
 
       if (!q) {
-        renderTable(seminars);
+        renderTable(processedSeminars);
         return;
       }
 
       const terms = q.split(/\s+/).filter(t => t.length > 0);
-      const filtered = seminars.filter(item => {
+      const filtered = processedSeminars.filter(item => {
         const fullText = `
           ${item.date || ''} ${item.time || ''} 
           ${item.speaker || item.name || ''} 
@@ -387,7 +436,7 @@
     searchClear.addEventListener('click', function() {
       searchInput.value = '';
       searchClear.style.display = 'none';
-      renderTable(seminars);
+      renderTable(processedSeminars);
       searchInput.focus();
     });
 
