@@ -3430,16 +3430,6 @@
     "doiUrl": "https://doi.org/10.1103/6tzz-tvp7"
   },
   {
-    "reportNumber": "KYUSHU-HET-344",
-    "authors": "Yuya Kusuki, Sridip Pal, Hiroyasu Tajima",
-    "title": "Entanglement Asymmetry from Resource Theory: Application to Weak and Strong Symmetry",
-    "arxivId": "",
-    "arxivUrl": "",
-    "inspireUrl": "",
-    "journalRef": "",
-    "doiUrl": ""
-  },
-  {
     "reportNumber": "KYUSHU-HET-345",
     "authors": "Tatsuo Kobayashi, Hajime Otsuka",
     "title": "Generalized CP from non-invertible selection rules",
@@ -3866,26 +3856,6 @@
     "arxivId": "2611.19778",
     "arxivUrl": "https://arxiv.org/abs/2611.19778",
     "inspireUrl": "https://inspirehep.net/literature/3229926",
-    "journalRef": "",
-    "doiUrl": ""
-  },
-  {
-    "reportNumber": "KYUSHU-HET-388",
-    "authors": "Yuma Furuta, So Matsuura",
-    "title": "Positive diagonal congruence and weight transformations of Ihara zeta functions",
-    "arxivId": "",
-    "arxivUrl": "",
-    "inspireUrl": "",
-    "journalRef": "",
-    "doiUrl": ""
-  },
-  {
-    "reportNumber": "KYUSHU-HET-389",
-    "authors": "Kento Asai, Shohei Okawa, and Riasat Sheikh",
-    "title": "Probing dark matter electromagnetic properties in ancient minerals",
-    "arxivId": "",
-    "arxivUrl": "",
-    "inspireUrl": "",
     "journalRef": "",
     "doiUrl": ""
   },
