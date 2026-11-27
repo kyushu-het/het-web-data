@@ -283,16 +283,28 @@
     </div>
   </div>
 
-  <script>
+<script>
     const DATA_URL = 'https://kyushu-het.github.io/het-web-data/seminars.json';
     let processedSeminars = [];
 
-    // 日付文字列のパース（"YYYY-MM-DD" や "YYYY.MM.DD" に対応）
     function parseDate(dStr) {
       if (!dStr) return null;
-      const clean = dStr.replace(/\./g, '-');
-      const d = new Date(clean);
-      return isNaN(d.getTime()) ? null : d;
+
+      const match = String(dStr).match(/(\d{4})[\/\-\.年\s]+(\d{1,2})[\/\-\.月\s]+(\d{1,2})/);
+      if (match) {
+        const y = parseInt(match[1], 10);
+        const m = parseInt(match[2], 10) - 1;
+        const d = parseInt(match[3], 10);
+        return new Date(y, m, d, 23, 59, 59);
+      }
+
+      const fallback = new Date(dStr);
+      if (!isNaN(fallback.getTime())) {
+        fallback.setHours(23, 59, 59);
+        return fallback;
+      }
+
+      return null;
     }
 
     fetch(DATA_URL + '?t=' + Date.now())
@@ -308,8 +320,10 @@
         const past = [];
 
         data.forEach(item => {
-          const d = parseDate(item.date || item.datetime);
-          // 今日の日付以降なら Upcoming
+          // date, datetime, day, Date などのキーゆれに対応
+          const rawDate = item.date || item.datetime || item.day || item.Date || '';
+          const d = parseDate(rawDate);
+          
           if (d && d >= today) {
             upcoming.push({ ...item, _dateObj: d, _isUpcoming: true });
           } else {
@@ -317,17 +331,16 @@
           }
         });
 
-        // 今後の予定: 直近が一番上（日付が早い順 / 昇順）
+        // 今後の予定: 直近が上（昇順）
         upcoming.sort((a, b) => a._dateObj - b._dateObj);
 
-        // 過去の記録: 直近の過去が一番上（日付が新しい順 / 降順）
+        // 過去の記録: 新しい順（降順）
         past.sort((a, b) => {
           if (!a._dateObj) return 1;
           if (!b._dateObj) return -1;
           return b._dateObj - a._dateObj;
         });
 
-        // Upcoming を先頭にして結合
         processedSeminars = [...upcoming, ...past];
         renderTable(processedSeminars);
       })
@@ -349,16 +362,15 @@
       }
 
       tbody.innerHTML = list.map(item => {
-        const dateStr = item.date || item.datetime || '';
-        const timeStr = item.time || '';
-        const speaker = item.speaker || item.name || '';
-        const affiliation = item.affiliation || item.institution || '';
-        const title = item.title || '(No Title)';
-        const abstract = item.abstract || '';
-        const place = item.place || item.location || item.room || '';
-        const linkUrl = item.url || item.link || '';
+        const dateStr = item.date || item.datetime || item.day || item.Date || '';
+        const timeStr = item.time || item.Time || '';
+        const speaker = item.speaker || item.name || item.Speaker || '';
+        const affiliation = item.affiliation || item.institution || item.Affiliation || '';
+        const title = item.title || item.Title || '(No Title)';
+        const abstract = item.abstract || item.Abstract || '';
+        const place = item.place || item.location || item.room || item.Place || '';
+        const linkUrl = item.url || item.link || item.Url || '';
 
-        // 日時（Upcomingは青バッジ付与）
         let dateHtml = '';
         if (item._isUpcoming) {
           dateHtml += '<div><span class="badge badge-upcoming">Upcoming</span></div>';
@@ -368,19 +380,16 @@
           dateHtml += `<div class="seminar-time">${esc(timeStr)}</div>`;
         }
 
-        // 講演者・所属
         let speakerHtml = `<div class="speaker-name">${esc(speaker)}</div>`;
         if (affiliation) {
           speakerHtml += `<div class="speaker-affil">${esc(affiliation)}</div>`;
         }
 
-        // タイトル・要旨
         let contentHtml = `<div class="seminar-title">${esc(title)}</div>`;
         if (abstract) {
           contentHtml += `<div class="seminar-abstract">${esc(abstract)}</div>`;
         }
 
-        // 場所・リンクバッジ
         let badgeHtml = '<div class="badge-group">';
         if (place) {
           const isZoomOrOnline = /zoom|online|teams/i.test(place);
@@ -405,7 +414,6 @@
       }).join('');
     }
 
-    // 検索フィルタリング
     const searchInput = document.getElementById('searchBox');
     const searchClear = document.getElementById('searchClear');
 
@@ -421,7 +429,7 @@
       const terms = q.split(/\s+/).filter(t => t.length > 0);
       const filtered = processedSeminars.filter(item => {
         const fullText = `
-          ${item.date || ''} ${item.time || ''} 
+          ${item.date || item.datetime || ''} ${item.time || ''} 
           ${item.speaker || item.name || ''} 
           ${item.affiliation || item.institution || ''} 
           ${item.title || ''} 
