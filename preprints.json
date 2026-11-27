@@ -1,0 +1,3922 @@
+[
+  {
+    "reportNumber": "KYUSHU-HET-1",
+    "authors": "Koichi FUNAKUBO and Taro KASHIWA",
+    "title": "Comments on Chiral Invariant and Nonhermitian Lattice Fermion Action",
+    "arxivId": "",
+    "arxivUrl": "",
+    "inspireUrl": "https://inspirehep.net/literature/324546",
+    "journalRef": "Nucl.Phys.B Proc.Suppl. 27 (1992) 207",
+    "doiUrl": "https://doi.org/10.1016/0920-5632(92)90052-T"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-2",
+    "authors": "Koichi Funakubo, Shoichiro Otsuki, Kazunori Takenaga, Fumihiko Toyoda",
+    "title": "FORMULATION OF BARYON NUMBER VIOLATING COLLISIONS: THE CASE OF O(3) NONLINEAR SIGMA MODEL",
+    "arxivId": "",
+    "arxivUrl": "",
+    "inspireUrl": "https://inspirehep.net/literature/319310",
+    "journalRef": "Prog.Theor.Phys. 87 (1992) 663",
+    "doiUrl": "https://doi.org/10.1143/PTP.87.663"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-3",
+    "authors": "Taro KASHIWA, Shuji NIMA and Seiji SAKODA",
+    "title": "Berry's Phase and Euclidean Path Integral",
+    "arxivId": "hep-th/9204010",
+    "arxivUrl": "https://arxiv.org/abs/hep-th/9204010",
+    "inspireUrl": "https://inspirehep.net/literature/332332",
+    "journalRef": "Annals Phys. 220 (1992) 248",
+    "doiUrl": "https://doi.org/10.1016/0003-4916(92)90363-Q"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-4",
+    "authors": "Koichi Funakubo, Taro Kashiwa",
+    "title": "CHIRAL INVARIANCE AND SPECIES DOUBLERS IN GENERIC FERMION MODELS ON THE LATTICE",
+    "arxivId": "hep-lat/9205002",
+    "arxivUrl": "https://arxiv.org/abs/hep-lat/9205002",
+    "inspireUrl": "https://inspirehep.net/literature/334214",
+    "journalRef": "Int.J.Mod.Phys.A 8 (1993) 4649",
+    "doiUrl": "https://doi.org/10.1142/S0217751X93001867"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-6",
+    "authors": "Koichi Funakubo, Shoichiro Otsuki Kazunori Takenaga, Fumihiko Toyoda",
+    "title": "SCATTERING WITH BARYON NUMBER VIOLATION: THE CASE OF HIGGS PARTICLE PRODUCTION",
+    "arxivId": "hep-ph/9211212",
+    "arxivUrl": "https://arxiv.org/abs/hep-ph/9211212",
+    "inspireUrl": "https://inspirehep.net/literature/341282",
+    "journalRef": "Prog.Theor.Phys. 89 (1993) 881",
+    "doiUrl": "https://doi.org/10.1143/PTP.89.881"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-7",
+    "authors": "Sergei V Zenkin",
+    "title": "ON A MEAN FIELD APPROXIMATION FOR HIGGS-YUKAWA SYSTEMS",
+    "arxivId": "hep-lat/9309001",
+    "arxivUrl": "https://arxiv.org/abs/hep-lat/9309001",
+    "inspireUrl": "https://inspirehep.net/literature/358374",
+    "journalRef": "Mod.Phys.Lett.A 9 (1994) 983",
+    "doiUrl": "https://doi.org/10.1142/S0217732394000824"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-8",
+    "authors": "Sergei V Zenkin",
+    "title": "PHASE DIAGRAMS OF A HIGGS-YUKAWA SYSTEM WITH CHIRALLY INVARIANT LATTICE FERMION ACTIONS",
+    "arxivId": "hep-lat/9309010",
+    "arxivUrl": "https://arxiv.org/abs/hep-lat/9309010",
+    "inspireUrl": "https://inspirehep.net/literature/358949",
+    "journalRef": "",
+    "doiUrl": ""
+  },
+  {
+    "reportNumber": "KYUSHU-HET-9",
+    "authors": "Koji Harada, Takanori Sugihara, Masa-aki Taniguchi and Masanobu Yahiro",
+    "title": "The massive Schwinger model with $SU(2)_{f}$ on the light cone",
+    "arxivId": "hep-th/9309128",
+    "arxivUrl": "https://arxiv.org/abs/hep-th/9309128",
+    "inspireUrl": "https://inspirehep.net/literature/358849",
+    "journalRef": "Phys.Rev.D 49 (1994) 4226",
+    "doiUrl": "https://doi.org/10.1103/PhysRevD.49.4226"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-10",
+    "authors": "K. Funakubo, A. Kakuto and K. Takenaga",
+    "title": "The Effective Potential of Electroweak Theory with Two Massless Higgs Doublets at Finite Temperature",
+    "arxivId": "hep-ph/9310267",
+    "arxivUrl": "https://arxiv.org/abs/hep-ph/9310267",
+    "inspireUrl": "https://inspirehep.net/literature/359006",
+    "journalRef": "Prog.Theor.Phys. 91 (1994) 341",
+    "doiUrl": "https://doi.org/10.1143/PTP.91.341"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-11",
+    "authors": "Masahiro Imachi, Hiroshi Yoneyama",
+    "title": "COMPLEX WAVE FUNCTION, CHIRAL SPIN ORDER PARAMETER AND PHASE PROBLEM",
+    "arxivId": "hep-lat/9312073",
+    "arxivUrl": "https://arxiv.org/abs/hep-lat/9312073",
+    "inspireUrl": "https://inspirehep.net/literature/361142",
+    "journalRef": "Prog.Theor.Phys. 91 (1994) 1101",
+    "doiUrl": "https://doi.org/10.1143/PTP.91.1101"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-12",
+    "authors": "T. Kashiwa, S. Sakoda, S. V. Zenkin",
+    "title": "Ordering, symbols, and finite-dimensional approximations of path integrals",
+    "arxivId": "hep-th/9401063",
+    "arxivUrl": "https://arxiv.org/abs/hep-th/9401063",
+    "inspireUrl": "https://inspirehep.net/literature/37013",
+    "journalRef": "Prog.Theor.Phys. 92 (1994) 669",
+    "doiUrl": "https://doi.org/10.1143/PTP.92.669"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-13",
+    "authors": "Kazunori Takenaga",
+    "title": "The Oblique Parameters In Electroweak Theory with Two Massless Higgs Doublets",
+    "arxivId": "hep-ph/9312321",
+    "arxivUrl": "https://arxiv.org/abs/hep-ph/9312321",
+    "inspireUrl": "https://inspirehep.net/literature/361474",
+    "journalRef": "Prog.Theor.Phys. 92 (1994) 987",
+    "doiUrl": "https://doi.org/10.1143/PTP.92.987"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-14",
+    "authors": "Taro Kashiwa and Yasushi Takahashi",
+    "title": "GAUGE INVARIANCE IN QUANTUM ELECTRODYNAMICS",
+    "arxivId": "hep-th/9401097",
+    "arxivUrl": "https://arxiv.org/abs/hep-th/9401097",
+    "inspireUrl": "https://inspirehep.net/literature/371338",
+    "journalRef": "",
+    "doiUrl": ""
+  },
+  {
+    "reportNumber": "KYUSHU-HET-15",
+    "authors": "Koichi Funakubo, Akira Kakuto, Shoichiro Otsuki, Kazunori Takenaga, Fumihiko Toyoda",
+    "title": "FERMION SCATTERING OFF CP VIOLATING ELECTROWEAK BUBBLE WALL",
+    "arxivId": "hep-ph/9402204",
+    "arxivUrl": "https://arxiv.org/abs/hep-ph/9402204",
+    "inspireUrl": "https://inspirehep.net/literature/37199",
+    "journalRef": "Phys.Rev.D 50 (1994) 1105",
+    "doiUrl": "https://doi.org/10.1103/PhysRevD.50.1105"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-16",
+    "authors": "Takanori Sugihara, Masayuki Matsuzaki, and Masanobu Yahiro",
+    "title": "Two-dimensional SU(N) Gauge Theory on the Light Cone",
+    "arxivId": "hep-th/9402092",
+    "arxivUrl": "https://arxiv.org/abs/hep-th/9402092",
+    "inspireUrl": "https://inspirehep.net/literature/37379",
+    "journalRef": "Phys.Rev.D 50 (1994) 5274",
+    "doiUrl": "https://doi.org/10.1103/PhysRevD.50.5274"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-17",
+    "authors": "S. Tominaga and H. Yoneyama",
+    "title": "Chiral perturbation theory, finite size effects and the three-dimensional $XY$ model",
+    "arxivId": "hep-lat/9408001",
+    "arxivUrl": "https://arxiv.org/abs/hep-lat/9408001",
+    "inspireUrl": "https://inspirehep.net/literature/38727",
+    "journalRef": "Phys.Rev.B 51 (1995) 8243",
+    "doiUrl": "https://doi.org/10.1103/PhysRevB.51.8243"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-18",
+    "authors": "K. Funakubo, A.Kakuto, S. Otsuki, K. Takenaga and F. Toyoda",
+    "title": "Fermion Scattering off a CP-Violating Electroweak BubbleWall II",
+    "arxivId": "hep-ph/9407207",
+    "arxivUrl": "https://arxiv.org/abs/hep-ph/9407207",
+    "inspireUrl": "https://inspirehep.net/literature/374566",
+    "journalRef": "",
+    "doiUrl": ""
+  },
+  {
+    "reportNumber": "KYUSHU-HET-19",
+    "authors": "K.Funahashi, T.Kashiwa, S.Sakoda, K.Fujii",
+    "title": "Coherent states, Path integral, and Semiclassical approximation",
+    "arxivId": "hep-th/9409116",
+    "arxivUrl": "https://arxiv.org/abs/hep-th/9409116",
+    "inspireUrl": "https://inspirehep.net/literature/377193",
+    "journalRef": "J.Math.Phys. 36 (1995) 3232",
+    "doiUrl": "https://doi.org/10.1063/1.531028"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-20",
+    "authors": "Ahmed Sayed Hassan, Masahiro Imachi, Hiroshi Yoneyama",
+    "title": "REAL SPACE RENORMALIZATION GROUP ANALYSIS OF U(1) GAUGE THEORY WITH THETA TERM IN TWO-DIMENSIONS",
+    "arxivId": "hep-lat/9410003",
+    "arxivUrl": "https://arxiv.org/abs/hep-lat/9410003",
+    "inspireUrl": "https://inspirehep.net/literature/378056",
+    "journalRef": "Prog.Theor.Phys. 93 (1995) 161",
+    "doiUrl": "https://doi.org/10.1143/PTP.93.161"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-21",
+    "authors": "Kunio FUNAHASHI, Taro KASHIWA, Seiji SAKODA and Kazuyuki FUJII",
+    "title": "EXACTNESS IN THE WKB APPROXIMATION FOR SOME HOMOGENEOUS SPACES",
+    "arxivId": "hep-th/9501145",
+    "arxivUrl": "https://arxiv.org/abs/hep-th/9501145",
+    "inspireUrl": "https://inspirehep.net/literature/392498",
+    "journalRef": "J.Math.Phys. 36 (1995) 4590",
+    "doiUrl": "https://doi.org/10.1063/1.530910"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-22",
+    "authors": "Koji Harada, Atsusi Okazaki, and Masa-aki Taniguchi",
+    "title": "Six-body Light-Front Tamm-Dancoff approximation and wave functions for the massive Schwinger model",
+    "arxivId": "hep-th/9502102",
+    "arxivUrl": "https://arxiv.org/abs/hep-th/9502102",
+    "inspireUrl": "https://inspirehep.net/literature/392870",
+    "journalRef": "Phys.Rev.D 52 (1995) 2429",
+    "doiUrl": "https://doi.org/10.1103/PhysRevD.52.2429"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-23",
+    "authors": "Kunio Funahashi, Taro Kashiwa, Shuji Nima and Seiji Sakoda",
+    "title": "More about Path Integral for Spin",
+    "arxivId": "hep-th/9504125",
+    "arxivUrl": "https://arxiv.org/abs/hep-th/9504125",
+    "inspireUrl": "https://inspirehep.net/literature/394475",
+    "journalRef": "Nucl.Phys.B 453 (1995) 508",
+    "doiUrl": "https://doi.org/10.1016/0550-3213(95)00453-Y"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-24",
+    "authors": "Taro Kashiwa",
+    "title": "A GENERAL FORM OF THE CONSTRAINTS IN THE PATH INTEGRAL FORMULA",
+    "arxivId": "hep-th/9505165",
+    "arxivUrl": "https://arxiv.org/abs/hep-th/9505165",
+    "inspireUrl": "https://inspirehep.net/literature/395511",
+    "journalRef": "Prog.Theor.Phys. 95 (1996) 421",
+    "doiUrl": "https://doi.org/10.1143/PTP.95.421"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-25",
+    "authors": "A.S. Hassan, M. Imachi, N. Tsuzuki and H. Yoneyama",
+    "title": "Character Expansion, Zeros of Partition Function and $\\theta$-term in U(1) Gauge Theory",
+    "arxivId": "hep-lat/9508011",
+    "arxivUrl": "https://arxiv.org/abs/hep-lat/9508011",
+    "inspireUrl": "https://inspirehep.net/literature/398037",
+    "journalRef": "Prog.Theor.Phys. 94 (1995) 861",
+    "doiUrl": "https://doi.org/10.1143/PTP.94.861"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-26",
+    "authors": "A.S. Hassan, M. Imachi, N. Tsuzuki and H. Yoneyama",
+    "title": "Topological Charge Distribution and $CP^1$ Model with $\\theta$ Term",
+    "arxivId": "hep-lat/9508025",
+    "arxivUrl": "https://arxiv.org/abs/hep-lat/9508025",
+    "inspireUrl": "https://inspirehep.net/literature/398686",
+    "journalRef": "Prog.Theor.Phys. 95 (1996) 175",
+    "doiUrl": "https://doi.org/10.1143/PTP.95.175"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-27",
+    "authors": "Kazuyuki Fujii, Taro Kashiwa and Seiji Sakoda",
+    "title": "Coherent states over Grassmann manifolds and the WKB-exactness in path integral",
+    "arxivId": "hep-th/9509022",
+    "arxivUrl": "https://arxiv.org/abs/hep-th/9509022",
+    "inspireUrl": "https://inspirehep.net/literature/399056",
+    "journalRef": "J.Math.Phys. 37 (1996) 567",
+    "doiUrl": "https://doi.org/10.1063/1.531430"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-28",
+    "authors": "Koji Harada, Atsushi Okazaki, Masa-aki Taniguchi",
+    "title": "Mesons in the massive Schwinger model on the light-cone",
+    "arxivId": "hep-th/9509136",
+    "arxivUrl": "https://arxiv.org/abs/hep-th/9509136",
+    "inspireUrl": "https://inspirehep.net/literature/399837",
+    "journalRef": "Phys.Rev.D 54 (1996) 7656",
+    "doiUrl": "https://doi.org/10.1103/PhysRevD.54.7656"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-29",
+    "authors": "Takanori Sugihara and Masanobu Yahiro",
+    "title": "A perturbative renormalization group approach to light-front Hamiltonian",
+    "arxivId": "hep-th/9512208",
+    "arxivUrl": "https://arxiv.org/abs/hep-th/9512208",
+    "inspireUrl": "https://inspirehep.net/literature/404021",
+    "journalRef": "Phys.Rev.D 53 (1996) 7239",
+    "doiUrl": "https://doi.org/10.1103/PhysRevD.53.7239"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-30",
+    "authors": "Koji Harada, Atsushi Okazaki, and Masa-aki Taniguchi",
+    "title": "Dynamics of the Light-Cone Zero Modes: Theta Vacuum of the Massive Schwinger Model",
+    "arxivId": "hep-th/9603177",
+    "arxivUrl": "https://arxiv.org/abs/hep-th/9603177",
+    "inspireUrl": "https://inspirehep.net/literature/417112",
+    "journalRef": "Phys.Rev.D 55 (1997) 4910",
+    "doiUrl": "https://doi.org/10.1103/PhysRevD.55.4910"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-31",
+    "authors": "T. Kashiwa and N. Tanimura",
+    "title": "Physical States and Gauge Independence of the Energy-Momentum Tensor in Quantum Electrodynamics",
+    "arxivId": "hep-th/9605207",
+    "arxivUrl": "https://arxiv.org/abs/hep-th/9605207",
+    "inspireUrl": "https://inspirehep.net/literature/419075",
+    "journalRef": "Fortsch.Phys. 45 (1997) 381",
+    "doiUrl": "https://doi.org/10.1002/prop.2190450503"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-32",
+    "authors": "Kazuyuki Fujii, Kunio Funahashi",
+    "title": "MULTIPERIODIC COHERENT STATES AND THE WKB EXACTNESS",
+    "arxivId": "hep-th/9605002",
+    "arxivUrl": "https://arxiv.org/abs/hep-th/9605002",
+    "inspireUrl": "https://inspirehep.net/literature/418186",
+    "journalRef": "J.Math.Phys. 37 (1996) 5987",
+    "doiUrl": "https://doi.org/10.1063/1.531760"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-33",
+    "authors": "Takanori Sugihara and Masanobu Yahiro",
+    "title": "Nonperturbative renormalization group in a light-front three-dimensional real scalar model",
+    "arxivId": "hep-th/9609067",
+    "arxivUrl": "https://arxiv.org/abs/hep-th/9609067",
+    "inspireUrl": "https://inspirehep.net/literature/423111",
+    "journalRef": "Phys.Rev.D 55 (1997) 2218",
+    "doiUrl": "https://doi.org/10.1103/PhysRevD.55.2218"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-34",
+    "authors": "Kazuyuki Fujii and Kunio Funahashi",
+    "title": "Multi-Periodic Coherent States and the WKB-Exactness II ``Non-compact Case and Classical theories Revisited''",
+    "arxivId": "quant-ph/9610002",
+    "arxivUrl": "https://arxiv.org/abs/quant-ph/9610002",
+    "inspireUrl": "https://inspirehep.net/literature/424078",
+    "journalRef": "J.Math.Phys. 38 (1997) 2812",
+    "doiUrl": "https://doi.org/10.1063/1.532021"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-35",
+    "authors": "Koji Harada, Atsushi Okazaki",
+    "title": "Perturbative Tamm-Dancoff Renormalization",
+    "arxivId": "hep-th/9610020",
+    "arxivUrl": "https://arxiv.org/abs/hep-th/9610020",
+    "inspireUrl": "https://inspirehep.net/literature/424134",
+    "journalRef": "Phys.Rev.D 55 (1997) 6198",
+    "doiUrl": "https://doi.org/10.1103/PhysRevD.55.6198"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-36",
+    "authors": "T. Kashiwa, N. Tanimura",
+    "title": "Gauge Independence in terms of the Functional Integral",
+    "arxivId": "hep-th/9612250",
+    "arxivUrl": "https://arxiv.org/abs/hep-th/9612250",
+    "inspireUrl": "https://inspirehep.net/literature/427851",
+    "journalRef": "Phys.Rev.D 56 (1997) 2281",
+    "doiUrl": "https://doi.org/10.1103/PhysRevD.56.2281"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-37",
+    "authors": "Masahiro Imachi, Takaaki Kakitsuka, Norimasa Tsuzuki and Hiroshi Yoneyama",
+    "title": "Phase Structures of U(2) Gauge Theory with $\\theta$-Term in 2 dimensions",
+    "arxivId": "hep-lat/9702018",
+    "arxivUrl": "https://arxiv.org/abs/hep-lat/9702018",
+    "inspireUrl": "https://inspirehep.net/literature/440672",
+    "journalRef": "",
+    "doiUrl": ""
+  },
+  {
+    "reportNumber": "KYUSHU-HET-38",
+    "authors": "M. Ishi-i, T. Kashiwa, and N. Tanimura",
+    "title": "Critical Couplings in the Nambu--Jona-Lasinio Model with the Constant Electromagnetic Fields",
+    "arxivId": "hep-th/9702128",
+    "arxivUrl": "https://arxiv.org/abs/hep-th/9702128",
+    "inspireUrl": "https://inspirehep.net/literature/440460",
+    "journalRef": "",
+    "doiUrl": ""
+  },
+  {
+    "reportNumber": "KYUSHU-HET-39",
+    "authors": "Koji Harada, Thomas Heinzl, Christian Stern",
+    "title": "Variational Mass Perturbation Theory for Light-Front Bound-State Equations",
+    "arxivId": "hep-th/9705159",
+    "arxivUrl": "https://arxiv.org/abs/hep-th/9705159",
+    "inspireUrl": "https://inspirehep.net/literature/443326",
+    "journalRef": "Phys.Rev.D 57 (1998) 2460",
+    "doiUrl": "https://doi.org/10.1103/PhysRevD.57.2460"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-40",
+    "authors": "Masaru Ishi-i, Taro Kashiwa, and Naoki Tanimura",
+    "title": "Nambu-Jona-Lasinio Model Coupled to Constant Electromagnetic Fields in D-Dimension",
+    "arxivId": "hep-th/9707248",
+    "arxivUrl": "https://arxiv.org/abs/hep-th/9707248",
+    "inspireUrl": "https://inspirehep.net/literature/446580",
+    "journalRef": "Prog.Theor.Phys. 100 (1998) 353",
+    "doiUrl": "https://doi.org/10.1143/PTP.100.353"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-41",
+    "authors": "M. Burkardt (NMSU) and K. Harada (Kyushu U.)",
+    "title": "Theta Dependence of Meson Masses in the Small Mass Limit of the Massive Schwinger Model",
+    "arxivId": "hep-th/9712032",
+    "arxivUrl": "https://arxiv.org/abs/hep-th/9712032",
+    "inspireUrl": "https://inspirehep.net/literature/451878",
+    "journalRef": "Phys.Rev.D 57 (1998) 5950",
+    "doiUrl": "https://doi.org/10.1103/PhysRevD.57.R5950"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-42",
+    "authors": "Taro Kashiwa (Kyushu U.)",
+    "title": "The Auxiliary Field Method as a Powerful Tool for Nonperturbative Study",
+    "arxivId": "hep-th/9809141",
+    "arxivUrl": "https://arxiv.org/abs/hep-th/9809141",
+    "inspireUrl": "https://inspirehep.net/literature/476619",
+    "journalRef": "Phys.Rev.D 59 (1999) 085002",
+    "doiUrl": "https://doi.org/10.1103/PhysRevD.59.085002"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-43",
+    "authors": "Koji Harada (Kyushu U.)",
+    "title": "RPA for Light-Front Hamiltonian Field Theory",
+    "arxivId": "hep-th/9903197",
+    "arxivUrl": "https://arxiv.org/abs/hep-th/9903197",
+    "inspireUrl": "https://inspirehep.net/literature/497235",
+    "journalRef": "Phys.Rev.D 60 (1999) 065005",
+    "doiUrl": "https://doi.org/10.1103/PhysRevD.60.065005"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-44",
+    "authors": "Naoki Tanimura (Kyushu U.)",
+    "title": "Functional Integral in terms of the Field Strength: An Approach to Chiral Symmetry Breaking",
+    "arxivId": "hep-th/9908081",
+    "arxivUrl": "https://arxiv.org/abs/hep-th/9908081",
+    "inspireUrl": "https://inspirehep.net/literature/505334",
+    "journalRef": "Prog.Theor.Phys. 103 (2000) 665",
+    "doiUrl": "https://doi.org/10.1143/PTP.103.665"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-45",
+    "authors": "Yuki Yamamoto (Kyushu Univ.)",
+    "title": "A Construction of an Effective Hamiltonian from Feynman Diagrams: Application to the Light-Front Yukawa Model",
+    "arxivId": "hep-th/0004110",
+    "arxivUrl": "https://arxiv.org/abs/hep-th/0004110",
+    "inspireUrl": "https://inspirehep.net/literature/526203",
+    "journalRef": "Prog.Theor.Phys. 106 (2001) 99",
+    "doiUrl": "https://doi.org/10.1143/PTP.106.99"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-46",
+    "authors": "Kenzo Inoue and Nao-aki Yamashita (Kyushu Univ.)",
+    "title": "Mass Hierarchy from SU(1,1) Horizontal Symmetry",
+    "arxivId": "hep-ph/0005178",
+    "arxivUrl": "https://arxiv.org/abs/hep-ph/0005178",
+    "inspireUrl": "https://inspirehep.net/literature/527530",
+    "journalRef": "Prog.Theor.Phys. 104 (2000) 677",
+    "doiUrl": "https://doi.org/10.1143/PTP.104.677"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-47",
+    "authors": "T. Ota, J. Sato (Kyushu U.)",
+    "title": "Matter Profile Effect in Neutrino Factory",
+    "arxivId": "hep-ph/00011234",
+    "arxivUrl": "https://arxiv.org/abs/hep-ph/00011234",
+    "inspireUrl": "https://inspirehep.net/literature/537164",
+    "journalRef": "",
+    "doiUrl": ""
+  },
+  {
+    "reportNumber": "KYUSHU-HET-48",
+    "authors": "Masafumi Koike (Tokyo U., ICR), Toshihiko Ota, Joe Sato (Kyushu U.)",
+    "title": "Ambiguities of theoretical parameters and CP/T violation in neutrino factories",
+    "arxivId": "hep-ph/0011387",
+    "arxivUrl": "https://arxiv.org/abs/hep-ph/0011387",
+    "inspireUrl": "https://inspirehep.net/literature/537681",
+    "journalRef": "Phys.Rev.D 65 (2002) 053015",
+    "doiUrl": "https://doi.org/10.1103/PhysRevD.65.053015"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-49",
+    "authors": "Masafumi Koike (Tokyo U., ICR), Joe Sato (Kyushu U.)",
+    "title": "T Violation Serach with Very Long Baseline Neutrino Oscillation Experiments.",
+    "arxivId": "hep-ph/9911258",
+    "arxivUrl": "https://arxiv.org/abs/hep-ph/9911258",
+    "inspireUrl": "https://inspirehep.net/literature/509756",
+    "journalRef": "Phys.Rev.D 62 (2000) 073006",
+    "doiUrl": "https://doi.org/10.1103/PhysRevD.62.073006"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-50",
+    "authors": "Joe Sato (Kyushu U.)",
+    "title": "Neutrino Oscillation and CP Violation.",
+    "arxivId": "hep-ph/0008056",
+    "arxivUrl": "https://arxiv.org/abs/hep-ph/0008056",
+    "inspireUrl": "https://inspirehep.net/literature/531391",
+    "journalRef": "Nucl.Instrum.Meth.A 472 (2001) 434",
+    "doiUrl": "https://doi.org/10.1016/S0168-9002(01)01287-6"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-51",
+    "authors": "J. Sato (Kyushu U.), T. Yanagida (Tokyo U. & Tokyo U., RESCEU)",
+    "title": "Low-Energy Predictions of Lopsided Family Charges",
+    "arxivId": "hep-ph/0009205",
+    "arxivUrl": "https://arxiv.org/abs/hep-ph/0009205",
+    "inspireUrl": "https://inspirehep.net/literature/533800",
+    "journalRef": "Phys.Lett.B 493 (2000) 356",
+    "doiUrl": "https://doi.org/10.1016/S0370-2693(00)01153-9"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-52",
+    "authors": "J. Sato (Kyushu Univ.), Kazuhiro Tobe (CERN-TH), T. Yanagida (Univ. of Tokyo & Tokyo U., RESCEU)",
+    "title": "A Constraint on Yukawa-Coupling Unification from Lepton-Flavor Violating Processes",
+    "arxivId": "hep-ph/0010348",
+    "arxivUrl": "https://arxiv.org/abs/hep-ph/0010348",
+    "inspireUrl": "https://inspirehep.net/literature/536020",
+    "journalRef": "Phys.Lett.B 498 (2001) 189",
+    "doiUrl": "https://doi.org/10.1016/S0370-2693(00)01395-2"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-53",
+    "authors": "Joe Sato (Kyushu Univ.), Kazuhiro Tobe (CERN-TH)",
+    "title": "Neutrino Masses and Lepton-Flavor Violation in Supersymmetric Models with lopsided Froggatt- Nielsen charges",
+    "arxivId": "hep-ph/0012333",
+    "arxivUrl": "https://arxiv.org/abs/hep-ph/0012333",
+    "inspireUrl": "https://inspirehep.net/literature/539376",
+    "journalRef": "Phys.Rev.D 63 (2001) 116010",
+    "doiUrl": "https://doi.org/10.1103/PhysRevD.63.116010"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-54",
+    "authors": "N. Haba, J. Sato, M. Tanimoto, K. Yoshioka",
+    "title": "Possible Mixing Patterns of Charged Leptons and Neutrinos",
+    "arxivId": "hep-ph/0101334",
+    "arxivUrl": "https://arxiv.org/abs/hep-ph/0101334",
+    "inspireUrl": "https://inspirehep.net/literature/552610",
+    "journalRef": "Phys.Rev.D 64 (2001) 113016",
+    "doiUrl": "https://doi.org/10.1103/PhysRevD.64.113016"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-55",
+    "authors": "N. Haba, J. Sato, M. Tanimoto, K. Yoshioka",
+    "title": "Phenomenology of Neutrino Mass Matrix",
+    "arxivId": "hep-ph/0102060",
+    "arxivUrl": "https://arxiv.org/abs/hep-ph/0102060",
+    "inspireUrl": "https://inspirehep.net/literature/540195",
+    "journalRef": "",
+    "doiUrl": ""
+  },
+  {
+    "reportNumber": "KYUSHU-HET-56",
+    "authors": "Masafumi Koike (Tokyo U., ICR), Toshihiko Ota (Kyushu U.), Joe Sato (Kyushu U., RCHE)",
+    "title": "Ambiguites of Theoritical Parameters and CP/T Violation in Neutrino Factories.",
+    "arxivId": "hep-ph/0103024",
+    "arxivUrl": "https://arxiv.org/abs/hep-ph/0103024",
+    "inspireUrl": "https://inspirehep.net/literature/553706",
+    "journalRef": "",
+    "doiUrl": ""
+  },
+  {
+    "reportNumber": "KYUSHU-HET-57",
+    "authors": "Toshihiko Ota, Joe Sato (Kyushu U.), Yoshitaka Kuno (Osaka U.)",
+    "title": "Search for T-violation in Neutrino Oscillation with the Use of Muon Polarization at a Neutrino Factory",
+    "arxivId": "hep-ph/0107007",
+    "arxivUrl": "https://arxiv.org/abs/hep-ph/0107007",
+    "inspireUrl": "https://inspirehep.net/literature/559427",
+    "journalRef": "Phys.Lett.B 520 (2001) 289",
+    "doiUrl": "https://doi.org/10.1016/S0370-2693(01)01135-2"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-58",
+    "authors": "Toshihiko Ota, Joe Sato, Nao-aki Yamashita (Kyushu U.)",
+    "title": "Oscillation enhanced search for new interaction with neutrinos",
+    "arxivId": "hep-ph/0112329",
+    "arxivUrl": "https://arxiv.org/abs/hep-ph/0112329",
+    "inspireUrl": "https://inspirehep.net/literature/568937",
+    "journalRef": "Phys.Rev.D 65 (2002) 093015",
+    "doiUrl": "https://doi.org/10.1103/PhysRevD.65.093015"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-59",
+    "authors": "Toshihiko Ota, Joe Sato (Kyushu U.)",
+    "title": "Can ICARUS and OPERA give information on a new physics?",
+    "arxivId": "hep-ph/0202145",
+    "arxivUrl": "https://arxiv.org/abs/hep-ph/0202145",
+    "inspireUrl": "https://inspirehep.net/literature/583000",
+    "journalRef": "Phys.Lett.B 545 (2002) 367",
+    "doiUrl": "https://doi.org/10.1016/S0370-2693(02)02625-4"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-60",
+    "authors": "Taro Kashiwa (Ehime U.), Tomohiko Sakaguchi (Kyushu U.)",
+    "title": "QUANTUM EFFECT OF AUXILIARY FIELDS TO THE GAP EQUATION IN THE NAMBU-JONA-LASINIO MODEL.",
+    "arxivId": "hep-th/0204067",
+    "arxivUrl": "https://arxiv.org/abs/hep-th/0204067",
+    "inspireUrl": "https://inspirehep.net/literature/585105",
+    "journalRef": "",
+    "doiUrl": ""
+  },
+  {
+    "reportNumber": "KYUSHU-HET-61",
+    "authors": "Toshihiko Ota, Joe Sato",
+    "title": "Yet another correlation in analysis of CP violation using a neutrino oscillation experiment",
+    "arxivId": "hep-ph/0211095",
+    "arxivUrl": "https://arxiv.org/abs/hep-ph/0211095",
+    "inspireUrl": "https://inspirehep.net/literature/601516",
+    "journalRef": "Phys.Rev.D 67 (2003) 053003",
+    "doiUrl": "https://doi.org/10.1103/PhysRevD.67.053003"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-62",
+    "authors": "K. Funakubo, S. Tao, F. Toyoda",
+    "title": "CP violation in the Higgs sector and phase transition in the MSSM",
+    "arxivId": "hep-ph/0211238",
+    "arxivUrl": "https://arxiv.org/abs/hep-ph/0211238",
+    "inspireUrl": "https://inspirehep.net/literature/602265",
+    "journalRef": "Prog.Theor.Phys. 109 (2003) 415",
+    "doiUrl": "https://doi.org/10.1143/PTP.109.415"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-63",
+    "authors": "Kazuo Ghoroku, Nobuhiro Uekusa",
+    "title": "Gauge symmetry and cosmological constant on a brane",
+    "arxivId": "hep-th/0212102",
+    "arxivUrl": "https://arxiv.org/abs/hep-th/0212102",
+    "inspireUrl": "https://inspirehep.net/literature/604315",
+    "journalRef": "",
+    "doiUrl": ""
+  },
+  {
+    "reportNumber": "KYUSHU-HET-64",
+    "authors": "Taro Kashiwa, Tomohiko Sakaguchi",
+    "title": "Caustics in the Grassmann integral",
+    "arxivId": "hep-th/0301019",
+    "arxivUrl": "https://arxiv.org/abs/hep-th/0301019",
+    "inspireUrl": "https://inspirehep.net/literature/611168",
+    "journalRef": "Prog.Theor.Phys. 110 (2003) 589",
+    "doiUrl": "https://doi.org/10.1143/PTP.110.589"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-65",
+    "authors": "Kazuo Ghoroku, Motoi Tachibana, Nobuhiro Uekusa",
+    "title": "Dilaton coupled brane world and field trapping",
+    "arxivId": "hep-th/0304051",
+    "arxivUrl": "https://arxiv.org/abs/hep-th/0304051",
+    "inspireUrl": "https://inspirehep.net/literature/616554",
+    "journalRef": "Phys.Rev.D 68 (2003) 125002",
+    "doiUrl": "https://doi.org/10.1103/PhysRevD.68.125002"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-66",
+    "authors": "Kenzo Inoue, Nao-aki Yamashita",
+    "title": "Neutrino masses and mixing matrix from SU(1,1) horizontal symmetry",
+    "arxivId": "hep-ph/0305297",
+    "arxivUrl": "https://arxiv.org/abs/hep-ph/0305297",
+    "inspireUrl": "https://inspirehep.net/literature/619628",
+    "journalRef": "Prog.Theor.Phys. 110 (2004) 1087",
+    "doiUrl": "https://doi.org/10.1143/PTP.110.1087"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-67",
+    "authors": "Taro Kashiwa, Tomohiko Sakaguchi",
+    "title": "Auxiliary field method in four-dimensional and three-dimensional Nambu-Jona-Lasinio models",
+    "arxivId": "hep-th/0306008",
+    "arxivUrl": "https://arxiv.org/abs/hep-th/0306008",
+    "inspireUrl": "https://inspirehep.net/literature/620104",
+    "journalRef": "Phys.Rev.D 68 (2003) 065002",
+    "doiUrl": "https://doi.org/10.1103/PhysRevD.68.065002"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-68",
+    "authors": "Nobuhiro Uekusa",
+    "title": "Effective de Sitter brane via running radius",
+    "arxivId": "hep-th/0307107",
+    "arxivUrl": "https://arxiv.org/abs/hep-th/0307107",
+    "inspireUrl": "https://inspirehep.net/literature/623405",
+    "journalRef": "Phys.Rev.D 68 (2003) 124009",
+    "doiUrl": "https://doi.org/10.1103/PhysRevD.68.124009"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-69",
+    "authors": "Motoi Endo, Masahiro Yamaguchi, Koichi Yoshioka",
+    "title": "Radiative CP phases in supergravity theories",
+    "arxivId": "hep-ph/0311206",
+    "arxivUrl": "https://arxiv.org/abs/hep-ph/0311206",
+    "inspireUrl": "https://inspirehep.net/literature/633441",
+    "journalRef": "Phys.Lett.B 586 (2004) 382",
+    "doiUrl": "https://doi.org/10.1016/j.physletb.2004.02.035"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-70",
+    "authors": "Takayuki Hirayama, Koichi Yoshioka",
+    "title": "Anomalies and Fayet-lliopoulos terms on warped orbifolds and large hierarchies",
+    "arxivId": "hep-th/0311233",
+    "arxivUrl": "https://arxiv.org/abs/hep-th/0311233",
+    "inspireUrl": "https://inspirehep.net/literature/633998",
+    "journalRef": "JHEP 01 (2004) 032",
+    "doiUrl": "https://doi.org/10.1088/1126-6708/2004/01/032"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-71",
+    "authors": "Nobuhito Maru, Koichi Yoshioka",
+    "title": "Sparticle masses in product group gauge theories",
+    "arxivId": "hep-ph/0311337",
+    "arxivUrl": "https://arxiv.org/abs/hep-ph/0311337",
+    "inspireUrl": "https://inspirehep.net/literature/634061",
+    "journalRef": "Eur.Phys.J.C 31 (2003) 245",
+    "doiUrl": "https://doi.org/10.1140/epjc/s2003-01330-2"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-72",
+    "authors": "Kentaro Kawazu",
+    "title": "Nonsupersymmetric T^{**}2/Z(N) and T^{**}4/Z(N) orbifolds",
+    "arxivId": "hep-th/0403274",
+    "arxivUrl": "https://arxiv.org/abs/hep-th/0403274",
+    "inspireUrl": "https://inspirehep.net/literature/647234",
+    "journalRef": "",
+    "doiUrl": ""
+  },
+  {
+    "reportNumber": "KYUSHU-HET-73",
+    "authors": "Koichi Funakubo, Shuichiro Tao",
+    "title": "The Higgs sector in the next-to-MSSM",
+    "arxivId": "hep-ph/0409294",
+    "arxivUrl": "https://arxiv.org/abs/hep-ph/0409294",
+    "inspireUrl": "https://inspirehep.net/literature/660444",
+    "journalRef": "Prog.Theor.Phys. 113 (2005) 821",
+    "doiUrl": "https://doi.org/10.1143/PTP.113.821"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-74",
+    "authors": "Tatsuo Kobayashi, Koichi Yoshioka",
+    "title": "Radiative stabilization of warped space",
+    "arxivId": "hep-ph/0409355",
+    "arxivUrl": "https://arxiv.org/abs/hep-ph/0409355",
+    "inspireUrl": "https://inspirehep.net/literature/660770",
+    "journalRef": "JHEP 11 (2004) 024",
+    "doiUrl": "https://doi.org/10.1088/1126-6708/2004/11/024"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-75",
+    "authors": "Koji Harada, Yohei Mitsunari, Nao-aki Yamashita",
+    "title": "Effective theory approach to the Skyrme model and application to pentaquarks",
+    "arxivId": "hep-ph/0410145",
+    "arxivUrl": "https://arxiv.org/abs/hep-ph/0410145",
+    "inspireUrl": "https://inspirehep.net/literature/661581",
+    "journalRef": "Prog.Theor.Phys. 113 (2005) 1315",
+    "doiUrl": "https://doi.org/10.1143/PTP.113.1315"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-76",
+    "authors": "T. Sakaguchi",
+    "title": "An asymptotic formula for models with caustics",
+    "arxivId": "math-ph/0412020",
+    "arxivUrl": "https://arxiv.org/abs/math-ph/0412020",
+    "inspireUrl": "https://inspirehep.net/literature?q=arxiv:math-ph/0412020",
+    "journalRef": "",
+    "doiUrl": ""
+  },
+  {
+    "reportNumber": "KYUSHU-HET-77",
+    "authors": "Koichi Funakubo, Shuichiro Tao, Fumihiko Toyoda",
+    "title": "Phase transitions in the NMSSM",
+    "arxivId": "hep-ph/0501052",
+    "arxivUrl": "https://arxiv.org/abs/hep-ph/0501052",
+    "inspireUrl": "https://inspirehep.net/literature/674588",
+    "journalRef": "Prog.Theor.Phys. 114 (2005) 369",
+    "doiUrl": "https://doi.org/10.1143/PTP.114.369"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-78",
+    "authors": "Nobuhiro Uekusa, Atsushi Watanabe, Koichi Yoshioka",
+    "title": "Asymmetry and minimality of quark mass matrices",
+    "arxivId": "hep-ph/0501211",
+    "arxivUrl": "https://arxiv.org/abs/hep-ph/0501211",
+    "inspireUrl": "https://inspirehep.net/literature/675453",
+    "journalRef": "Phys.Rev.D 71 (2005) 094024",
+    "doiUrl": "https://doi.org/10.1103/PhysRevD.71.094024"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-79",
+    "authors": "Naoyuki Haba, Koichi Yoshioka",
+    "title": "Discrete flavor symmetry, dynamical mass textures, and grand unification",
+    "arxivId": "hep-ph/0511108",
+    "arxivUrl": "https://arxiv.org/abs/hep-ph/0511108",
+    "inspireUrl": "https://inspirehep.net/literature/697364",
+    "journalRef": "Nucl.Phys.B 739 (2006) 254",
+    "doiUrl": "https://doi.org/10.1016/j.nuclphysb.2006.01.027"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-80",
+    "authors": "Kazuo Ghoroku, Tomohiko Sakaguchi, Nobuhiro Uekusa, Masanobu Yahiro",
+    "title": "Flavor quark at high temperature from a holographic model",
+    "arxivId": "hep-th/0502088",
+    "arxivUrl": "https://arxiv.org/abs/hep-th/0502088",
+    "inspireUrl": "https://inspirehep.net/literature/676496",
+    "journalRef": "Phys.Rev.D 71 (2005) 106002",
+    "doiUrl": "https://doi.org/10.1103/PhysRevD.71.106002"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-81",
+    "authors": "Motoi Endo, Masahiro Yamaguchi, Koichi Yoshioka",
+    "title": "Bottom-up approach to moduli dynamics in heavy gravitino scenario: Superpotential, soft terms and sparticle mass spectrum",
+    "arxivId": "hep-ph/0504036",
+    "arxivUrl": "https://arxiv.org/abs/hep-ph/0504036",
+    "inspireUrl": "https://inspirehep.net/literature/679795",
+    "journalRef": "Phys.Rev.D 72 (2005) 015004",
+    "doiUrl": "https://doi.org/10.1103/PhysRevD.72.015004"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-82",
+    "authors": "Naohiro Muta, Nobuhiro Uekusa",
+    "title": "Localized Kaluza-Klein graviton and cosmological constant",
+    "arxivId": "hep-ph/0503017",
+    "arxivUrl": "https://arxiv.org/abs/hep-ph/0503017",
+    "inspireUrl": "https://inspirehep.net/literature/677630",
+    "journalRef": "",
+    "doiUrl": ""
+  },
+  {
+    "reportNumber": "KYUSHU-HET-83",
+    "authors": "John Foster, Ken-ichi Okumura, Leszek Roszkowski",
+    "title": "Probing the flavor structure of supersymmetry breaking with rare B-processes: A Beyond leading order analysis",
+    "arxivId": "hep-ph/0506146",
+    "arxivUrl": "https://arxiv.org/abs/hep-ph/0506146",
+    "inspireUrl": "https://inspirehep.net/literature/685173",
+    "journalRef": "JHEP 08 (2005) 094",
+    "doiUrl": "https://doi.org/10.1088/1126-6708/2005/08/094"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-84",
+    "authors": "Naoyuki Kawahara, Jun Nishimura",
+    "title": "The Large N reduction in matrix quantum mechanics: A Bridge between BFSS and IKKT",
+    "arxivId": "hep-th/0505178",
+    "arxivUrl": "https://arxiv.org/abs/hep-th/0505178",
+    "inspireUrl": "https://inspirehep.net/literature/683007",
+    "journalRef": "JHEP 09 (2005) 040",
+    "doiUrl": "https://doi.org/10.1088/1126-6708/2005/09/040"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-85",
+    "authors": "K. Choi, K.S. Jeong, T. Kobayashi, K. Okumura",
+    "title": "Little SUSY hierarchy in mixed modulus-anomaly mediation",
+    "arxivId": "hep-ph/0508029",
+    "arxivUrl": "https://arxiv.org/abs/hep-ph/0508029",
+    "inspireUrl": "https://inspirehep.net/literature/688857",
+    "journalRef": "Phys.Lett.B 633 (2006) 355",
+    "doiUrl": "https://doi.org/10.1016/j.physletb.2005.11.078"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-86",
+    "authors": "Ken-ichi Okumura",
+    "title": "Sparticle spectrum and EWSB of mixed modulus-anomaly mediation in fluxed string compactification models",
+    "arxivId": "hep-ph/0509225",
+    "arxivUrl": "https://arxiv.org/abs/hep-ph/0509225",
+    "inspireUrl": "https://inspirehep.net/literature/693012",
+    "journalRef": "",
+    "doiUrl": ""
+  },
+  {
+    "reportNumber": "KYUSHU-HET-87",
+    "authors": "John Foster, Ken-ichi Okumura, Leszek Roszkowski",
+    "title": "Current and future limits on general flavor violation in b --> s transitions in minimal supersymmetry",
+    "arxivId": "hep-ph/0510422",
+    "arxivUrl": "https://arxiv.org/abs/hep-ph/0510422",
+    "inspireUrl": "https://inspirehep.net/literature/696472",
+    "journalRef": "JHEP 03 (2006) 044",
+    "doiUrl": "https://doi.org/10.1088/1126-6708/2006/03/044"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-88",
+    "authors": "Koji Harada, Kenzo Inoue, Hirofumi Kubo",
+    "title": "Wilsonian RG and redundant operators in nonrelativistic effective field theory",
+    "arxivId": "nucl-th/0511020",
+    "arxivUrl": "https://arxiv.org/abs/nucl-th/0511020",
+    "inspireUrl": "https://inspirehep.net/literature/697142",
+    "journalRef": "Phys.Lett.B 636 (2006) 305",
+    "doiUrl": "https://doi.org/10.1016/j.physletb.2006.03.072"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-89",
+    "authors": "Atsushi Watanabe, Koichi Yoshioka",
+    "title": "Minimal archi-texture for neutrino mass matrices",
+    "arxivId": "hep-ph/0601152",
+    "arxivUrl": "https://arxiv.org/abs/hep-ph/0601152",
+    "inspireUrl": "https://inspirehep.net/literature/708901",
+    "journalRef": "JHEP 05 (2006) 044",
+    "doiUrl": "https://doi.org/10.1088/1126-6708/2006/05/044"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-90",
+    "authors": "Taro Kashiwa, Tomohiko Sakaguchi",
+    "title": "The Auxiliary field method in quantum mechanical four-Fermi models: A Study toward chiral condensation in QED",
+    "arxivId": "hep-th/0601176",
+    "arxivUrl": "https://arxiv.org/abs/hep-th/0601176",
+    "inspireUrl": "https://inspirehep.net/literature/709161",
+    "journalRef": "J.Phys.B 39 (2006) 787",
+    "doiUrl": "https://doi.org/10.1088/0953-4075/39/15/S22"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-91",
+    "authors": "Naoyuki Kawahara, Jun Nishimura, Kentaroh Yoshida",
+    "title": "Dynamical aspects of the plane-wave matrix model at finite temperature",
+    "arxivId": "hep-th/0601170",
+    "arxivUrl": "https://arxiv.org/abs/hep-th/0601170",
+    "inspireUrl": "https://inspirehep.net/literature/709078",
+    "journalRef": "JHEP 06 (2006) 052",
+    "doiUrl": "https://doi.org/10.1088/1126-6708/2006/06/052"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-92",
+    "authors": "Kenzo Inoue, Kentaro Kojima, Koichi Yoshioka",
+    "title": "Neutrino-induced electroweak symmetry breaking in supersymmetric SO(10) unification",
+    "arxivId": "hep-ph/0604096",
+    "arxivUrl": "https://arxiv.org/abs/hep-ph/0604096",
+    "inspireUrl": "https://inspirehep.net/literature/714257",
+    "journalRef": "JHEP 07 (2006) 032",
+    "doiUrl": "https://doi.org/10.1088/1126-6708/2006/07/032"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-93",
+    "authors": "Naoyuki Haba, Atsushi Watanabe, Koichi Yoshioka",
+    "title": "Twisted flavors and tri/bi-maximal neutrino mixing",
+    "arxivId": "hep-ph/0603116",
+    "arxivUrl": "https://arxiv.org/abs/hep-ph/0603116",
+    "inspireUrl": "https://inspirehep.net/literature/712507",
+    "journalRef": "Phys.Rev.Lett. 97 (2006) 041601",
+    "doiUrl": "https://doi.org/10.1103/PhysRevLett.97.041601"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-94",
+    "authors": "John Foster, Ken-ichi Okumura, Leszek Roszkowski",
+    "title": "New constraints on SUSY flavour mixing in light of recent measurements at the Tevatron",
+    "arxivId": "hep-ph/0604121",
+    "arxivUrl": "https://arxiv.org/abs/hep-ph/0604121",
+    "inspireUrl": "https://inspirehep.net/literature/714404",
+    "journalRef": "Phys.Lett.B 641 (2006) 452",
+    "doiUrl": "https://doi.org/10.1016/j.physletb.2006.09.004"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-95",
+    "authors": "Koji Harada, Hirofumi Kubo",
+    "title": "Anomalous dimensions determine the power counting -- Wilsonian RG analysis of nuclear EFT --",
+    "arxivId": "nucl-th/0605004",
+    "arxivUrl": "https://arxiv.org/abs/nucl-th/0605004",
+    "inspireUrl": "https://inspirehep.net/literature/715848",
+    "journalRef": "Nucl.Phys.B 758 (2006) 304",
+    "doiUrl": "https://doi.org/10.1016/j.nuclphysb.2006.10.001"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-96",
+    "authors": "K. Choi, Y. G. Kim, K. Y. Lee, K. Okumura, Y. Shimizu",
+    "title": "Neutralino dark matter in mirage mediation",
+    "arxivId": "hep-ph/0609132",
+    "arxivUrl": "https://arxiv.org/abs/hep-ph/0609132",
+    "inspireUrl": "https://inspirehep.net/literature/725979",
+    "journalRef": "JCAP 12 (2006) 017",
+    "doiUrl": "https://doi.org/10.1088/1475-7516/2006/12/017"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-97",
+    "authors": "Ken-ichi Okumura",
+    "title": "Relic abundance and detection prospects of neutralino dark matter in mirage mediation",
+    "arxivId": "hep-ph/0610361",
+    "arxivUrl": "https://arxiv.org/abs/hep-ph/0610361",
+    "inspireUrl": "https://inspirehep.net/literature/730123",
+    "journalRef": "AIP Conf.Proc. 878 (2006) 67",
+    "doiUrl": "https://doi.org/10.1063/1.2409069"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-98",
+    "authors": "S. Kaneko, H. Sawanaka, T. Shingai, M. Tanimoto, K. Yoshioka",
+    "title": "Flavor Symmetry and Vacuum Aligned mass Textures",
+    "arxivId": "hep-ph/0609220",
+    "arxivUrl": "https://arxiv.org/abs/hep-ph/0609220",
+    "inspireUrl": "https://inspirehep.net/literature/726699",
+    "journalRef": "Prog.Theor.Phys. 117 (2007) 161",
+    "doiUrl": "https://doi.org/10.1143/PTP.117.161"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-99",
+    "authors": "Kazuo Ghoroku, Masafumi Ishihara, Akihiro Nakamura",
+    "title": "Gauge theory in de Sitter space-time from a holographic model",
+    "arxivId": "hep-th/0609152",
+    "arxivUrl": "https://arxiv.org/abs/hep-th/0609152",
+    "inspireUrl": "https://inspirehep.net/literature/726783",
+    "journalRef": "Phys.Rev.D 74 (2006) 124020",
+    "doiUrl": "https://doi.org/10.1103/PhysRevD.74.124020"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-100",
+    "authors": "Kenzo Inoue, Kentaro Kojima, Koichi Yoshioka",
+    "title": "Low-energy variety of asymmetric SUSY flavor structure",
+    "arxivId": "hep-ph/0610402",
+    "arxivUrl": "https://arxiv.org/abs/hep-ph/0610402",
+    "inspireUrl": "https://inspirehep.net/literature/730289",
+    "journalRef": "Phys.Lett.B 644 (2007) 172",
+    "doiUrl": "https://doi.org/10.1016/j.physletb.2006.11.041"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-101",
+    "authors": "Ken-ichi Okumura",
+    "title": "Mirage unification at TeV scale and natural electroweak symmetry breaking in minimal supersymmetry",
+    "arxivId": "hep-ph/0611124",
+    "arxivUrl": "https://arxiv.org/abs/hep-ph/0611124",
+    "inspireUrl": "https://inspirehep.net/literature/731311",
+    "journalRef": "AIP Conf.Proc. 903 (2007) 361",
+    "doiUrl": "https://doi.org/10.1063/1.2735199"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-102",
+    "authors": "K. Choi, K.S. Jeong, T. Kobayashi, K. Okumura",
+    "title": "TeV Scale Mirage Mediation and Natural Little SUSY Hierarchy",
+    "arxivId": "hep-ph/0612258",
+    "arxivUrl": "https://arxiv.org/abs/hep-ph/0612258",
+    "inspireUrl": "https://inspirehep.net/literature/735191",
+    "journalRef": "Phys.Rev.D 75 (2007) 095012",
+    "doiUrl": "https://doi.org/10.1103/PhysRevD.75.095012"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-103",
+    "authors": "Hiroyuki Matsuura, Hiroaki Nakano, Koichi Yoshioka",
+    "title": "Soft Supersymmetry Breaking at Heavy Chiral Threshold",
+    "arxivId": "hep-ph/0612348",
+    "arxivUrl": "https://arxiv.org/abs/hep-ph/0612348",
+    "inspireUrl": "https://inspirehep.net/literature/735720",
+    "journalRef": "Prog.Theor.Phys. 117 (2007) 395",
+    "doiUrl": "https://doi.org/10.1143/PTP.117.395"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-104",
+    "authors": "Kazuo Ghoroku, Masafumi Ishihara, Akihiro Nakamura",
+    "title": "Flavor quarks in AdS4 and gauge/gravity correspondence",
+    "arxivId": "hep-th/0612244",
+    "arxivUrl": "https://arxiv.org/abs/hep-th/0612244",
+    "inspireUrl": "https://inspirehep.net/literature/735526",
+    "journalRef": "Phys.Rev.D 75 (2007) 046005",
+    "doiUrl": "https://doi.org/10.1103/PhysRevD.75.046005"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-105",
+    "authors": "Koji Harada, Hirofumi Kubo, Atsushi Ninomiya",
+    "title": "More about the Wilsonian analysis on the pionless NEFT",
+    "arxivId": "nucl-th/0702074",
+    "arxivUrl": "https://arxiv.org/abs/nucl-th/0702074",
+    "inspireUrl": "https://inspirehep.net/literature/745163",
+    "journalRef": "Int.J.Mod.Phys.A 24 (2009) 3191",
+    "doiUrl": "https://doi.org/10.1142/S0217751X09044528"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-106",
+    "authors": "Kenzo Inoue, Kentaro Kojima, Koichi Yoshioka",
+    "title": "Probing flavor structure in unified theory with scalar spectroscopy",
+    "arxivId": "hep-ph/0703253",
+    "arxivUrl": "https://arxiv.org/abs/hep-ph/0703253",
+    "inspireUrl": "https://inspirehep.net/literature/747063",
+    "journalRef": "JHEP 07 (2007) 027",
+    "doiUrl": "https://doi.org/10.1088/1126-6708/2007/07/027"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-107",
+    "authors": "Takayuki Hirayama, Koichi Yoshioka",
+    "title": "Holographic Construction of Technicolor Theory.",
+    "arxivId": "0705.3533",
+    "arxivUrl": "https://arxiv.org/abs/0705.3533",
+    "inspireUrl": "https://inspirehep.net/literature/751413",
+    "journalRef": "JHEP 10 (2007) 002",
+    "doiUrl": "https://doi.org/10.1088/1126-6708/2007/10/002"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-108",
+    "authors": "Kazuo Ghoroku, Masafumi Ishihara, Akihiro Nakamura.",
+    "title": "D3/D7 holographic Gauge theory and Chemical potential.",
+    "arxivId": "0708.3706",
+    "arxivUrl": "https://arxiv.org/abs/0708.3706",
+    "inspireUrl": "https://inspirehep.net/literature/759222",
+    "journalRef": "Phys.Rev.D 76 (2007) 124006",
+    "doiUrl": "https://doi.org/10.1103/PhysRevD.76.124006"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-109",
+    "authors": "Kenzo Inoue, Naoki Yamatsu (Kyushu U.)",
+    "title": "Charged lepton and down-type quark masses in SU(1,1) model and the structure of higgs sector",
+    "arxivId": "0712.2938",
+    "arxivUrl": "https://arxiv.org/abs/0712.2938",
+    "inspireUrl": "https://inspirehep.net/literature/770786",
+    "journalRef": "Prog.Theor.Phys. 119 (2008) 775",
+    "doiUrl": "https://doi.org/10.1143/PTP.119.775"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-110",
+    "authors": "Kentaro Kojima, Kazunori Takenaga, Toshifumi Yamashita",
+    "title": "Multi-Higgs Mass Spectrum in Gauge-Higgs Unification",
+    "arxivId": "0801.2803",
+    "arxivUrl": "https://arxiv.org/abs/0801.2803",
+    "inspireUrl": "https://inspirehep.net/literature/777694",
+    "journalRef": "Phys.Rev.D 77 (2008) 075004",
+    "doiUrl": "https://doi.org/10.1103/PhysRevD.77.075004"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-111",
+    "authors": "Kazuo Ghoroku, Masafumi Ishihara",
+    "title": "Baryons with D5 Brane Vertex and k-Quarks",
+    "arxivId": "0801.4216",
+    "arxivUrl": "https://arxiv.org/abs/0801.4216",
+    "inspireUrl": "https://inspirehep.net/literature/778242",
+    "journalRef": "Phys.Rev.D 77 (2008) 086003",
+    "doiUrl": "https://doi.org/10.1103/PhysRevD.77.086003"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-112",
+    "authors": "Koji Harada",
+    "title": "Problems in the derivations of the renormalization group equation for the low momentum nucleon interaction",
+    "arxivId": "0803.4371",
+    "arxivUrl": "https://arxiv.org/abs/0803.4371",
+    "inspireUrl": "https://inspirehep.net/literature/782383",
+    "journalRef": "Prog.Theor.Phys. 120 (2008) 741",
+    "doiUrl": "https://doi.org/10.1143/PTP.120.741"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-113",
+    "authors": "Kazuo Ghoroku, Masafumi Ishihara, Akihiro Nakamura, Fumihiko Toyoda",
+    "title": "Multi-quark baryons and color screening at finite temperature",
+    "arxivId": "0806.0195",
+    "arxivUrl": "https://arxiv.org/abs/0806.0195",
+    "inspireUrl": "https://inspirehep.net/literature/787064",
+    "journalRef": "Phys.Rev.D 79 (2009) 066009",
+    "doiUrl": "https://doi.org/10.1103/PhysRevD.79.066009"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-114",
+    "authors": "Kenzo Inoue, Naoki Yamatsu",
+    "title": "Strong CP Problem and the Natural Hierarchy of Yukawa Couplings",
+    "arxivId": "0806.0213",
+    "arxivUrl": "https://arxiv.org/abs/0806.0213",
+    "inspireUrl": "https://inspirehep.net/literature/787070",
+    "journalRef": "Prog.Theor.Phys. 120 (2008) 1065",
+    "doiUrl": "https://doi.org/10.1143/PTP.120.1065"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-115",
+    "authors": "Kazuo Ghoroku, Masafumi Ishihara, Akihiro Nakamura, Fumihiko Toyoda",
+    "title": "Baryonium in Confining Gauge Theories",
+    "arxivId": "0809.1137",
+    "arxivUrl": "https://arxiv.org/abs/0809.1137",
+    "inspireUrl": "https://inspirehep.net/literature/795769",
+    "journalRef": "JHEP 04 (2009) 041",
+    "doiUrl": "https://doi.org/10.1088/1126-6708/2009/04/041"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-116",
+    "authors": "Kentaro Kojima, Hideyuki Sawanaka",
+    "title": "Probing neutrino masses and tri-bimaximality with lepton flavor violation searches",
+    "arxivId": "0901.4812",
+    "arxivUrl": "https://arxiv.org/abs/0901.4812",
+    "inspireUrl": "https://inspirehep.net/literature/812163",
+    "journalRef": "Phys.Lett.B 678 (2009) 373",
+    "doiUrl": "https://doi.org/10.1016/j.physletb.2009.06.046"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-117",
+    "authors": "Koji Harada, Nozomu Hattori, Hirofumi Kubo, Yuki Yamamoto",
+    "title": "Apparently non-invariant terms of nonlinear sigma models in lattice perturbation theory.",
+    "arxivId": "0902.0665",
+    "arxivUrl": "https://arxiv.org/abs/0902.0665",
+    "inspireUrl": "https://inspirehep.net/literature/812520",
+    "journalRef": "Phys.Rev.D 79 (2009) 065037",
+    "doiUrl": "https://doi.org/10.1103/PhysRevD.79.065037"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-118",
+    "authors": "Raj Gandhi, Abhijit Samanta, Atsushi Watanabe",
+    "title": "The Role and Detectability of the Charm Contribution to Ultra High Energy Neutrino Fluxes",
+    "arxivId": "0905.2483",
+    "arxivUrl": "https://arxiv.org/abs/0905.2483",
+    "inspireUrl": "https://inspirehep.net/literature/820573",
+    "journalRef": "JCAP 09 (2009) 015",
+    "doiUrl": "https://doi.org/10.1088/1475-7516/2009/09/015"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-119",
+    "authors": "Koji Harada, Hirofumi Kubo, Yuki Yamamoto",
+    "title": "Apparently noninvariant terms of $U(N)\\times U(N)$ nonlinear sigma model in the one-loop approximation",
+    "arxivId": "0907.5260",
+    "arxivUrl": "https://arxiv.org/abs/0907.5260",
+    "inspireUrl": "https://inspirehep.net/literature/827338",
+    "journalRef": "Prog.Theor.Phys. 123 (2010) 475",
+    "doiUrl": "https://doi.org/10.1143/PTP.123.475"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-120",
+    "authors": "Kenzo Inoue, Hirofumi Kubo, Naoki Yamatsu",
+    "title": "Vacuum Structures of Supersymmetric Noncompact Gauge Theory.",
+    "arxivId": "0909.4670",
+    "arxivUrl": "https://arxiv.org/abs/0909.4670",
+    "inspireUrl": "https://inspirehep.net/literature/832169",
+    "journalRef": "Nucl.Phys.B 833 (2010) 108",
+    "doiUrl": "https://doi.org/10.1016/j.nuclphysb.2010.03.004"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-121",
+    "authors": "Kazuo Ghoroku, Masafumi Ishihara, Tomoki Taminato",
+    "title": "Holographic Confining Gauge theory and Response to Electric Field.",
+    "arxivId": "0909.5522",
+    "arxivUrl": "https://arxiv.org/abs/0909.5522",
+    "inspireUrl": "https://inspirehep.net/literature/832603",
+    "journalRef": "Phys.Rev.D 81 (2010) 026001",
+    "doiUrl": "https://doi.org/10.1103/PhysRevD.81.026001"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-122",
+    "authors": "Atsushi Watanabe, Koichi Yoshioka",
+    "title": "Geometry-free neutrino masses in curved spacetime.",
+    "arxivId": "0910.0677",
+    "arxivUrl": "https://arxiv.org/abs/0910.0677",
+    "inspireUrl": "https://inspirehep.net/literature/832973",
+    "journalRef": "Phys.Lett.B 683 (2010) 289",
+    "doiUrl": "https://doi.org/10.1016/j.physletb.2009.12.034"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-123",
+    "authors": "Atri Bhattacharya, Sandhya Choubey, Raj Gandhi, Atsushi Watanabe",
+    "title": "Diffuse Ultra-High Energy Neutrino Fluxes and Physics Beyond the Standard Model",
+    "arxivId": "0910.4396",
+    "arxivUrl": "https://arxiv.org/abs/0910.4396",
+    "inspireUrl": "https://inspirehep.net/literature/834961",
+    "journalRef": "Phys.Lett.B 690 (2010) 42",
+    "doiUrl": "https://doi.org/10.1016/j.physletb.2010.04.078"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-124",
+    "authors": "Kazuo Ghoroku, Akihiro Nakamura, Tomoki Taminato, Fumihiko Toyoda",
+    "title": "Holographic Penta and Hepta Quark State in Confining Gauge Theories",
+    "arxivId": "1003.3698",
+    "arxivUrl": "https://arxiv.org/abs/1003.3698",
+    "inspireUrl": "https://inspirehep.net/literature/849533",
+    "journalRef": "JHEP 08 (2010) 007",
+    "doiUrl": "https://doi.org/10.1007/JHEP08(2010)007"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-125",
+    "authors": "Kiwoon Choi, Kwang Sik Jeong, Ken-Ichi Okumura, Masahiro Yamaguchi",
+    "title": "Mixed Mediation of Supersymmetry Breaking with Anomalous U(1) Gauge Symmetry",
+    "arxivId": "1104.3274",
+    "arxivUrl": "https://arxiv.org/abs/1104.3274",
+    "inspireUrl": "https://inspirehep.net/literature/896487",
+    "journalRef": "JHEP 06 (2011) 049",
+    "doiUrl": "https://doi.org/10.1007/JHEP06(2011)049"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-126",
+    "authors": "Kazuo Ghoroku, Masafumi Ishihara, Kouki Kubo, Tomoki Taminato",
+    "title": "Accelerated Quark and Holography for Confining Gauge theory",
+    "arxivId": "1010.4396",
+    "arxivUrl": "https://arxiv.org/abs/1010.4396",
+    "inspireUrl": "https://inspirehep.net/literature/873642",
+    "journalRef": "Phys.Rev.D 83 (2011) 024020",
+    "doiUrl": "https://doi.org/10.1103/PhysRevD.83.024020"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-127",
+    "authors": "Kentaro Kojima, Hideyuki Sawanaka, Ryo Takahashi",
+    "title": "Cascade Hierarchy in SUSY SU(5) GUT",
+    "arxivId": "1011.5678",
+    "arxivUrl": "https://arxiv.org/abs/1011.5678",
+    "inspireUrl": "https://inspirehep.net/literature/879296",
+    "journalRef": "",
+    "doiUrl": ""
+  },
+  {
+    "reportNumber": "KYUSHU-HET-128",
+    "authors": "Adisorn Adulpravitchai, Kentaro Kojima, Ryo Takahashi",
+    "title": "Cascade Textures and SUSY SO (10) GUT",
+    "arxivId": "1012.1760",
+    "arxivUrl": "https://arxiv.org/abs/1012.1760",
+    "inspireUrl": "https://inspirehep.net/literature/880013",
+    "journalRef": "JHEP 02 (2011) 086",
+    "doiUrl": "https://doi.org/10.1007/JHEP02(2011)086"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-129",
+    "authors": "Koji Harada, Hirofumi Kubo, Yuki Yamamoto",
+    "title": "Pions are neither perturbative nor nonperturbative: Wilsonian RG analysis of the pionful NEFT",
+    "arxivId": "1012.2716",
+    "arxivUrl": "https://arxiv.org/abs/1012.2716",
+    "inspireUrl": "https://inspirehep.net/literature/881003",
+    "journalRef": "Phys.Rev.C 83 (2011) 034002",
+    "doiUrl": "https://doi.org/10.1103/PhysRevC.83.034002"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-130",
+    "authors": "Kentaro Kojima, Kazunori Takenaga, Toshifumi Yamashita",
+    "title": "Grand Gauge-Higgs Unification",
+    "arxivId": "1103.1234",
+    "arxivUrl": "https://arxiv.org/abs/1103.1234",
+    "inspireUrl": "https://inspirehep.net/literature/891580",
+    "journalRef": "Phys.Rev.D 84 (2011) 051701",
+    "doiUrl": "https://doi.org/10.1103/PhysRevD.84.051701"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-131",
+    "authors": "Kazuo Ghoroku, Tomoki Taminato, Fumihiko Toyoda",
+    "title": "Holographic Approach to Regge Trajectory and Rotating D5 brane",
+    "arxivId": "1103.2428",
+    "arxivUrl": "https://arxiv.org/abs/1103.2428",
+    "inspireUrl": "https://inspirehep.net/literature/892512",
+    "journalRef": "JHEP 05 (2011) 006",
+    "doiUrl": "https://doi.org/10.1007/JHEP05(2011)006"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-132",
+    "authors": "Kazuo Ghoroku, Kouki Kubo, Tomoki Taminato, Fumihiko Toyoda",
+    "title": "Holographic Glueballs and Infrared Wall Driven by Dilaton",
+    "arxivId": "1111.7032",
+    "arxivUrl": "https://arxiv.org/abs/1111.7032",
+    "inspireUrl": "https://inspirehep.net/literature/1079451",
+    "journalRef": "JHEP 04 (2012) 087",
+    "doiUrl": "https://doi.org/10.1007/JHEP04(2012)087"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-133",
+    "authors": "Tatsuo Kobayashi, Hiroki Makino, Ken-ichi Okumura, Takashi Shimomura, Tsubasa Takahashi",
+    "title": "TeV scale mirage mediation in NMSSM",
+    "arxivId": "1204.3561",
+    "arxivUrl": "https://arxiv.org/abs/1204.3561",
+    "inspireUrl": "https://inspirehep.net/literature/1111039",
+    "journalRef": "JHEP 01 (2013) 081",
+    "doiUrl": "https://doi.org/10.1007/JHEP01(2013)081"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-134",
+    "authors": "Koji Harada, Hirofumi Kubo, Issei Yoshimoto",
+    "title": "Wilsonian renormalization group analysis of nonrelativistic three-body systems without introducing dimerons",
+    "arxivId": "1208.0719",
+    "arxivUrl": "https://arxiv.org/abs/1208.0719",
+    "inspireUrl": "https://inspirehep.net/literature/1125870",
+    "journalRef": "Phys.Rev.D 87 (2013) 085006",
+    "doiUrl": "https://doi.org/10.1103/PhysRevD.87.085006"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-135",
+    "authors": "Kazuo Ghoroku, Kouki Kubo, Motoi Tachibana, Tomoki Taminato, Fumihiko Toyoda",
+    "title": "Holographic cold nuclear matter as dilute instanton gas",
+    "arxivId": "1211.2499",
+    "arxivUrl": "https://arxiv.org/abs/1211.2499",
+    "inspireUrl": "https://inspirehep.net/literature/1202302",
+    "journalRef": "Phys.Rev.D 87 (2013) 066006",
+    "doiUrl": "https://doi.org/10.1103/PhysRevD.87.066006"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-136",
+    "authors": "Yuta Hamada, Kohei Kamada, Tatsuo Kobayashi, Yutaka Ookouchi",
+    "title": "More on cosmological constraints on spontaneous R-symmetry breaking models",
+    "arxivId": "1310.0118",
+    "arxivUrl": "https://arxiv.org/abs/1310.0118",
+    "inspireUrl": "https://inspirehep.net/literature/1256863",
+    "journalRef": "JCAP 01 (2014) 024",
+    "doiUrl": "https://doi.org/10.1088/1475-7516/2014/01/024"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-137",
+    "authors": "Yutaka Ookouchi",
+    "title": "Discrete Gauge Symmetry and Aharonov-Bohm Radiation in String Theory",
+    "arxivId": "1310.4026",
+    "arxivUrl": "https://arxiv.org/abs/1310.4026",
+    "inspireUrl": "https://inspirehep.net/literature/1258614",
+    "journalRef": "JHEP 01 (2014) 049",
+    "doiUrl": "https://doi.org/10.1007/JHEP01(2014)049"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-138",
+    "authors": "Koji Harada, Hirofumi Kubo, Tatsuya Sakaeda, Yuki Yamamoto",
+    "title": "Convergent perturbative nuclear effective field theory",
+    "arxivId": "1311.3063",
+    "arxivUrl": "https://arxiv.org/abs/1311.3063",
+    "inspireUrl": "https://inspirehep.net/literature/1264283",
+    "journalRef": "",
+    "doiUrl": ""
+  },
+  {
+    "reportNumber": "KYUSHU-HET-139",
+    "authors": "Masayuki Asakawa, Tetsuo Hatsuda, Etsuko Itou, Masakiyo Kitazawa, Hiroshi Suzuki",
+    "title": "Thermodynamics of SU(3) Gauge Theory from Gradient Flow",
+    "arxivId": "1312.7492",
+    "arxivUrl": "https://arxiv.org/abs/1312.7492",
+    "inspireUrl": "https://inspirehep.net/literature/1275623",
+    "journalRef": "Phys.Rev.D 90 (2014) 011501",
+    "doiUrl": "https://doi.org/10.1103/PhysRevD.90.011501"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-140",
+    "authors": "Hiroki Makino, Hiroshi Suzuki",
+    "title": "Lattice energy-momentum tensor from the Yang-Mills gradient flow -- inclusion of fermion fields",
+    "arxivId": "1403.4772",
+    "arxivUrl": "https://arxiv.org/abs/1403.4772",
+    "inspireUrl": "https://inspirehep.net/literature/1286447",
+    "journalRef": "PTEP 2014 (2014) 063B02",
+    "doiUrl": "https://doi.org/10.1093/ptep/ptu070"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-141",
+    "authors": "Kazuo Ghoroku, Kouki Kubo, Motoi Tachibana, Fumihiko Toyoda",
+    "title": "Holographic cold nuclear matter and neutron star",
+    "arxivId": "1311.1598",
+    "arxivUrl": "https://arxiv.org/abs/1311.1598",
+    "inspireUrl": "https://inspirehep.net/literature/1263684",
+    "journalRef": "Int.J.Mod.Phys.A 29 (2014) 1450060",
+    "doiUrl": "https://doi.org/10.1142/S0217751X14500602"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-142",
+    "authors": "Hiroki Makino, Hiroshi Suzuki",
+    "title": "Lattice energy-momentum tensor from the Yang-Mills gradient flow a simpler prescription",
+    "arxivId": "1404.2758",
+    "arxivUrl": "https://arxiv.org/abs/1404.2758",
+    "inspireUrl": "https://inspirehep.net/literature/1289882",
+    "journalRef": "",
+    "doiUrl": ""
+  },
+  {
+    "reportNumber": "KYUSHU-HET-143",
+    "authors": "Yutaka Ookouchi, Takahiro Yonemoto",
+    "title": "Radiation of Supersymmetric Particles from Aharonov-Bohm R-string",
+    "arxivId": "1409.8384",
+    "arxivUrl": "https://arxiv.org/abs/1409.8384",
+    "inspireUrl": "https://inspirehep.net/literature/1319505",
+    "journalRef": "JHEP 02 (2015) 164",
+    "doiUrl": "https://doi.org/10.1007/JHEP02(2015)164"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-144",
+    "authors": "Hiroki Makino, Hiroshi Suzuki",
+    "title": "Renormalizability of the gradient flow in the two-dimensional O(N) non-linear sigma model",
+    "arxivId": "1410.7538",
+    "arxivUrl": "https://arxiv.org/abs/1410.7538",
+    "inspireUrl": "https://inspirehep.net/literature/1324796",
+    "journalRef": "PTEP 2015 (2015) 033B08",
+    "doiUrl": "https://doi.org/10.1093/ptep/ptv028"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-145",
+    "authors": "Hiroki Makino, Fumihiko Sugino, Hiroshi Suzuki",
+    "title": "Large N limit of the gradient flow in the two-dimensional O(N) non-linear sigma model",
+    "arxivId": "1412.8218",
+    "arxivUrl": "https://arxiv.org/abs/1412.8218",
+    "inspireUrl": "https://inspirehep.net/literature/1335700",
+    "journalRef": "PTEP 2015 (2015) 043B07",
+    "doiUrl": "https://doi.org/10.1093/ptep/ptv044"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-146",
+    "authors": "Kazuo Fujikawa, Hiroshi Suzuki",
+    "title": "Path Integral Bosonization",
+    "arxivId": "1501.00766",
+    "arxivUrl": "https://arxiv.org/abs/1501.00766",
+    "inspireUrl": "https://inspirehep.net/literature/1336348",
+    "journalRef": "Phys.Rev.D 91 (2015) 065010",
+    "doiUrl": "https://doi.org/10.1103/PhysRevD.91.065010"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-147",
+    "authors": "Hiroshi Suzuki",
+    "title": "Universal formula for the energy--momentum tensor via a flow equation in the Gross--Neveu model",
+    "arxivId": "1501.04371",
+    "arxivUrl": "https://arxiv.org/abs/1501.04371",
+    "inspireUrl": "https://inspirehep.net/literature/1340097",
+    "journalRef": "PTEP 2015 (2015) 043B04",
+    "doiUrl": "https://doi.org/10.1093/ptep/ptv036"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-148",
+    "authors": "Aya Kasai, Yutaka Ookouchi",
+    "title": "Decay of False Vacuum via Fuzzy Monopole in String Theory",
+    "arxivId": "1502.01544",
+    "arxivUrl": "https://arxiv.org/abs/1502.01544",
+    "inspireUrl": "https://inspirehep.net/literature/1343138",
+    "journalRef": "Phys.Rev.D 91 (2015) 126002",
+    "doiUrl": "https://doi.org/10.1103/PhysRevD.91.126002"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-149",
+    "authors": "Tasuku Endo, Kenji Hieda, Daiki Miura, Hiroshi Suzuki",
+    "title": "Universal formula for the flavor non-singlet axial-vector current from the gradient flow",
+    "arxivId": "1502.01809",
+    "arxivUrl": "https://arxiv.org/abs/1502.01809",
+    "inspireUrl": "https://inspirehep.net/literature/1343324",
+    "journalRef": "PTEP 2015 (2015) 053B03",
+    "doiUrl": "https://doi.org/10.1093/ptep/ptv058"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-150",
+    "authors": "Kei Hagimoto, Tatsuo Kobayashi, Hiroki Makino, Ken-ichi Okumura, Takashi Shimomura",
+    "title": "Phenomenology of NMSSM in TeV scale mirage mediation",
+    "arxivId": "1509.05327",
+    "arxivUrl": "https://arxiv.org/abs/1509.05327",
+    "inspireUrl": "https://inspirehep.net/literature/1393775",
+    "journalRef": "JHEP 02 (2016) 089",
+    "doiUrl": "https://doi.org/10.1007/JHEP02(2016)089"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-151",
+    "authors": "Hiroki Makino, Hiroshi Suzuki, Daisuke Takeda",
+    "title": "Complex Langevin method applied to the 2D SU(2) Yang--Mills theory",
+    "arxivId": "1503.00417",
+    "arxivUrl": "https://arxiv.org/abs/1503.00417",
+    "inspireUrl": "https://inspirehep.net/literature/1346970",
+    "journalRef": "Phys.Rev.D 92 (2015) 085020",
+    "doiUrl": "https://doi.org/10.1103/PhysRevD.92.085020"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-152",
+    "authors": "Masayuki Asakawa, Tetsuo Hatsuda, Takumi Iritani, Etsuko Itou, Masakiyo Kitazawa, Hiroshi Suzuki",
+    "title": "Accurate Determination of Reference Scales for Wilson Gauge Action from Yang--Mills Gradient Flow",
+    "arxivId": "1503.06516",
+    "arxivUrl": "https://arxiv.org/abs/1503.06516",
+    "inspireUrl": "https://inspirehep.net/literature/1355219",
+    "journalRef": "",
+    "doiUrl": ""
+  },
+  {
+    "reportNumber": "KYUSHU-HET-153",
+    "authors": "Aya Kasai, Yutaka Ookouchi",
+    "title": "Gravitational Correction to Fuzzy String in Metastable Brane Configuration",
+    "arxivId": "1504.00479",
+    "arxivUrl": "https://arxiv.org/abs/1504.00479",
+    "inspireUrl": "https://inspirehep.net/literature/1357619",
+    "journalRef": "JHEP 06 (2015) 098",
+    "doiUrl": "https://doi.org/10.1007/JHEP06(2015)098"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-154",
+    "authors": "Hiroshi Suzuki",
+    "title": "Background field method in the gradient flow",
+    "arxivId": "1507.02360",
+    "arxivUrl": "https://arxiv.org/abs/1507.02360",
+    "inspireUrl": "https://inspirehep.net/literature/1382161",
+    "journalRef": "PTEP 2015 (2015) 103B03",
+    "doiUrl": "https://doi.org/10.1093/ptep/ptv139"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-155",
+    "authors": "Aya Kasai, Yuichiro Nakai, Yutaka Ookouchi",
+    "title": "Baryon as Impurity for Phase Transition in String Landscape",
+    "arxivId": "1508.04608",
+    "arxivUrl": "https://arxiv.org/abs/1508.04608",
+    "inspireUrl": "https://inspirehep.net/literature/1388516",
+    "journalRef": "JHEP 06 (2016) 029",
+    "doiUrl": "https://doi.org/10.1007/JHEP06(2016)029"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-157",
+    "authors": "Hiroshi Suzuki",
+    "title": "Background field method in the gradient flow",
+    "arxivId": "1510.08675",
+    "arxivUrl": "https://arxiv.org/abs/1510.08675",
+    "inspireUrl": "https://inspirehep.net/literature/1401384",
+    "journalRef": "PoS LATTICE2015 (2016) 304",
+    "doiUrl": "https://doi.org/10.22323/1.251.0304"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-158",
+    "authors": "Etsuko Itou, Hiroshi Suzuki, Yusuke Taniguchi and Takashi Umeda",
+    "title": "(2+1) -flavor QCD thermodynamics from the gradient flow",
+    "arxivId": "1511.03009",
+    "arxivUrl": "https://arxiv.org/abs/1511.03009",
+    "inspireUrl": "https://inspirehep.net/literature/1403803",
+    "journalRef": "PoS LATTICE2015 (2016) 303",
+    "doiUrl": "https://doi.org/10.22323/1.251.0303"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-159",
+    "authors": "Masakiyo Kitazawa, Masayuki Asakawa, Tetsuo Hatsuda, Takumi Iritani, Etsuko Itou, Hiroshi Suzuki",
+    "title": "Thermodynamics and reference scale of SU(3) gauge theory from gradient flow on fine lattices",
+    "arxivId": "1511.05235",
+    "arxivUrl": "https://arxiv.org/abs/1511.05235",
+    "inspireUrl": "https://inspirehep.net/literature/1405098",
+    "journalRef": "PoS LATTICE2015 (2016) 162",
+    "doiUrl": "https://doi.org/10.22323/1.251.0162"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-160",
+    "authors": "Hisashi Iha, Hiroki Makino, Hiroshi Suzuki",
+    "title": "Upper bound on the mass anomalous dimension in many-flavor gauge theories a conformal bootstrap approach",
+    "arxivId": "1603.01995",
+    "arxivUrl": "https://arxiv.org/abs/1603.01995",
+    "inspireUrl": "https://inspirehep.net/literature/1426527",
+    "journalRef": "PTEP 2016 (2016) 053B03",
+    "doiUrl": "https://doi.org/10.1093/ptep/ptw046"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-161",
+    "authors": "Ken-ichi Okumura",
+    "title": "TeV scale mirage mediation in NMSSM and precision Higgs measurement",
+    "arxivId": "1603.04205",
+    "arxivUrl": "https://arxiv.org/abs/1603.04205",
+    "inspireUrl": "https://inspirehep.net/literature/1427413",
+    "journalRef": "",
+    "doiUrl": ""
+  },
+  {
+    "reportNumber": "KYUSHU-HET-162",
+    "authors": "Kenji Hieda, Hiroki Makino, Hiroshi Suzuki",
+    "title": "Proof of the renormalizability of the gradient flow",
+    "arxivId": "1604.06200",
+    "arxivUrl": "https://arxiv.org/abs/1604.06200",
+    "inspireUrl": "https://inspirehep.net/literature/1449994",
+    "journalRef": "Nucl.Phys.B 918 (2017) 23",
+    "doiUrl": "https://doi.org/10.1016/j.nuclphysb.2017.02.017"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-163",
+    "authors": "Kenji Hieda and Hiroshi Suzuki",
+    "title": "Small flow-time representation of fermion bi-linear operators",
+    "arxivId": "1606.04193",
+    "arxivUrl": "https://arxiv.org/abs/1606.04193",
+    "inspireUrl": "https://inspirehep.net/literature/1469243",
+    "journalRef": "Mod.Phys.Lett.A 31 (2016) 1650214",
+    "doiUrl": "https://doi.org/10.1142/S021773231650214X"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-164",
+    "authors": "Ken-ichi Okumura and Hiroshi Suzuki",
+    "title": "Fermion number anomaly with fluffy mirror fermion",
+    "arxivId": "1608.02217",
+    "arxivUrl": "https://arxiv.org/abs/1608.02217",
+    "inspireUrl": "https://inspirehep.net/literature/1479951",
+    "journalRef": "PTEP 2016 (2016) 123B07",
+    "doiUrl": "https://doi.org/10.1093/ptep/ptw167"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-165",
+    "authors": "Yuichiro Nakai and Yutaka Ookouchi",
+    "title": "Thermal Effects on Decays of a Metastable Brane Configuration",
+    "arxivId": "1608.01232",
+    "arxivUrl": "https://arxiv.org/abs/1608.01232",
+    "inspireUrl": "https://inspirehep.net/literature/1479178",
+    "journalRef": "Phys.Lett.B 762 (2016) 321",
+    "doiUrl": "https://doi.org/10.1016/j.physletb.2016.09.050"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-166",
+    "authors": "Kentaro Kojima, Kazunori Takenaga and Toshifumi Yamashita",
+    "title": "Gauge Symmetry Breaking Patterns in an SU(5) Grand Gauge-Higgs Unification",
+    "arxivId": "1608.05496",
+    "arxivUrl": "https://arxiv.org/abs/1608.05496",
+    "inspireUrl": "https://inspirehep.net/literature/1482654",
+    "journalRef": "Phys.Rev.D 95 (2017) 015021",
+    "doiUrl": "https://doi.org/10.1103/PhysRevD.95.015021"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-167",
+    "authors": "Yusuke Taniguchi, Shinji Ejiri, Ryo Iwami, Kazuyuki Kanaya, Masakiyo Kitazawa, Hiroshi Suzuki, Takashi Umeda, Naoki Wakabayashi",
+    "title": "V_f=2+1 QCD thermodynamics from gradient flow",
+    "arxivId": "1609.01417",
+    "arxivUrl": "https://arxiv.org/abs/1609.01417",
+    "inspireUrl": "https://inspirehep.net/literature/1485362",
+    "journalRef": "Phys.Rev.D 96 (2017) 014509",
+    "doiUrl": "https://doi.org/10.1103/PhysRevD.96.014509"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-168",
+    "authors": "Aya Kasai, Ken-ichi Okumura and Hiroshi Suzuki",
+    "title": "Remark on the dilaton mass relation",
+    "arxivId": "1609.02264",
+    "arxivUrl": "https://arxiv.org/abs/1609.02264",
+    "inspireUrl": "https://inspirehep.net/literature/1485706",
+    "journalRef": "",
+    "doiUrl": ""
+  },
+  {
+    "reportNumber": "KYUSHU-HET-169",
+    "authors": "Hiroki Makino and Okuto Morikawa",
+    "title": "Lorentz symmetry violation in the fermion number anomaly with the chiral overlap operator",
+    "arxivId": "1609.08376",
+    "arxivUrl": "https://arxiv.org/abs/1609.08376",
+    "inspireUrl": "https://inspirehep.net/literature/1488284",
+    "journalRef": "PTEP 2016 (2016) 123B06",
+    "doiUrl": "https://doi.org/10.1093/ptep/ptw183"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-170",
+    "authors": "Masakiyo Kitazawa, Takumi Iritani, Masayuki Asakawa, Tetsuo Hatsuda, Hiroshi Suzuki",
+    "title": "Equation of State for SU(3) Gauge Theory via the Energy-Momentum Tensor under Gradient Flow",
+    "arxivId": "1610.07810",
+    "arxivUrl": "https://arxiv.org/abs/1610.07810",
+    "inspireUrl": "https://inspirehep.net/literature/1494416",
+    "journalRef": "Phys.Rev.D 94 (2016) 114512",
+    "doiUrl": "https://doi.org/10.1103/PhysRevD.94.114512"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-171",
+    "authors": "Kazuyuki Kanaya, Shinji Ejiri, Ryo Iwami, Masakiyo Kitazawa, Hiroshi Suzuki, Yusuke Taniguchi, Takashi Umeda, Naoki Wakabayashi",
+    "title": "Equation of State in (2+1) -flavor QCD with gradient flow",
+    "arxivId": "1610.09518",
+    "arxivUrl": "https://arxiv.org/abs/1610.09518",
+    "inspireUrl": "https://inspirehep.net/literature/1495245",
+    "journalRef": "PoS LATTICE2016 (2016) 063",
+    "doiUrl": "https://doi.org/10.22323/1.256.0063"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-172",
+    "authors": "Yusuke Taniguchi, Kazuyuki Kanaya, Hiroshi Suzuki, Takashi Umeda",
+    "title": "Topological susceptibility in finite temperature (2+1) -flavor QCD using gradient flow",
+    "arxivId": "1611.02411",
+    "arxivUrl": "https://arxiv.org/abs/1611.02411",
+    "inspireUrl": "https://inspirehep.net/literature/1496389",
+    "journalRef": "Phys.Rev.D 95 (2017) 054502",
+    "doiUrl": "https://doi.org/10.1103/PhysRevD.95.054502"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-173",
+    "authors": "Yusuke Taniguchi, Shinji Ejiri, Kazuyuki Kanaya, Masakiyo Kitazawa, Hiroshi Suzuki, Takashi Umeda, Ryo Iwami, Naoki Wakabayashi",
+    "title": "Temperature dependence of topological susceptibility using gradient flow",
+    "arxivId": "1611.02413",
+    "arxivUrl": "https://arxiv.org/abs/1611.02413",
+    "inspireUrl": "https://inspirehep.net/literature/1496390",
+    "journalRef": "PoS LATTICE2016 (2016) 064",
+    "doiUrl": "https://doi.org/10.22323/1.256.0064"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-174",
+    "authors": "Hiroshi Suzuki",
+    "title": "Energy--momentum tensor on the lattice:recent developments",
+    "arxivId": "1612.00210",
+    "arxivUrl": "https://arxiv.org/abs/1612.00210",
+    "inspireUrl": "https://inspirehep.net/literature/1501253",
+    "journalRef": "PoS LATTICE2016 (2017) 002",
+    "doiUrl": "https://doi.org/10.22323/1.256.0002"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-175",
+    "authors": "Kenji Hieda, Aya Kasai, Hiroki Makino, Hiroshi Suzuki",
+    "title": "4D N=1 SYM supercurrent in terms of the gradient flow",
+    "arxivId": "1703.04802",
+    "arxivUrl": "https://arxiv.org/abs/1703.04802",
+    "inspireUrl": "https://inspirehep.net/literature/1517502",
+    "journalRef": "PTEP 2017 (2017) 063B03",
+    "doiUrl": "https://doi.org/10.1093/ptep/ptx073"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-176",
+    "authors": "Kentaro Kojima, Kazunori Takenaga and Toshifumi Yamashita",
+    "title": "The Standard Model Gauge Symmetry from Higher-Rank Unified Groups in Grand Gauge-Higgs Unification Models",
+    "arxivId": "1704.04840",
+    "arxivUrl": "https://arxiv.org/abs/1704.04840",
+    "inspireUrl": "https://inspirehep.net/literature/1591740",
+    "journalRef": "JHEP 06 (2017) 018",
+    "doiUrl": "https://doi.org/10.1007/JHEP06(2017)018"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-177",
+    "authors": "Hiroki Makino, Okuto Morikawa and Hiroshi Suzuki",
+    "title": "One-loop perturbative coupling of $A$ and $A_\\star$ through the chiral overlap operator",
+    "arxivId": "1704.04862",
+    "arxivUrl": "https://arxiv.org/abs/1704.04862",
+    "inspireUrl": "https://inspirehep.net/literature/1591719",
+    "journalRef": "PTEP 2017 (2017) 063B08",
+    "doiUrl": "https://doi.org/10.1093/ptep/ptx085"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-178",
+    "authors": "Hiroki Makino, Okuto Morikawa and Hiroshi Suzuki",
+    "title": "One-loop perturbative coupling of $A$ and $A_\\star$ through the chiral overlap operator",
+    "arxivId": "1710.00536",
+    "arxivUrl": "https://arxiv.org/abs/1710.00536",
+    "inspireUrl": "https://inspirehep.net/literature/1628108",
+    "journalRef": "EPJ Web Conf. 175 (2018) 11013",
+    "doiUrl": "https://doi.org/10.1051/epjconf/201817511013"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-179",
+    "authors": "Kenji Hieda, Aya Kasai, Hiroki Makino, Hiroshi Suzuki",
+    "title": "4D N=1 SYM supercurrent on the lattice in terms of the gradient flow",
+    "arxivId": "1710.07001",
+    "arxivUrl": "https://arxiv.org/abs/1710.07001",
+    "inspireUrl": "https://inspirehep.net/literature/1631650",
+    "journalRef": "EPJ Web Conf. 175 (2018) 11014",
+    "doiUrl": "https://doi.org/10.1051/epjconf/201817511014"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-180",
+    "authors": "Kazuyuki Kanaya, Shinji Ejiri, Ryo Iwami, Masakiyo Kitazawa, Hiroshi Suzuki, Yusuke Taniguchi, Takashi Umeda",
+    "title": "Equation of state in (2+1) -flavor QCD at physical point with improved Wilson fermion action using gradient flow",
+    "arxivId": "1710.10015",
+    "arxivUrl": "https://arxiv.org/abs/1710.10015",
+    "inspireUrl": "https://inspirehep.net/literature/1632940",
+    "journalRef": "EPJ Web Conf. 175 (2018) 07023",
+    "doiUrl": "https://doi.org/10.1051/epjconf/201817507023"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-181",
+    "authors": "Yusuke Taniguchi, Shinji Ejiri, Kazuyuki Kanaya, Masakiyo Kitazawa, Asobu Suzuki, Hiroshi Suzuki, and Takashi Umeda",
+    "title": "Energy-momentum tensor correlation function in $N_f=2+1$ full QCD at finite temperature",
+    "arxivId": "1711.02262",
+    "arxivUrl": "https://arxiv.org/abs/1711.02262",
+    "inspireUrl": "https://inspirehep.net/literature/1634845",
+    "journalRef": "EPJ Web Conf. 175 (2018) 07013",
+    "doiUrl": "https://doi.org/10.1051/epjconf/201817507013"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-182",
+    "authors": "Hiroki Makino, Okuto Morikawa and Hiroshi Suzuki",
+    "title": "Gradient flow and the Wilsonian renormalization group flow",
+    "arxivId": "1802.07897",
+    "arxivUrl": "https://arxiv.org/abs/1802.07897",
+    "inspireUrl": "https://inspirehep.net/literature/1656823",
+    "journalRef": "PTEP 2018 (2018) 053B02",
+    "doiUrl": "https://doi.org/10.1093/ptep/pty050"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-183",
+    "authors": "Okuto Morikawa and Hiroshi Suzuki",
+    "title": "Axial $U(1)$ anomaly in a gravitational field via the gradient flow",
+    "arxivId": "1803.04132",
+    "arxivUrl": "https://arxiv.org/abs/1803.04132",
+    "inspireUrl": "https://inspirehep.net/literature/1662067",
+    "journalRef": "PTEP 2018 (2018) 073B02",
+    "doiUrl": "https://doi.org/10.1093/ptep/pty073"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-184",
+    "authors": "Okuto Morikawa and Hiroshi Suzuki",
+    "title": "Numerical study of the $\\mathcal{N}=2$ Landau--Ginzburg model",
+    "arxivId": "1805.10735",
+    "arxivUrl": "https://arxiv.org/abs/1805.10735",
+    "inspireUrl": "https://inspirehep.net/literature/1675017",
+    "journalRef": "PTEP 2018 (2018) 083B05",
+    "doiUrl": "https://doi.org/10.1093/ptep/pty088"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-185",
+    "authors": "Hiroshi Suzuki and Hiromasa Takaura",
+    "title": "Gradient flow, renormalon ambiguity, and the gluon condensate",
+    "arxivId": "1807.10064",
+    "arxivUrl": "https://arxiv.org/abs/1807.10064",
+    "inspireUrl": "https://inspirehep.net/literature/1683925",
+    "journalRef": "PTEP 2019 (2019) 103B04",
+    "doiUrl": "https://doi.org/10.1093/ptep/ptz100"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-186",
+    "authors": "H.Takaura, Y.Kiyo, T.Kaneko, Y.Sumino",
+    "title": "Determination of $\\alpha_s$ from static QCD potential with renormalon subtraction",
+    "arxivId": "1808.01632",
+    "arxivUrl": "https://arxiv.org/abs/1808.01632",
+    "inspireUrl": "https://inspirehep.net/literature/1685187",
+    "journalRef": "Phys.Lett.B 789 (2019) 598",
+    "doiUrl": "https://doi.org/10.1016/j.physletb.2018.12.060"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-187",
+    "authors": "H.Takaura, Y.Kiyo, T.Kaneko, Y.Sumino",
+    "title": "Determination of $\\alpha_s$ from static QCD potential: OPE with renormalon subtraction and Lattice QCD",
+    "arxivId": "1808.01643",
+    "arxivUrl": "https://arxiv.org/abs/1808.01643",
+    "inspireUrl": "https://inspirehep.net/literature/1685071",
+    "journalRef": "JHEP 04 (2019) 155",
+    "doiUrl": "https://doi.org/10.1007/JHEP04(2019)155"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-188",
+    "authors": "Aya Kasai, Okuto Morikawa, Hiroshi Suzuki",
+    "title": "Gradient flow representation of the 4D $\\mathcal{N}=2$ SYM supercurrent",
+    "arxivId": "1808.07300",
+    "arxivUrl": "https://arxiv.org/abs/1808.07300",
+    "inspireUrl": "https://inspirehep.net/literature/1690145",
+    "journalRef": "PTEP 2018 (2018) 113B02",
+    "doiUrl": "https://doi.org/10.1093/ptep/pty117"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-189",
+    "authors": "Okuto Morikawa",
+    "title": "Numerical study of the $\\mathcal{ N}=2$ Landau--Ginzburg model with two superfields",
+    "arxivId": "1810.02519",
+    "arxivUrl": "https://arxiv.org/abs/1810.02519",
+    "inspireUrl": "https://inspirehep.net/literature/1697158",
+    "journalRef": "JHEP 12 (2018) 045",
+    "doiUrl": "https://doi.org/10.1007/JHEP12(2018)045"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-190",
+    "authors": "Takumi Iritani, Masakiyo Kitazawa, Hiroshi Suzuki and Hiromasa Takaura",
+    "title": "Thermodynamics in the quenched QCD -- EMT with NNLO coefficients in gradient flow formalism",
+    "arxivId": "1812.06444",
+    "arxivUrl": "https://arxiv.org/abs/1812.06444",
+    "inspireUrl": "https://inspirehep.net/literature/1709300",
+    "journalRef": "PTEP 2019 (2019) 023B02",
+    "doiUrl": "https://doi.org/10.1093/ptep/ptz001"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-191",
+    "authors": "Yusuke Taniguchi, Atsushi Baba, Shinji Ejiri, Kazuyuki Kanaya, Masakiyo Kitazawa, Takanori Shimojo, Asobu Suzuki, Hiroshi Suzuki, Takashi Umeda",
+    "title": "Study of energy-momentum tensor correlation function in $N_f=2+1$ full QCD for QGP viscosities",
+    "arxivId": "1901.01666",
+    "arxivUrl": "https://arxiv.org/abs/1901.01666",
+    "inspireUrl": "https://inspirehep.net/literature/1712353",
+    "journalRef": "PoS LATTICE2018 (2019) 166",
+    "doiUrl": "https://doi.org/10.22323/1.334.0166"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-192",
+    "authors": "Atsushi Baba, Shinji Ejiri, Kazuyuki Kanaya, Masakiyo Kitazawa, Takanori Shimojo, Asobu Suzuki, Hiroshi Suzuki, Yusuke Taniguchi, Takashi Umeda",
+    "title": "Measuring of chiral susceptibility using gradient flow",
+    "arxivId": "1901.02294",
+    "arxivUrl": "https://arxiv.org/abs/1901.02294",
+    "inspireUrl": "https://inspirehep.net/literature/1712745",
+    "journalRef": "PoS LATTICE2018 (2019) 173",
+    "doiUrl": "https://doi.org/10.22323/1.334.0173"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-193",
+    "authors": "Hidenori Sonoda and Hiroshi Suzuki",
+    "title": "Derivation of a Gradient Flow from ERG",
+    "arxivId": "1901.05169",
+    "arxivUrl": "https://arxiv.org/abs/1901.05169",
+    "inspireUrl": "https://inspirehep.net/literature/1713997",
+    "journalRef": "PTEP 2019 (2019) 033B05",
+    "doiUrl": "https://doi.org/10.1093/ptep/ptz020"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-194",
+    "authors": "Okuto Morikawa",
+    "title": "Continuum limit in numerical simulations of the $\\mathcal{N}=2$ Landau--Ginzburg model",
+    "arxivId": "1906.00653",
+    "arxivUrl": "https://arxiv.org/abs/1906.00653",
+    "inspireUrl": "https://inspirehep.net/literature/1737855",
+    "journalRef": "PTEP 2019 (2019) 103B03",
+    "doiUrl": "https://doi.org/10.1093/ptep/ptz107"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-195",
+    "authors": "Ken-ichi Okumura",
+    "title": "Hide and Seek with Massive Fields in Modulus Mediation",
+    "arxivId": "1909.13804",
+    "arxivUrl": "https://arxiv.org/abs/1909.13804",
+    "inspireUrl": "https://inspirehep.net/literature/1756795",
+    "journalRef": "Phys.Rev.Lett. 123 (2019) 151801",
+    "doiUrl": "https://doi.org/10.1103/PhysRevLett.123.151801"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-196",
+    "authors": "Kosuke Ishikawa, Okuto Morikawa, Akira Nakayama, Kazuya Shibata, Hiroshi Suzuki and Hiromasa Takaura",
+    "title": "Infrared renormalon in the supersymmetric $\\mathbb{C}P^{N-1}$ model on $\\mathbb{R} \\times S^1$",
+    "arxivId": "1908.00373",
+    "arxivUrl": "https://arxiv.org/abs/1908.00373",
+    "inspireUrl": "https://inspirehep.net/literature/1747531",
+    "journalRef": "PTEP 2020 (2020) 023B10",
+    "doiUrl": "https://doi.org/10.1093/ptep/ptaa002"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-197",
+    "authors": "Okuto Morikawa",
+    "title": "Numerical study of ADE-type $\\mathcal{N}=2$ Landau--Ginzburg models",
+    "arxivId": "1908.03411",
+    "arxivUrl": "https://arxiv.org/abs/1908.03411",
+    "inspireUrl": "https://inspirehep.net/literature/1748706",
+    "journalRef": "PoS LATTICE2019 (2019) 145",
+    "doiUrl": "https://doi.org/10.22323/1.363.0145"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-198",
+    "authors": "Masahiro Ashie, Okuto Morikawa, Hiroshi Suzuki, Hiromasa Takaura and Kengo Takeuchi",
+    "title": ": Infrared renormalon in $SU(N)$ QCD(adj.) on $\\mathbb{R}^3 \\times S^1$",
+    "arxivId": "1909.05489",
+    "arxivUrl": "https://arxiv.org/abs/1909.05489",
+    "inspireUrl": "https://inspirehep.net/literature/1753705",
+    "journalRef": "PTEP 2020 (2020) 023B01",
+    "doiUrl": "https://doi.org/10.1093/ptep/ptz157"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-199",
+    "authors": "Kosuke Ishikawa, Okuto Morikawa, Kazuya Shibata, Hiroshi Suzuki and Hiromasa Takaura",
+    "title": "Renormalon structure in compactified spacetime",
+    "arxivId": "1909.09579",
+    "arxivUrl": "https://arxiv.org/abs/1909.09579",
+    "inspireUrl": "https://inspirehep.net/literature/1755207",
+    "journalRef": "PTEP 2020 (2020) 013B01",
+    "doiUrl": "https://doi.org/10.1093/ptep/ptz147"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-200",
+    "authors": "Kazuyuki Kanaya, Atsushi Baba, Asobu Suzuki, Shinji Ejiri, Masakiyo Kitazawa, Hiroshi Suzuki, Yusuke Taniguchi, Takashi Umeda",
+    "title": "Study of 2+1 flavor finite-temperature QCD using improved Wilson quarks at the physical point with the gradient flow",
+    "arxivId": "1910.13036",
+    "arxivUrl": "https://arxiv.org/abs/1910.13036",
+    "inspireUrl": "https://inspirehep.net/literature/1761987",
+    "journalRef": "PoS LATTICE2019 (2019) 088",
+    "doiUrl": "https://doi.org/10.22323/1.363.0088"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-201",
+    "authors": "Taichiro Kugo and Naoki Yamatsu",
+    "title": "Dynamical Breaking to Special or Regular Subgroups in $SO(N)$ Nambu--Jona-Lasinio Model",
+    "arxivId": "1911.09834",
+    "arxivUrl": "https://arxiv.org/abs/1911.09834",
+    "inspireUrl": "https://inspirehep.net/literature/1766625",
+    "journalRef": "PTEP 2020 (2020) 023B09",
+    "doiUrl": "https://doi.org/10.1093/ptep/ptaa001"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-202",
+    "authors": "Minoru Tanaka, Koji Tsumura, Noboru Sasao, Satoshi Uetake, Motohiko Yoshimura",
+    "title": "QED background against atomic neutrino process with initial spatial phase",
+    "arxivId": "1912.02475",
+    "arxivUrl": "https://arxiv.org/abs/1912.02475",
+    "inspireUrl": "https://inspirehep.net/literature/1768639",
+    "journalRef": "Eur.Phys.J.Plus 135 (2020) 283",
+    "doiUrl": "https://doi.org/10.1140/epjp/s13360-020-00290-2"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-203",
+    "authors": "Yoshihiko Abe, Takashi Toma, Koji Tsumura",
+    "title": "Pseudo-Nambu-Goldstone dark matter from gauged U(1)_{B-L} symmetry",
+    "arxivId": "2001.03954",
+    "arxivUrl": "https://arxiv.org/abs/2001.03954",
+    "inspireUrl": "https://inspirehep.net/literature/1775273",
+    "journalRef": "JHEP 05 (2020) 057",
+    "doiUrl": "https://doi.org/10.1007/JHEP05(2020)057"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-204",
+    "authors": "Atsushi Baba, Asobu Suzuki, Shinji Ejiri, Kazuyuki Kanaya, Masakiyo Kitazawa, Hiroshi Suzuki, Yusuke Taniguchi, Takashi Umeda",
+    "title": "Calculation of PCAC mass with Wilson fermion using gradient flow",
+    "arxivId": "2001.01524",
+    "arxivUrl": "https://arxiv.org/abs/2001.01524",
+    "inspireUrl": "https://inspirehep.net/literature/1774120",
+    "journalRef": "PoS LATTICE2019 (2019) 191",
+    "doiUrl": "https://doi.org/10.22323/1.363.0191"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-205",
+    "authors": "Yukinari Sumino and Hiromasa Takaura",
+    "title": "On renormalons of static QCD potential at $u=1/2$ and $3/2$",
+    "arxivId": "2001.00770",
+    "arxivUrl": "https://arxiv.org/abs/2001.00770",
+    "inspireUrl": "https://inspirehep.net/literature/1774004",
+    "journalRef": "JHEP 05 (2020) 116",
+    "doiUrl": "https://doi.org/10.1007/JHEP05(2020)116"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-206",
+    "authors": "Kosuke Ishikawa, Okuto Morikawa, Kazuya Shibata, and Hiroshi Suzuki",
+    "title": "Vacuum energy of the supersymmetric $\\mathbb{C}P^{N-1}$ model on $\\mathbb{R} \\times S^1$ in the $1/N$ expansion",
+    "arxivId": "2001.07302",
+    "arxivUrl": "https://arxiv.org/abs/2001.07302",
+    "inspireUrl": "https://inspirehep.net/literature/1776764",
+    "journalRef": "PTEP 2020 (2020) 063B02",
+    "doiUrl": "https://doi.org/10.1093/ptep/ptaa066"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-207",
+    "authors": "Hiromasa Takaura",
+    "title": "Formulation for renormalon-free perturbative predictions beyond large-$\\beta_0$ approximation",
+    "arxivId": "2002.00428",
+    "arxivUrl": "https://arxiv.org/abs/2002.00428",
+    "inspireUrl": "https://inspirehep.net/literature/1778339",
+    "journalRef": "JHEP 10 (2020) 039",
+    "doiUrl": "https://doi.org/10.1007/JHEP10(2020)039"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-208",
+    "authors": "Yu Hamada, Koji Tsumura, Masatoshi Yamada",
+    "title": "Scalegenesis and fermionic dark matters in the flatland scenario",
+    "arxivId": "2002.03666",
+    "arxivUrl": "https://arxiv.org/abs/2002.03666",
+    "inspireUrl": "https://inspirehep.net/literature/1779464",
+    "journalRef": "Eur.Phys.J.C 80 (2020) 368",
+    "doiUrl": "https://doi.org/10.1140/epjc/s10052-020-7929-3"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-209",
+    "authors": "Shuichiro Funatsu, Hisaki Hatanaka, Yutaka Hosotani, Yuta Orikasa, and Naoki Yamatsu",
+    "title": "The Effective Potential and Universality in GUT Inspired Gauge-Higgs Unification",
+    "arxivId": "2002.09262",
+    "arxivUrl": "https://arxiv.org/abs/2002.09262",
+    "inspireUrl": "https://inspirehep.net/literature/1781758",
+    "journalRef": "Phys.Rev.D 102 (2020) 015005",
+    "doiUrl": "https://doi.org/10.1103/PhysRevD.102.015005"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-210",
+    "authors": "Okuto Morikawa and Hiromasa Takaura",
+    "title": "Identification of perturbative ambiguity canceled against bion",
+    "arxivId": "2003.04759",
+    "arxivUrl": "https://arxiv.org/abs/2003.04759",
+    "inspireUrl": "https://inspirehep.net/literature/1784794",
+    "journalRef": "Phys.Lett.B 807 (2020) 135570",
+    "doiUrl": "https://doi.org/10.1016/j.physletb.2020.135570"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-211",
+    "authors": "Yusuke Taniguchi, Shinji Ejiri, Kazuyuki Kanaya, Masakiyo Kitazawa, Hiroshi Suzuki, and Takashi Umeda",
+    "title": "$N_f = 2+1$ QCD thermodynamics with gradient flow using two-loop matching coefficients",
+    "arxivId": "2005.00251",
+    "arxivUrl": "https://arxiv.org/abs/2005.00251",
+    "inspireUrl": "https://inspirehep.net/literature/1793806",
+    "journalRef": "Phys.Rev.D 102 (2020) 014510",
+    "doiUrl": "https://doi.org/10.1103/PhysRevD.102.014510"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-212",
+    "authors": "Masahiro Ashie, Okuto Morikawa, Hiroshi Suzuki, and Hiromasa Takaura",
+    "title": "More on infrared renormalon in $SU(N)$ QCD(adj.) on $\\mathbb{R}^3 \\times S^1$",
+    "arxivId": "2005.07407",
+    "arxivUrl": "https://arxiv.org/abs/2005.07407",
+    "inspireUrl": "https://inspirehep.net/literature/1796597",
+    "journalRef": "PTEP 2020 (2020) 093B02",
+    "doiUrl": "https://doi.org/10.1093/ptep/ptaa096"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-213",
+    "authors": "Asobu Suzuki, Yusuke Taniguchi, Hiroshi Suzuki, and Kazuyuki Kanaya",
+    "title": "Four quark operators for kaon bag parameter with gradient flow",
+    "arxivId": "2006.06999",
+    "arxivUrl": "https://arxiv.org/abs/2006.06999",
+    "inspireUrl": "https://inspirehep.net/literature/1800924",
+    "journalRef": "Phys.Rev.D 102 (2020) 034508",
+    "doiUrl": "https://doi.org/10.1103/PhysRevD.102.034508"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-214",
+    "authors": "Shuichiro Funatsu, Hisaki Hatanaka, Yutaka Hosotani, Yuta Orikasa, and Naoki Yamatsu",
+    "title": "Fermion Pair Production at $e^- e^+$ Linear Collider Experiments in GUT Inspired Gauge-Higgs Unification",
+    "arxivId": "2006.02157",
+    "arxivUrl": "https://arxiv.org/abs/2006.02157",
+    "inspireUrl": "https://inspirehep.net/literature/1799221",
+    "journalRef": "Phys.Rev.D 102 (2020) 015029",
+    "doiUrl": "https://doi.org/10.1103/PhysRevD.102.015029"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-215",
+    "authors": "Naoki Yamatsu",
+    "title": "USp(32) Special Grand Unification",
+    "arxivId": "2007.08067",
+    "arxivUrl": "https://arxiv.org/abs/2007.08067",
+    "inspireUrl": "https://inspirehep.net/literature/1807290",
+    "journalRef": "",
+    "doiUrl": ""
+  },
+  {
+    "reportNumber": "KYUSHU-HET-216",
+    "authors": "Naoki Yamatsu",
+    "title": "Finite-Dimensional Lie Algebras and Their Representations for Unified Model Building",
+    "arxivId": "1511.08771",
+    "arxivUrl": "https://arxiv.org/abs/1511.08771",
+    "inspireUrl": "https://inspirehep.net/literature/1406971",
+    "journalRef": "",
+    "doiUrl": ""
+  },
+  {
+    "reportNumber": "KYUSHU-HET-217",
+    "authors": "Kento Asai, Shohei Okawa, and Koji Tsumura",
+    "title": "Search for U(1)_{L_mu - L_tau} charged Dark Matter with neutrino telescope",
+    "arxivId": "2011.03165",
+    "arxivUrl": "https://arxiv.org/abs/2011.03165",
+    "inspireUrl": "https://inspirehep.net/literature/1828786",
+    "journalRef": "JHEP 03 (2021) 047",
+    "doiUrl": "https://doi.org/10.1007/JHEP03(2021)047"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-218",
+    "authors": "Mizuki Shirogane, Shinji Ejiri, Ryo Iwami, Kazuyuki Kanaya, Masakiyo Kitazawa, Hiroshi Suzuki, Yusuke Taniguchi, and Takashi Umeda",
+    "title": "Latent heat and pressure gap at the first order deconfining phase transition of SU(3) Yang-Mills theory using the small flow-time expansion method",
+    "arxivId": "2011.10292",
+    "arxivUrl": "https://arxiv.org/abs/2011.10292",
+    "inspireUrl": "https://inspirehep.net/literature/1831903",
+    "journalRef": "PTEP 2021 (2021) 013B08",
+    "doiUrl": "https://doi.org/10.1093/ptep/ptaa184"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-219",
+    "authors": "Hidenori Sonoda and Hiroshi Suzuki",
+    "title": "Gradient flow exact renormalization group",
+    "arxivId": "2012.03568",
+    "arxivUrl": "https://arxiv.org/abs/2012.03568",
+    "inspireUrl": "https://inspirehep.net/literature/1835529",
+    "journalRef": "PTEP 2021 (2021) 023B05",
+    "doiUrl": "https://doi.org/10.1093/ptep/ptab006"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-220",
+    "authors": "Hiroshi Suzuki and Hiromasa Takaura",
+    "title": "t→0 extrapolation function in SFtX method for the energy-momentum tensor",
+    "arxivId": "2102.02174",
+    "arxivUrl": "https://arxiv.org/abs/2102.02174",
+    "inspireUrl": "https://inspirehep.net/literature/1844560",
+    "journalRef": "PTEP 2021 (2021) 073B02",
+    "doiUrl": "https://doi.org/10.1093/ptep/ptab068"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-221",
+    "authors": "Ryo Nagai, Masaharu Tanabashi, Koji Tsumura and Yoshiki Uchida",
+    "title": "Scalar and fermion on-shell amplitudes in generalized Higgs effective field theory",
+    "arxivId": "2102.08519",
+    "arxivUrl": "https://arxiv.org/abs/2102.08519",
+    "inspireUrl": "https://inspirehep.net/literature/1847185",
+    "journalRef": "Phys.Rev.D 104 (2021) 015001",
+    "doiUrl": "https://doi.org/10.1103/PhysRevD.104.015001"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-222",
+    "authors": "Shuichiro Funatsu, Hisaki Hatanaka, Yutaka Hosotani, Yuta Orikasa, and Naoki Yamatsu",
+    "title": "Linear Collider Signals of Z' Bosons in GUT Inspired Gauge-Higgs Unification",
+    "arxivId": "2103.16320",
+    "arxivUrl": "https://arxiv.org/abs/2103.16320",
+    "inspireUrl": "https://inspirehep.net/literature/1854570",
+    "journalRef": "",
+    "doiUrl": ""
+  },
+  {
+    "reportNumber": "KYUSHU-HET-223",
+    "authors": "Takahiro Ohata, Kengo Takeuchi, Koji Tsumura",
+    "title": "Baryon number non-conservation as Peccei-Quinn mechanism",
+    "arxivId": "2104.14139",
+    "arxivUrl": "https://arxiv.org/abs/2104.14139",
+    "inspireUrl": "https://inspirehep.net/literature/1861353",
+    "journalRef": "Phys.Rev.D 104 (2021) 035026",
+    "doiUrl": "https://doi.org/10.1103/PhysRevD.104.035026"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-224",
+    "authors": "Shuichiro Funatsu, Hisaki Hatanaka, Yutaka Hosotani, Yuta Orikasa, and Naoki Yamatsu",
+    "title": "Electroweak and Left-Right Phase Transitions in SO(5) × U (1) × SU (3) Gauge-Higgs Unification",
+    "arxivId": "2104.02870",
+    "arxivUrl": "https://arxiv.org/abs/2104.02870",
+    "inspireUrl": "https://inspirehep.net/literature/1856620",
+    "journalRef": "Phys.Rev.D 104 (2021) 115018",
+    "doiUrl": "https://doi.org/10.1103/PhysRevD.104.115018"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-225",
+    "authors": "Yoshihiko Abe, Takashi Toma, Koji Tsumura, and Naoki Yamatsu",
+    "title": "Pseudo-Nambu-Goldstone Dark Matter Model Inspired by Grand Unification",
+    "arxivId": "2104.13523",
+    "arxivUrl": "https://arxiv.org/abs/2104.13523",
+    "inspireUrl": "https://inspirehep.net/literature/1861164",
+    "journalRef": "Phys.Rev.D 104 (2021) 035011",
+    "doiUrl": "https://doi.org/10.1103/PhysRevD.104.035011"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-226",
+    "authors": "Yuki Miyakawa and Hiroshi Suzuki",
+    "title": "Gradient flow exact renormalization group---inclusion of fermion fields---",
+    "arxivId": "2106.11142",
+    "arxivUrl": "https://arxiv.org/abs/2106.11142",
+    "inspireUrl": "https://inspirehep.net/literature/1869489",
+    "journalRef": "PTEP 2021 (2021) 083B04",
+    "doiUrl": "https://doi.org/10.1093/ptep/ptab100"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-227",
+    "authors": "Takeshi Araki, Kento Asai, and Takashi Shimomura",
+    "title": "Electron Beam Dump Constraints on Light Bosons with Lepton Flavor Violating Couplings",
+    "arxivId": "2107.07487",
+    "arxivUrl": "https://arxiv.org/abs/2107.07487",
+    "inspireUrl": "https://inspirehep.net/literature/1885500",
+    "journalRef": "JHEP 11 (2021) 082",
+    "doiUrl": "https://doi.org/10.1007/JHEP11(2021)082"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-228",
+    "authors": "Kazuyuki Kanaya, Mizuki Shirogane, Shinji Ejiri, Ryo Iwami, Masakiyo Kitazawa, Hiroshi Suzuki, Yusuke Taniguchi, and Takashi Umeda",
+    "title": "Latent heat and pressure gap at the first-order deconfining phase transition of SU(3) Yang-Mills theory using the small flow-time expansion method",
+    "arxivId": "2110.10900",
+    "arxivUrl": "https://arxiv.org/abs/2110.10900",
+    "inspireUrl": "https://inspirehep.net/literature/1949584",
+    "journalRef": "PoS LATTICE2021 (2022) 064",
+    "doiUrl": "https://doi.org/10.22323/1.396.0064"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-229",
+    "authors": "Shuichiro Funatsu, Hisaki Hatanaka, Yutaka Hosotani, Yuta Orikasa, and Naoki Yamatsu",
+    "title": "Signals of W' and Z' Bosons at the LHC in the SU(3) x SO(5) × U (1) Gauge-Higgs Unification",
+    "arxivId": "2111.05624",
+    "arxivUrl": "https://arxiv.org/abs/2111.05624",
+    "inspireUrl": "https://inspirehep.net/literature/1965612",
+    "journalRef": "Phys.Rev.D 105 (2022) 055015",
+    "doiUrl": "https://doi.org/10.1103/PhysRevD.105.055015"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-230",
+    "authors": "Shuichiro Funatsu, Hisaki Hatanaka, Yutaka Hosotani, Yuta Orikasa, and Naoki Yamatsu",
+    "title": "Anomaly Flow by an Aharonov-Bohm Phase",
+    "arxivId": "2202.01393",
+    "arxivUrl": "https://arxiv.org/abs/2202.01393",
+    "inspireUrl": "https://inspirehep.net/literature/2026618",
+    "journalRef": "PTEP 2022 (2022) 043B04",
+    "doiUrl": "https://doi.org/10.1093/ptep/ptac052"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-231",
+    "authors": "Yuki Miyakawa, Hidenori Sonoda, Hiroshi Suzuki",
+    "title": "Manifestly gauge invariant exact renormalization group for quantum electrodynamics",
+    "arxivId": "2111.15529",
+    "arxivUrl": "https://arxiv.org/abs/2111.15529",
+    "inspireUrl": "https://inspirehep.net/literature/1980688",
+    "journalRef": "PTEP 2022 (2022) 023B02",
+    "doiUrl": "https://doi.org/10.1093/ptep/ptac003"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-232",
+    "authors": "Jinmian Li, Takaaki Nomura and Takashi Shimomura",
+    "title": "Inelastic Dark Matter from Scalar Boson Decays at FASER",
+    "arxivId": "2112.12432",
+    "arxivUrl": "https://arxiv.org/abs/2112.12432",
+    "inspireUrl": "https://inspirehep.net/literature/1996619",
+    "journalRef": "JHEP 09 (2022) 140",
+    "doiUrl": "https://doi.org/10.1007/JHEP09(2022)140"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-233",
+    "authors": "Hidenori Sonoda and Hiroshi Suzuki",
+    "title": "One-particle irreducible Wilson action in the gradient flow exact renormalization group formalism",
+    "arxivId": "2201.04448",
+    "arxivUrl": "https://arxiv.org/abs/2201.04448",
+    "inspireUrl": "https://inspirehep.net/literature/2009607",
+    "journalRef": "PTEP 2022 (2022) 053B01",
+    "doiUrl": "https://doi.org/10.1093/ptep/ptac047"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-234",
+    "authors": "Shota Kikuchi, Tatsuo Kobayashi, Hajime Otsuka, Morimitsu Tanimoto, Hikaru Uchida and Kei Yamamoto",
+    "title": "4D modular flavor symmetric models inspired by higher dimensional theory",
+    "arxivId": "2201.04505",
+    "arxivUrl": "https://arxiv.org/abs/2201.04505",
+    "inspireUrl": "https://inspirehep.net/literature/2009716",
+    "journalRef": "Phys.Rev.D 106 (2022) 035001",
+    "doiUrl": "https://doi.org/10.1103/PhysRevD.106.035001"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-235",
+    "authors": "Yuki Miyakawa",
+    "title": "Axial anomaly in the gradient flow exact renormalization group",
+    "arxivId": "2201.08181",
+    "arxivUrl": "https://arxiv.org/abs/2201.08181",
+    "inspireUrl": "https://inspirehep.net/literature/2014152",
+    "journalRef": "",
+    "doiUrl": ""
+  },
+  {
+    "reportNumber": "KYUSHU-HET-236",
+    "authors": "Hiroshi Okada and Hajime Otsuka",
+    "title": "Radiative neutrino masses from modular $A_4$ symmetry and supersymmetry breaking",
+    "arxivId": "2202.10089",
+    "arxivUrl": "https://arxiv.org/abs/2202.10089",
+    "inspireUrl": "https://inspirehep.net/literature/2035650",
+    "journalRef": "",
+    "doiUrl": ""
+  },
+  {
+    "reportNumber": "KYUSHU-HET-237",
+    "authors": "Shuichiro Funatsu, Hisaki Hatanaka, Yutaka Hosotani, Yuta Orikasa, and Naoki Yamatsu",
+    "title": "Bhabha Scattering in the Gauge-Higgs Unification",
+    "arxivId": "2203.16030",
+    "arxivUrl": "https://arxiv.org/abs/2203.16030",
+    "inspireUrl": "https://inspirehep.net/literature/2060126",
+    "journalRef": "Phys.Rev.D 106 (2022) 015010",
+    "doiUrl": "https://doi.org/10.1103/PhysRevD.106.015010"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-238",
+    "authors": "Shota Kikuchi, Tatsuo Kobayashi, Kaito Nasu, Hajime Otsuka, Shohei Takada, and Hikaru Uchida",
+    "title": "Modular symmetry of soft supersymmetry breaking terms",
+    "arxivId": "2203.14667",
+    "arxivUrl": "https://arxiv.org/abs/2203.14667",
+    "inspireUrl": "https://inspirehep.net/literature/2059013",
+    "journalRef": "PTEP 2022 (2022) 123B02",
+    "doiUrl": "https://doi.org/10.1093/ptep/ptac152"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-239",
+    "authors": "Tatsuo Kobayashi, Hajime Otsuka, Morimitsu Tanimoto and Kei Yamamoto",
+    "title": "Lepton flavor violation and lepton $(g-2)_{\\mu,e}$ in the modular symmetry",
+    "arxivId": "2204.12325",
+    "arxivUrl": "https://arxiv.org/abs/2204.12325",
+    "inspireUrl": "https://inspirehep.net/literature/2072450",
+    "journalRef": "JHEP 08 (2022) 013",
+    "doiUrl": "https://doi.org/10.1007/JHEP08(2022)013"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-240",
+    "authors": "Hajime Otsuka and Yutaka Sakamura",
+    "title": "Spacetime evolution during moduli stabilization in radiation dominated era beyond 4D effective theory",
+    "arxivId": "2205.00175",
+    "arxivUrl": "https://arxiv.org/abs/2205.00175",
+    "inspireUrl": "https://inspirehep.net/literature/2075473",
+    "journalRef": "JHEP 08 (2022) 120",
+    "doiUrl": "https://doi.org/10.1007/JHEP08(2022)120"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-241",
+    "authors": "Kento Asai, Coh Miyao, Shohei Okawa, Koji Tsumura",
+    "title": "Scalar Dark Matter with a μτ Flavored Mediator",
+    "arxivId": "2205.08998",
+    "arxivUrl": "https://arxiv.org/abs/2205.08998",
+    "inspireUrl": "https://inspirehep.net/literature/2083945",
+    "journalRef": "Phys.Rev.D 106 (2022) 035017",
+    "doiUrl": "https://doi.org/10.1103/PhysRevD.106.035017"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-242",
+    "authors": "Kayoung Ban, Dhong Yeon Cheong, Hiroshi Okada, Hajime Otsuka, Jong-Chul Park, and Seong Chan Park",
+    "title": "Phenomenological implications on a hidden sector from the Festina Lente bound",
+    "arxivId": "2206.00890",
+    "arxivUrl": "https://arxiv.org/abs/2206.00890",
+    "inspireUrl": "https://inspirehep.net/literature/2090822",
+    "journalRef": "PTEP 2023 (2023) 013B04",
+    "doiUrl": "https://doi.org/10.1093/ptep/ptac176"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-243",
+    "authors": "Keiya Ishiguro, Hiroshi Okada and Hajime Otsuka",
+    "title": "Residual flavor symmetry breaking in the landscape of modular flavor models",
+    "arxivId": "2206.04313",
+    "arxivUrl": "https://arxiv.org/abs/2206.04313",
+    "inspireUrl": "https://inspirehep.net/literature/2093859",
+    "journalRef": "JHEP 09 (2022) 072",
+    "doiUrl": "https://doi.org/10.1007/JHEP09(2022)072"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-244",
+    "authors": "Shintaro Eijima, Osamu Seto and Takashi Shimomura",
+    "title": "Revisiting sterile neutrino dark matter in gauged $U(1)_{B-L}$ model",
+    "arxivId": "2207.01775",
+    "arxivUrl": "https://arxiv.org/abs/2207.01775",
+    "inspireUrl": "https://inspirehep.net/literature/2106111",
+    "journalRef": "Phys.Rev.D 106 (2022) 103513",
+    "doiUrl": "https://doi.org/10.1103/PhysRevD.106.103513"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-245",
+    "authors": "Tatsuo Kobayashi, Satsuki Nishimura, Hajime Otsuka, Morimitsu Tanimoto and Kei Yamamoto",
+    "title": "Generalized Matter Parities from Finite Modular Symmetries",
+    "arxivId": "2207.14014",
+    "arxivUrl": "https://arxiv.org/abs/2207.14014",
+    "inspireUrl": "https://inspirehep.net/literature/2127419",
+    "journalRef": "PTEP 2023 (2023) 043B02",
+    "doiUrl": "https://doi.org/10.1093/ptep/ptad041"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-246",
+    "authors": "Hajime Otsuka, Takashi Shimomura, Koji Tsumura, Yoshiki Uchida, Naoki Yamatsu",
+    "title": "Pseudo-Nambu-Goldstone Dark Matter from Non-Abelian Gauge Symmetry",
+    "arxivId": "2210.08696",
+    "arxivUrl": "https://arxiv.org/abs/2210.08696",
+    "inspireUrl": "https://inspirehep.net/literature/2166034",
+    "journalRef": "Phys.Rev.D 106 (2022) 115033",
+    "doiUrl": "https://doi.org/10.1103/PhysRevD.106.115033"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-247",
+    "authors": "Takeshi Araki, Kento Asai, Hidetoshi Otono, Takashi Shimomura and Yosuke Takubo",
+    "title": "Search for Lepton Flavor Violating Decay at FASER",
+    "arxivId": "2210.12730",
+    "arxivUrl": "https://arxiv.org/abs/2210.12730",
+    "inspireUrl": "https://inspirehep.net/literature/2169713",
+    "journalRef": "JHEP 01 (2023) 145",
+    "doiUrl": "https://doi.org/10.1007/JHEP01(2023)145"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-248",
+    "authors": "Motokazu Abe, Hiroshi Suzuki, Okuto Morikawa",
+    "title": "Fractional topological charge in lattice Abelian gauge theory",
+    "arxivId": "2210.12967",
+    "arxivUrl": "https://arxiv.org/abs/2210.12967",
+    "inspireUrl": "https://inspirehep.net/literature/2169563",
+    "journalRef": "PTEP 2023 (2023) 023B03",
+    "doiUrl": "https://doi.org/10.1093/ptep/ptad009"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-249",
+    "authors": "Tatsuo Kobayashi, Hajime Otsuka, Makoto Sakamoto, Yoshiyuki Tatsuta and Hikaru Uchida",
+    "title": "Index theorem on magnetized blow-up manifold of $T^2/\\mathbb{Z}_N$",
+    "arxivId": "2211.04595",
+    "arxivUrl": "https://arxiv.org/abs/2211.04595",
+    "inspireUrl": "https://inspirehep.net/literature/2178484",
+    "journalRef": "Phys.Rev.D 107 (2023) 075032",
+    "doiUrl": "https://doi.org/10.1103/PhysRevD.107.075032"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-250",
+    "authors": "Tatsuo Kobayashi, Hajime Otsuka, Makoto Sakamoto, Yoshiyuki Tatsuta and Hikaru Uchida",
+    "title": "Zero-mode wave functions by localized gauge fluxes",
+    "arxivId": "2211.04596",
+    "arxivUrl": "https://arxiv.org/abs/2211.04596",
+    "inspireUrl": "https://inspirehep.net/literature/2178482",
+    "journalRef": "",
+    "doiUrl": ""
+  },
+  {
+    "reportNumber": "KYUSHU-HET-251",
+    "authors": "Kazuyuki Kanaya, Ryo Ashikawa, Shinji Ejiri, Masakiyo Kitazawa, Hiroshi Suzuki, Naoki Wakabayashi",
+    "title": "Phase structure and critical point in heavy-quark QCD at finite temperature",
+    "arxivId": "2211.08631",
+    "arxivUrl": "https://arxiv.org/abs/2211.08631",
+    "inspireUrl": "https://inspirehep.net/literature/2182728",
+    "journalRef": "PoS LATTICE2022 (2023) 177",
+    "doiUrl": "https://doi.org/10.22323/1.430.0177"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-252",
+    "authors": "Arindam Das, Takaaki Nomura and Takashi Shimomura",
+    "title": "Multi muon/anti-muon signals via productions of gauge and scalar bosons in a $U(1)_{L_\\mu - L_\\tau}$ model at muonic colliders",
+    "arxivId": "2212.11674",
+    "arxivUrl": "https://arxiv.org/abs/2212.11674",
+    "inspireUrl": "https://inspirehep.net/literature/2187403",
+    "journalRef": "Eur.Phys.J.C 83 (2023) 786",
+    "doiUrl": "https://doi.org/10.1140/epjc/s10052-023-11955-4"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-253",
+    "authors": "Hajime Otsuka and Yutaka Sakamura",
+    "title": "Full higher-dimensional analysis of moduli oscillation and radiation in expanding universe",
+    "arxivId": "2212.14314",
+    "arxivUrl": "https://arxiv.org/abs/2212.14314",
+    "inspireUrl": "https://inspirehep.net/literature/2619269",
+    "journalRef": "JHEP 05 (2023) 231",
+    "doiUrl": "https://doi.org/10.1007/JHEP05(2023)231"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-254",
+    "authors": "Keiko I. Nagao, Takaaki Nomura, Hiroshi Okada and Takashi Shimomura",
+    "title": "Neutrinophilic DM annihilation in a model with $U(1)_{L_\\mu - L_\\tau} \\times U(1)_{H}$ gauge symmetry",
+    "arxivId": "2212.14528",
+    "arxivUrl": "https://arxiv.org/abs/2212.14528",
+    "inspireUrl": "https://inspirehep.net/literature/2619254",
+    "journalRef": "Phys.Rev.D 108 (2023) 055032",
+    "doiUrl": "https://doi.org/10.1103/PhysRevD.108.055032"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-255",
+    "authors": "Shota Kikuchi, Tatsuo Kobayashi, Kaito Nasu, Hajime Otsuka, Shohei Takada, and Hikaru Uchida",
+    "title": "Remark on modular weights in low-energy effective field theory from type II string theory",
+    "arxivId": "2301.10356",
+    "arxivUrl": "https://arxiv.org/abs/2301.10356",
+    "inspireUrl": "https://inspirehep.net/literature/2626427",
+    "journalRef": "JHEP 04 (2023) 003",
+    "doiUrl": "https://doi.org/10.1007/JHEP04(2023)003"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-256",
+    "authors": "Yoshihiko Abe, Tetsutaro Higaki, Fumiya Kaneko, Tatsuo Kobayashi, Hajime Otsuka",
+    "title": "Moduli inflation from modular flavor symmetries",
+    "arxivId": "2303.02947",
+    "arxivUrl": "https://arxiv.org/abs/2303.02947",
+    "inspireUrl": "https://inspirehep.net/literature/2638694",
+    "journalRef": "JHEP 06 (2023) 187",
+    "doiUrl": "https://doi.org/10.1007/JHEP06(2023)187"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-257",
+    "authors": "Satsuki Nishimura, Coh Miyao, Hajime Otsuka",
+    "title": "Exploring the flavor structure of quarks and leptons with reinforcement learning",
+    "arxivId": "2304.14176",
+    "arxivUrl": "https://arxiv.org/abs/2304.14176",
+    "inspireUrl": "https://inspirehep.net/literature/2654793",
+    "journalRef": "JHEP 12 (2023) 021",
+    "doiUrl": "https://doi.org/10.1007/JHEP12(2023)021"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-258",
+    "authors": "Motokazu Abe, Okuto Morikawa, Soma Onoda, Hiroshi Suzuki, Yuya Tanizaki",
+    "title": "Topology of SU(N) lattice gauge theories coupled with \\mathbb{Z}_N 2-form gauge fields",
+    "arxivId": "2303.10977",
+    "arxivUrl": "https://arxiv.org/abs/2303.10977",
+    "inspireUrl": "https://inspirehep.net/literature/2644173",
+    "journalRef": "JHEP 08 (2023) 118",
+    "doiUrl": "https://doi.org/10.1007/JHEP08(2023)118"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-259",
+    "authors": "Motokazu Abe, Okuto Morikawa, Soma Onoda",
+    "title": "A note on lattice description of generalized symmetries in $SU(N)/\\mathbb{Z}_N$ gauge theories",
+    "arxivId": "2304.11813",
+    "arxivUrl": "https://arxiv.org/abs/2304.11813",
+    "inspireUrl": "https://inspirehep.net/literature/2653688",
+    "journalRef": "Phys.Rev.D 108 (2023) 014506",
+    "doiUrl": "https://doi.org/10.1103/PhysRevD.108.014506"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-260",
+    "authors": "Motokazu Abe, Okuto Morikawa, Soma Onoda, Hiroshi Suzuki, Yuya Tanizaki",
+    "title": "Magnetic operators in 2D compact scalar field theories on the lattice",
+    "arxivId": "2304.14815",
+    "arxivUrl": "https://arxiv.org/abs/2304.14815",
+    "inspireUrl": "https://inspirehep.net/literature/2655273",
+    "journalRef": "PTEP 2023 (2023) 073B01",
+    "doiUrl": "https://doi.org/10.1093/ptep/ptad078"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-261",
+    "authors": "Yuki Miyakawa, Hidenori Sonoda, and Hiroshi Suzuki",
+    "title": "Chiral anomaly as a composite operator in the gradient flow exact renormalziation group formalism",
+    "arxivId": "2304.14753",
+    "arxivUrl": "https://arxiv.org/abs/2304.14753",
+    "inspireUrl": "https://inspirehep.net/literature/2655286",
+    "journalRef": "PTEP 2023 (2023) 063B03",
+    "doiUrl": "https://doi.org/10.1093/ptep/ptad074"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-262",
+    "authors": "Takeshi Araki, Kento Asai, Tomoya Iizawa, Hidetoshi Otono, Takashi Shimomura, Yosuke Takubo",
+    "title": "New Constraint on Dark Photon at T2K Off-Axis Near Detector",
+    "arxivId": "2308.01565",
+    "arxivUrl": "https://arxiv.org/abs/2308.01565",
+    "inspireUrl": "https://inspirehep.net/literature/2685088",
+    "journalRef": "JHEP 11 (2023) 056",
+    "doiUrl": "https://doi.org/10.1007/JHEP11(2023)056"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-263",
+    "authors": "Takafumi Kai, Keiya Ishiguro, Hiroshi Okada, Hajime Otsuka",
+    "title": "Flavor, CP and Metaplectic Modular Symmetries in Type IIB Chiral Flux Vacua",
+    "arxivId": "2305.19155",
+    "arxivUrl": "https://arxiv.org/abs/2305.19155",
+    "inspireUrl": "https://inspirehep.net/literature/2663783",
+    "journalRef": "JHEP 12 (2023) 136",
+    "doiUrl": "https://doi.org/10.1007/JHEP12(2023)136"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-264",
+    "authors": "Shilpa Jangid, Hiroshi Okada",
+    "title": "Exploring CP-violation in Y=0 inert triplet with real singlet",
+    "arxivId": "2304.13325",
+    "arxivUrl": "https://arxiv.org/abs/2304.13325",
+    "inspireUrl": "https://inspirehep.net/literature/2654466",
+    "journalRef": "Phys.Rev.D 108 (2023) 055025",
+    "doiUrl": "https://doi.org/10.1103/PhysRevD.108.055025"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-265",
+    "authors": "Michele Cicoli, Alessandro Cotellucci, Hajime Otsuka",
+    "title": "Sequestered String Models imply Split Supersymmetry",
+    "arxivId": "2309.05752",
+    "arxivUrl": "https://arxiv.org/abs/2309.05752",
+    "inspireUrl": "https://inspirehep.net/literature/2696687",
+    "journalRef": "JHEP 01 (2024) 059",
+    "doiUrl": "https://doi.org/10.1007/JHEP01(2024)059"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-266",
+    "authors": "Shilpa Jangid, Hiroshi Okada",
+    "title": "Electroweak phase transition with radiative symmetry breaking in Type-II seesaw with inert doublet",
+    "arxivId": "2310.12591",
+    "arxivUrl": "https://arxiv.org/abs/2310.12591",
+    "inspireUrl": "https://inspirehep.net/literature/2712710",
+    "journalRef": "Phys.Rev.D 109 (2024) 015001",
+    "doiUrl": "https://doi.org/10.1103/PhysRevD.109.015001"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-267",
+    "authors": "Keiya Ishiguro, Takafumi Kai, Satsuki Nishimura, Hajime Otsuka, Maki Takeuchi",
+    "title": "Upper bound on the Atiyah–Singer index from tadpole cancellation",
+    "arxivId": "2308.12421",
+    "arxivUrl": "https://arxiv.org/abs/2308.12421",
+    "inspireUrl": "https://inspirehep.net/literature/2690620",
+    "journalRef": "JHEP 01 (2024) 200",
+    "doiUrl": "https://doi.org/10.1007/JHEP01(2024)200"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-268",
+    "authors": "Takaaki Nomura, Hiroshi Okada, Hajime Otsuka",
+    "title": "Texture zeros realization in a three-loop radiative neutrino mass model from modular A_4 symmetry",
+    "arxivId": "2309.13921",
+    "arxivUrl": "https://arxiv.org/abs/2309.13921",
+    "inspireUrl": "https://inspirehep.net/literature/2702573",
+    "journalRef": "Nucl.Phys.B 1004 (2024) 116579",
+    "doiUrl": "https://doi.org/10.1016/j.nuclphysb.2024.116579"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-269",
+    "authors": "Motokazu Abe, Naoto Kan, Okuto Morikawa, Yuta Nagoya, Soma Onoda, Hiroki Wada",
+    "title": "Higher-group symmetry in lattice gauge theories with restricted topological sectors",
+    "arxivId": "2310.01787",
+    "arxivUrl": "https://arxiv.org/abs/2310.01787",
+    "inspireUrl": "https://inspirehep.net/literature/2705353",
+    "journalRef": "PoS LATTICE2023 (2024) 365",
+    "doiUrl": "https://doi.org/10.22323/1.453.0365"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-270",
+    "authors": "Tatsuo Kobayashi, Takaaki Nomura, Hiroshi Okada, Hajime Otsuka",
+    "title": "Modular flavor models with positive modular weights : a new lepton model building",
+    "arxivId": "2310.10091",
+    "arxivUrl": "https://arxiv.org/abs/2310.10091",
+    "inspireUrl": "https://inspirehep.net/literature/2711292",
+    "journalRef": "JHEP 01 (2024) 121",
+    "doiUrl": "https://doi.org/10.1007/JHEP01(2024)121"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-271",
+    "authors": "Keiya Ishiguro, Takaaki Nomura, Hiroshi Okada, Yuta Orikasa, Hajime Otsuka",
+    "title": "Novel moduli space in modular flavor models : a case study for modular T' seesaw model with hidden SU(2) gauge symmetry",
+    "arxivId": "2310.17068",
+    "arxivUrl": "https://arxiv.org/abs/2310.17068",
+    "inspireUrl": "https://inspirehep.net/literature/2714475",
+    "journalRef": "",
+    "doiUrl": ""
+  },
+  {
+    "reportNumber": "KYUSHU-HET-272",
+    "authors": "Cheng-Wei Chiang, Koji Tsumura, Yoshiki Uchida, Naoki Yamatsu",
+    "title": "Pseudo-Nambu-Goldstone Dark Matter in SU (7) Grand Unification",
+    "arxivId": "2311.13753",
+    "arxivUrl": "https://arxiv.org/abs/2311.13753",
+    "inspireUrl": "https://inspirehep.net/literature/2725928",
+    "journalRef": "Phys.Rev.D 109 (2024) 055040",
+    "doiUrl": "https://doi.org/10.1103/PhysRevD.109.055040"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-273",
+    "authors": "Shilpa Jangid, Keiko I. Nagao, Hiroshi Okada",
+    "title": "Neutrino Mass Model and Dark Matter with Y=0 Inert Triplet Scalar",
+    "arxivId": "2311.08901",
+    "arxivUrl": "https://arxiv.org/abs/2311.08901",
+    "inspireUrl": "https://inspirehep.net/literature/2722738",
+    "journalRef": "Phys.Lett.B 858 (2024) 139030",
+    "doiUrl": "https://doi.org/10.1016/j.physletb.2024.139030"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-274",
+    "authors": "Keiya Ishiguro, Takafumi Kai, Tatsuo Kobayashi, Hajime Otsuka",
+    "title": "Flux Landscape with Enhanced Symmetry Not on SL(2, \\mathbb{Z}) Elliptic Points",
+    "arxivId": "2311.12425",
+    "arxivUrl": "https://arxiv.org/abs/2311.12425",
+    "inspireUrl": "https://inspirehep.net/literature/2724926",
+    "journalRef": "JHEP 02 (2024) 099",
+    "doiUrl": "https://doi.org/10.1007/JHEP02(2024)099"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-275",
+    "authors": "Kento Akamatsu, Takuya Hirose, Nobuhito Maru, Akio Nago",
+    "title": "Electroweak Symmetry Breaking in Two Higgs Doublet Model from 6D Gauge-Higgs Unification on T^2/Z_2",
+    "arxivId": "2312.08608",
+    "arxivUrl": "https://arxiv.org/abs/2312.08608",
+    "inspireUrl": "https://inspirehep.net/literature/2737288",
+    "journalRef": "",
+    "doiUrl": ""
+  },
+  {
+    "reportNumber": "KYUSHU-HET-276",
+    "authors": "Keiya Ishiguro, Satsuki Nishimura, Hajime Otsuka",
+    "title": "Autoencoder-Driven Clustering of Intersecting D-brane Models via Tadpole Charge",
+    "arxivId": "2312.07181",
+    "arxivUrl": "https://arxiv.org/abs/2312.07181",
+    "inspireUrl": "https://inspirehep.net/literature/2735891",
+    "journalRef": "JHEP 08 (2024) 133",
+    "doiUrl": "https://doi.org/10.1007/JHEP08(2024)133"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-277",
+    "authors": "Tomohiro Abe, Yu Hamada, Koji Tsumura",
+    "title": "A model of pseudo-Nambu–Goldstone dark matter with two complex scalars",
+    "arxivId": "2401.02397",
+    "arxivUrl": "https://arxiv.org/abs/2401.02397",
+    "inspireUrl": "https://inspirehep.net/literature/2743315",
+    "journalRef": "JHEP 05 (2024) 076",
+    "doiUrl": "https://doi.org/10.1007/JHEP05(2024)076"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-278",
+    "authors": "Motokazu Abe, Okuto Morikawa, Soma Onoda, Hiroshi Suzuki, Yuya Tanizaki",
+    "title": "Lattice construction of mixed 't~Hooft anomaly with higher-form symmetry",
+    "arxivId": "2401.00495",
+    "arxivUrl": "https://arxiv.org/abs/2401.00495",
+    "inspireUrl": "https://inspirehep.net/literature/2742422",
+    "journalRef": "PoS LATTICE2023 (2024) 361",
+    "doiUrl": "https://doi.org/10.22323/1.453.0361"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-279",
+    "authors": "Yamato Honda, Okuto Morikawa, Soma Onoda, Hiroshi Suzuki",
+    "title": "Lattice realization of the axial U(1) non-invertible symmetry",
+    "arxivId": "2401.01331",
+    "arxivUrl": "https://arxiv.org/abs/2401.01331",
+    "inspireUrl": "https://inspirehep.net/literature/2742781",
+    "journalRef": "PTEP 2024 (2024) 043B04",
+    "doiUrl": "https://doi.org/10.1093/ptep/ptae040"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-280",
+    "authors": "Kento Asai, Coh Miyao, Shohei Okawa, Koji Tsumura",
+    "title": "New Constraints on Gauged U(1)Lμ-Lτ Models via Z-Z' Mixing",
+    "arxivId": "2401.17613",
+    "arxivUrl": "https://arxiv.org/abs/2401.17613",
+    "inspireUrl": "https://inspirehep.net/literature/2753548",
+    "journalRef": "JHEP 12 (2024) 018",
+    "doiUrl": "https://doi.org/10.1007/JHEP12(2024)018"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-281",
+    "authors": "Keiya Ishiguro, Tatsuo Kobayashi, Satsuki Nishimura, Hajime Otsuka",
+    "title": "Modular forms and hierarchical Yukawa couplings in heterotic Calabi-Yau compactifications",
+    "arxivId": "2402.13563",
+    "arxivUrl": "https://arxiv.org/abs/2402.13563",
+    "inspireUrl": "https://inspirehep.net/literature/2760476",
+    "journalRef": "JHEP 08 (2024) 088",
+    "doiUrl": "https://doi.org/10.1007/JHEP08(2024)088"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-282",
+    "authors": "Hajime Otsuka, Yutaka Sakamura",
+    "title": "Induced moduli oscillation by radiation and space expansion in a higher-dimensional model",
+    "arxivId": "2402.15547",
+    "arxivUrl": "https://arxiv.org/abs/2402.15547",
+    "inspireUrl": "https://inspirehep.net/literature/2761753",
+    "journalRef": "Phys.Rev.D 109 (2024) 115019",
+    "doiUrl": "https://doi.org/10.1103/PhysRevD.109.115019"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-283",
+    "authors": "Okuto Morikawa, Soma Onoda, Hiroshi Suzuki",
+    "title": "Yet another lattice formulation of 2D $U(1)$ chiral gauge theory via bosonization",
+    "arxivId": "2403.03420",
+    "arxivUrl": "https://arxiv.org/abs/2403.03420",
+    "inspireUrl": "https://inspirehep.net/literature/2765775",
+    "journalRef": "PTEP 2024 (2024) 063B01",
+    "doiUrl": "https://doi.org/10.1093/ptep/ptae075"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-284",
+    "authors": "Takuya Hirose, Hajime Otsuka, Koji Tsumura, Yoshiki Uchida",
+    "title": "Nambu-Goldstone Modes in Magnetized $T^{2n}$ Extra Dimensions",
+    "arxivId": "2403.16801",
+    "arxivUrl": "https://arxiv.org/abs/2403.16801",
+    "inspireUrl": "https://inspirehep.net/literature/2771737",
+    "journalRef": "Phys.Rev.D 110 (2024) 035032",
+    "doiUrl": "https://doi.org/10.1103/PhysRevD.110.035032"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-285",
+    "authors": "Andreas Karch, Yuya Kusuki, Hirosi Ooguri, Hao-Yu Sun, and Mianqi Wang",
+    "title": "Universal Bound on Effective Central Charge and Its Saturation",
+    "arxivId": "2404.01515",
+    "arxivUrl": "https://arxiv.org/abs/2404.01515",
+    "inspireUrl": "https://inspirehep.net/literature/2773452",
+    "journalRef": "Phys.Rev.Lett. 133 (2024) 091604",
+    "doiUrl": "https://doi.org/10.1103/PhysRevLett.133.091604"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-286",
+    "authors": "Yamato Honda, Soma Onoda, Hiroshi Suzuki",
+    "title": "Action of the axial $U(1)$ non-invertible symmetry on the 't~Hooft line operator: A lattice gauge theory study",
+    "arxivId": "2403.16752",
+    "arxivUrl": "https://arxiv.org/abs/2403.16752",
+    "inspireUrl": "https://inspirehep.net/literature/2771652",
+    "journalRef": "PTEP 2024 (2024) 073B04",
+    "doiUrl": "https://doi.org/10.1093/ptep/ptae093"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-287",
+    "authors": "Hajime Otsuka, Ryo Yokokura",
+    "title": "Stringy constraints on primordial electromagnetic fields in axion inflation",
+    "arxivId": "2404.00698",
+    "arxivUrl": "https://arxiv.org/abs/2404.00698",
+    "inspireUrl": "https://inspirehep.net/literature/2772892",
+    "journalRef": "JHEP 07 (2024) 055",
+    "doiUrl": "https://doi.org/10.1007/JHEP07(2024)055"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-288",
+    "authors": "Takeshi Araki, Kento Asai, Yohei Nakashima, and Takashi Shimomura",
+    "title": "Dark photon pair production via off-shell dark Higgs at FASER",
+    "arxivId": "2406.17760",
+    "arxivUrl": "https://arxiv.org/abs/2406.17760",
+    "inspireUrl": "https://inspirehep.net/literature/2802025",
+    "journalRef": "JHEP 12 (2024) 124",
+    "doiUrl": "https://doi.org/10.1007/JHEP12(2024)124"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-289",
+    "authors": "Tetsutaro Higaki, Tatsuo Kobayashi, Kaito Nasu, Hajime Otsuka",
+    "title": "Spontaneous CP violation and partially broken modular flavor symmetries",
+    "arxivId": "2405.18813",
+    "arxivUrl": "https://arxiv.org/abs/2405.18813",
+    "inspireUrl": "https://inspirehep.net/literature/2791252",
+    "journalRef": "JHEP 09 (2024) 024",
+    "doiUrl": "https://doi.org/10.1007/JHEP09(2024)024"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-290",
+    "authors": "Yamato Honda, Soma Onoda, Hiroshi Suzuki",
+    "title": "Action of the axial $U(1)$ non-invertible symmetry on the 't~Hooft line operator: A simple argument",
+    "arxivId": "2405.07669",
+    "arxivUrl": "https://arxiv.org/abs/2405.07669",
+    "inspireUrl": "https://inspirehep.net/literature/2786174",
+    "journalRef": "PTEP 2024 (2024) 113B02",
+    "doiUrl": "https://doi.org/10.1093/ptep/ptae167"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-291",
+    "authors": "Keiya Ishiguro, Takafumi Kai, Hajime Otsuka",
+    "title": "Stabilization of a twisted modulus on a mirror of rigid Calabi-Yau manifold",
+    "arxivId": "2406.08970",
+    "arxivUrl": "https://arxiv.org/abs/2406.08970",
+    "inspireUrl": "https://inspirehep.net/literature/2797746",
+    "journalRef": "JHEP 10 (2024) 060",
+    "doiUrl": "https://doi.org/10.1007/JHEP10(2024)060"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-292",
+    "authors": "Tatsuo Kobayashi and Hajime Otsuka",
+    "title": "Non-invertible flavor symmetries in magnetized extra dimensions",
+    "arxivId": "2408.13984",
+    "arxivUrl": "https://arxiv.org/abs/2408.13984",
+    "inspireUrl": "https://inspirehep.net/literature/2821766",
+    "journalRef": "JHEP 11 (2024) 120",
+    "doiUrl": "https://doi.org/10.1007/JHEP11(2024)120"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-293",
+    "authors": "Tatsuo Kobayashi, Kaito Nasu, Ryusei Nishida, Hajime Otsuka, and Shohei Takada",
+    "title": "Flavor symmetries from modular subgroups in magnetized compactifications",
+    "arxivId": "2409.02458",
+    "arxivUrl": "https://arxiv.org/abs/2409.02458",
+    "inspireUrl": "https://inspirehep.net/literature/2824830",
+    "journalRef": "JHEP 12 (2024) 128",
+    "doiUrl": "https://doi.org/10.1007/JHEP12(2024)128"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-294",
+    "authors": "Justin Kaidi, Yuji Tachikawa, Kazuya Yonekura",
+    "title": "On non-supersymmetric heterotic branes",
+    "arxivId": "2411.04344",
+    "arxivUrl": "https://arxiv.org/abs/2411.04344",
+    "inspireUrl": "https://inspirehep.net/literature/2846400",
+    "journalRef": "JHEP 03 (2025) 211",
+    "doiUrl": "https://doi.org/10.1007/JHEP03(2025)211"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-295",
+    "authors": "Tatsuo Kobayashi, Hajime Otsuka, Morimitsu Tanimoto",
+    "title": "Yukawa textures from non-invertible symmetries",
+    "arxivId": "2409.05270",
+    "arxivUrl": "https://arxiv.org/abs/2409.05270",
+    "inspireUrl": "https://inspirehep.net/literature/2826316",
+    "journalRef": "JHEP 12 (2024) 117",
+    "doiUrl": "https://doi.org/10.1007/JHEP12(2024)117"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-296",
+    "authors": "Satsuki Nishimura, Coh Miyao, Hajime Otsuka",
+    "title": "Reinforcement learning-based statistical search strategy for an axion model from flavor",
+    "arxivId": "2409.10023",
+    "arxivUrl": "https://arxiv.org/abs/2409.10023",
+    "inspireUrl": "https://inspirehep.net/literature/2828820",
+    "journalRef": "JHEP 10 (2025) 043",
+    "doiUrl": "https://doi.org/10.1007/JHEP10(2025)043"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-297",
+    "authors": "Yuya Kusuki, Bowei Liu, Shuhei Ohyama, Shinsei Ryu, and Junjia Zhang",
+    "title": "Multi wavefunction overlap and multi entropy for topological ground states in (2+1) dimensions",
+    "arxivId": "2410.08284",
+    "arxivUrl": "https://arxiv.org/abs/2410.08284",
+    "inspireUrl": "https://inspirehep.net/literature/2839362",
+    "journalRef": "Phys.Rev.B 112 (2025) 125160",
+    "doiUrl": "https://doi.org/10.1103/tjcf-yryh"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-298",
+    "authors": "Shuta Funakoshi, Junichiro Kawamura, Tatsuo Kobayashi, Kaito Nasu, and Hajime Otsuka",
+    "title": "Moduli stabilization and light axion by Siegel modular forms",
+    "arxivId": "2409.19261",
+    "arxivUrl": "https://arxiv.org/abs/2409.19261",
+    "inspireUrl": "https://inspirehep.net/literature/2835651",
+    "journalRef": "JHEP 03 (2025) 093",
+    "doiUrl": "https://doi.org/10.1007/JHEP03(2025)093"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-299",
+    "authors": "Tatsuo Kobayashi, Hajime Otsuka, Shohei Takada, and Hikaru Uchida",
+    "title": "Modular symmetry of localized modes",
+    "arxivId": "2410.05788",
+    "arxivUrl": "https://arxiv.org/abs/2410.05788",
+    "inspireUrl": "https://inspirehep.net/literature/2838541",
+    "journalRef": "Phys.Rev.D 110 (2024) 125013",
+    "doiUrl": "https://doi.org/10.1103/PhysRevD.110.125013"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-300",
+    "authors": "Okuto Morikawa, Mizuki Tanaka, Masakiyo Kitazawa, Hiroshi Suzuki",
+    "title": "Lattice study of RG fixed point based on gradient flow in 3D O(N) sigma model",
+    "arxivId": "2410.19425",
+    "arxivUrl": "https://arxiv.org/abs/2410.19425",
+    "inspireUrl": "https://inspirehep.net/literature/2842788",
+    "journalRef": "PoS LATTICE2024 (2025) 349",
+    "doiUrl": "https://doi.org/10.22323/1.466.0349"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-301",
+    "authors": "Yuya Kusuki, Sara Murciano, Hirosi Ooguri, Sridip Pal",
+    "title": "Entanglement asymmetry and symmetry defects in boundary conformal field theory",
+    "arxivId": "2411.09792",
+    "arxivUrl": "https://arxiv.org/abs/2411.09792",
+    "inspireUrl": "https://inspirehep.net/literature/2849185",
+    "journalRef": "JHEP 01 (2025) 057",
+    "doiUrl": "https://doi.org/10.1007/JHEP01(2025)057"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-302",
+    "authors": "Shuntaro Aoki and Hajime Otsuka",
+    "title": "Inflationary constraints on the moduli-dependent species scale in modular invariant theories",
+    "arxivId": "2411.08467",
+    "arxivUrl": "https://arxiv.org/abs/2411.08467",
+    "inspireUrl": "https://inspirehep.net/literature/2848036",
+    "journalRef": "Phys.Rev.D 112 (2025) 046006",
+    "doiUrl": "https://doi.org/10.1103/k3xy-5r32"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-303",
+    "authors": "Okuto Morikawa and Hiroshi Suzuki",
+    "title": "Winding number on 3D lattice",
+    "arxivId": "2412.03888",
+    "arxivUrl": "https://arxiv.org/abs/2412.03888",
+    "inspireUrl": "https://inspirehep.net/literature/2856216",
+    "journalRef": "",
+    "doiUrl": ""
+  },
+  {
+    "reportNumber": "KYUSHU-HET-304",
+    "authors": "Shuta Funakoshi, Tatsuo Kobayashi and Hajime Otsuka",
+    "title": "Quantum aspects of non-invertible flavor symmetries in intersecting/magnetized D-brane models",
+    "arxivId": "2412.12524",
+    "arxivUrl": "https://arxiv.org/abs/2412.12524",
+    "inspireUrl": "https://inspirehep.net/literature/2860414",
+    "journalRef": "JHEP 04 (2025) 183",
+    "doiUrl": "https://doi.org/10.1007/JHEP04(2025)183"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-305",
+    "authors": "Yamato Honda, Soma Onoda and Hiroshi Suzuki",
+    "title": "Axion QED as a Lattice Gauge Theory and Non-Invertible Symmetry",
+    "arxivId": "2412.08142",
+    "arxivUrl": "https://arxiv.org/abs/2412.08142",
+    "inspireUrl": "https://inspirehep.net/literature/2858250",
+    "journalRef": "PoS LATTICE2024 (2025) 358",
+    "doiUrl": "https://doi.org/10.22323/1.466.0358"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-306",
+    "authors": "Yuya Kusuki",
+    "title": "Modern Approach to 2D Conformal Field Theory",
+    "arxivId": "2412.18307",
+    "arxivUrl": "https://arxiv.org/abs/2412.18307",
+    "inspireUrl": "https://inspirehep.net/literature/2862678",
+    "journalRef": "",
+    "doiUrl": ""
+  },
+  {
+    "reportNumber": "KYUSHU-HET-307",
+    "authors": "Motokazu Abe, Okuto Morikawa, and Hiroshi Suzuki",
+    "title": "Monte Carlo simulation of the SU(2)/Z_2 Yang-Mills theory",
+    "arxivId": "2501.00286",
+    "arxivUrl": "https://arxiv.org/abs/2501.00286",
+    "inspireUrl": "https://inspirehep.net/literature/2864288",
+    "journalRef": "PTEP 2025 (2025) 063B03",
+    "doiUrl": "https://doi.org/10.1093/ptep/ptaf075"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-308",
+    "authors": "Okuto Morikawa and Hiroshi Suzuki",
+    "title": "Direct Monte Carlo computation of the 't Hooft partition function",
+    "arxivId": "2501.07042",
+    "arxivUrl": "https://arxiv.org/abs/2501.07042",
+    "inspireUrl": "https://inspirehep.net/literature/2867838",
+    "journalRef": "PTEP 2025 (2025) 063B04",
+    "doiUrl": "https://doi.org/10.1093/ptep/ptaf072"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-309",
+    "authors": "Motokazu Abe and Okuto Morikawa",
+    "title": "Numerical simulation of fractional topological charge in SU(N) gauge theory coupled with Z_N 2-form gauge fields",
+    "arxivId": "2501.11438",
+    "arxivUrl": "https://arxiv.org/abs/2501.11438",
+    "inspireUrl": "https://inspirehep.net/literature/2870957",
+    "journalRef": "PoS LATTICE2024 (2025) 380",
+    "doiUrl": "https://doi.org/10.22323/1.466.0380"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-310",
+    "authors": "Okuto Morikawa, Soma Onoda, Hiroshi Suzuki",
+    "title": "Novel Lattice Formulation of 2D Chiral Gauge Theory via Bosonization",
+    "arxivId": "2501.18949",
+    "arxivUrl": "https://arxiv.org/abs/2501.18949",
+    "inspireUrl": "https://inspirehep.net/literature/2874431",
+    "journalRef": "PoS LATTICE2024 (2025) 363",
+    "doiUrl": "https://doi.org/10.22323/1.466.0363"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-311",
+    "authors": "Keiya Ishiguro, Takafumi Kai, Tatsuo Kobayashi, Yuichi Koga and Hajime Otsuka",
+    "title": "Classification of Modular Symmetries in Type IIB Flux Landscape",
+    "arxivId": "2502.20743",
+    "arxivUrl": "https://arxiv.org/abs/2502.20743",
+    "inspireUrl": "https://inspirehep.net/literature/2895767",
+    "journalRef": "PTEP 2025 (2025) 093B07",
+    "doiUrl": "https://doi.org/10.1093/ptep/ptaf112"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-312",
+    "authors": "Tatsuo Kobayashi, Yume Nishioka, Hajime Otsuka, Morimitsu Tanimoto",
+    "title": "More about quark Yukawa textures from selection rules without group actions",
+    "arxivId": "2503.09966",
+    "arxivUrl": "https://arxiv.org/abs/2503.09966",
+    "inspireUrl": "https://inspirehep.net/literature/2899879",
+    "journalRef": "JHEP 05 (2025) 177",
+    "doiUrl": "https://doi.org/10.1007/JHEP05(2025)177"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-313",
+    "authors": "Satsuki Nishimura, Hajime Otsuka, Haruki Uchiyama",
+    "title": "Exploring the flavor structure of leptons via diffusion models",
+    "arxivId": "2503.21432",
+    "arxivUrl": "https://arxiv.org/abs/2503.21432",
+    "inspireUrl": "https://inspirehep.net/literature/2905030",
+    "journalRef": "Phys.Rev.D 113 (2026) 055030",
+    "doiUrl": "https://doi.org/10.1103/rtnd-vwt9"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-314",
+    "authors": "Yuya Kusuki, Hirosi Ooguri, Sridip Pal",
+    "title": "Universality of Rényi Entropy in Conformal Field Theory",
+    "arxivId": "2503.24353",
+    "arxivUrl": "https://arxiv.org/abs/2503.24353",
+    "inspireUrl": "https://inspirehep.net/literature/2906701",
+    "journalRef": "Phys.Rev.Lett. 135 (2025) 061603",
+    "doiUrl": "https://doi.org/10.1103/fsg7-bs7q"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-XXX",
+    "authors": "Linear Collider Collaboration",
+    "title": "A Linear Collider Vision for the Future of Particle Physics",
+    "arxivId": "2503.19983",
+    "arxivUrl": "https://arxiv.org/abs/2503.19983",
+    "inspireUrl": "https://inspirehep.net/literature/2904473",
+    "journalRef": "Eur.Phys.J.ST 235 (2026) 1641",
+    "doiUrl": "https://doi.org/10.1140/epjs/s11734-026-02153-w"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-XXX",
+    "authors": "Linear Collider Collaboration",
+    "title": "The Linear Collider Facility (LCF) at CERN",
+    "arxivId": "2503.24049",
+    "arxivUrl": "https://arxiv.org/abs/2503.24049",
+    "inspireUrl": "https://inspirehep.net/literature/2904473",
+    "journalRef": "Eur.Phys.J.ST 235 (2026) 1641",
+    "doiUrl": "https://doi.org/10.1140/epjs/s11734-026-02153-w"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-315",
+    "authors": "Shuta Funakoshi, Yuichi Koga, Hajime Otsuka",
+    "title": "Classification of Modular Symmetries in Non-Supersymmetric Heterotic String theories",
+    "arxivId": "2503.23741",
+    "arxivUrl": "https://arxiv.org/abs/2503.23741",
+    "inspireUrl": "https://inspirehep.net/literature/2906211",
+    "journalRef": "JHEP 08 (2026) 008",
+    "doiUrl": "https://doi.org/10.1007/JHEP08(2026)008"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-316",
+    "authors": "Satsuki Nishimura, Hajime Otsuka, Haruki Uchiyama",
+    "title": "Diffusion-model approach to flavor models: A case study for S4' modular flavor model",
+    "arxivId": "2504.00944",
+    "arxivUrl": "https://arxiv.org/abs/2504.00944",
+    "inspireUrl": "https://inspirehep.net/literature/2906752",
+    "journalRef": "PTEP 2026 (2026) 053B08",
+    "doiUrl": "https://doi.org/10.1093/ptep/ptag069"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-317",
+    "authors": "Shuntaro Aoki, Hajime Otsuka, Ryota Yanagita",
+    "title": "Higgs-Modular Inflation",
+    "arxivId": "2504.01622",
+    "arxivUrl": "https://arxiv.org/abs/2504.01622",
+    "inspireUrl": "https://inspirehep.net/literature/2907258",
+    "journalRef": "Phys.Rev.D 112 (2025) 043505",
+    "doiUrl": "https://doi.org/10.1103/v4z9-676d"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-318",
+    "authors": "Jun Dong, Tatsuo Kobayashi, Ryusei Nishida, Satsuki Nishimura, Hajime Otsuka",
+    "title": "Coupling Selection Rules in Heterotic Calabi-Yau Compactifications",
+    "arxivId": "2504.09773",
+    "arxivUrl": "https://arxiv.org/abs/2504.09773",
+    "inspireUrl": "https://inspirehep.net/literature/2911912",
+    "journalRef": "JHEP 09 (2025) 012",
+    "doiUrl": "https://doi.org/10.1007/JHEP09(2025)012"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-319",
+    "authors": "Riasat Sheikh, Takashi Toma, Koji Tsumura",
+    "title": "Pseudo-Nambu-Goldstone-boson Dark Matter from Three Complex Scalars",
+    "arxivId": "2504.19886",
+    "arxivUrl": "https://arxiv.org/abs/2504.19886",
+    "inspireUrl": "https://inspirehep.net/literature/2915998",
+    "journalRef": "JHEP 08 (2025) 018",
+    "doiUrl": "https://doi.org/10.1007/JHEP08(2025)018"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-320",
+    "authors": "Soma Onoda",
+    "title": "t~Hooft line in 4D $U(1)$ lattice gauge theory and a microscopic description of dyon's statistics",
+    "arxivId": "2505.05050",
+    "arxivUrl": "https://arxiv.org/abs/2505.05050",
+    "inspireUrl": "https://inspirehep.net/literature/2919458",
+    "journalRef": "PTEP 2026 (2026) 013B04",
+    "doiUrl": "https://doi.org/10.1093/ptep/ptaf176"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-321",
+    "authors": "Tatsuo Kobayashi, Hajime Otsuka, Morimitsu Tanimoto, Haruki Uchida",
+    "title": "Lepton mass textures from non-invertible multiplication rules",
+    "arxivId": "2505.07262",
+    "arxivUrl": "https://arxiv.org/abs/2505.07262",
+    "inspireUrl": "https://inspirehep.net/literature/2920314",
+    "journalRef": "JHEP 08 (2025) 189",
+    "doiUrl": "https://doi.org/10.1007/JHEP08(2025)189"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-322",
+    "authors": "Hajime Otsuka, Yutaka Sakamura",
+    "title": "Response of Kaluza-Klein mass spectrum to deformations of rugby-ball compact space",
+    "arxivId": "2505.13736",
+    "arxivUrl": "https://arxiv.org/abs/2505.13736",
+    "inspireUrl": "https://inspirehep.net/literature/2922888",
+    "journalRef": "PTEP 2026 (2026) 023B01",
+    "doiUrl": "https://doi.org/10.1093/ptep/ptaf192"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-323",
+    "authors": "Yuta Hamada, Arata Ishige, Yuichi Koga",
+    "title": "More on 8d non-supersymmetric branes and heterotic strings",
+    "arxivId": "2505.15144",
+    "arxivUrl": "https://arxiv.org/abs/2505.15144",
+    "inspireUrl": "https://inspirehep.net/literature/2923561",
+    "journalRef": "Phys.Rev.D 113 (2026) 046012",
+    "doiUrl": "https://doi.org/10.1103/yb7p-425g"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-324",
+    "authors": "Tatsuo Kobayashi, Hiroshi Okada, Hajime Otsuka",
+    "title": "Radiative neutrino mass models from non-invertible selection rules",
+    "arxivId": "2505.14878",
+    "arxivUrl": "https://arxiv.org/abs/2505.14878",
+    "inspireUrl": "https://inspirehep.net/literature/2923470",
+    "journalRef": "JHEP 12 (2025) 111",
+    "doiUrl": "https://doi.org/10.1007/JHEP12(2025)111"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-325",
+    "authors": "Tatsuo Kobayashi, Hironobu Mita, Hajime Otsuka, Riku Sakuma",
+    "title": "Matter symmetries in supersymmetric standard models from non-invertible selection rules",
+    "arxivId": "2506.10241",
+    "arxivUrl": "https://arxiv.org/abs/2506.10241",
+    "inspireUrl": "https://inspirehep.net/literature/2933844",
+    "journalRef": "PTEP 2026 (2026) 033B01",
+    "doiUrl": "https://doi.org/10.1093/ptep/ptag016"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-326",
+    "authors": "Yuefeng Liu, Boyang Yu",
+    "title": "Non-conformal Line Defect (Shell Operator) in AdS3/CFT2: Spinning and Higher Point Correlators",
+    "arxivId": "2506.12711",
+    "arxivUrl": "https://arxiv.org/abs/2506.12711",
+    "inspireUrl": "https://inspirehep.net/literature/2935162",
+    "journalRef": "JHEP 10 (2025) 161",
+    "doiUrl": "https://doi.org/10.1007/JHEP10(2025)161"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-327",
+    "authors": "Yichul Choi, Hyunsoo Ha, Dongyeob Kim, Yuya Kusuki, Shuhei Ohyama, Shinsei Ryu",
+    "title": "Higher Structures on Boundary Conformal Manifolds: Higher Berry Phase and Boundary Conformal Field Theory",
+    "arxivId": "2507.12525",
+    "arxivUrl": "https://arxiv.org/abs/2507.12525",
+    "inspireUrl": "https://inspirehep.net/literature/2948335",
+    "journalRef": "Phys.Rev.D 113 (2026) 106005",
+    "doiUrl": "https://doi.org/10.1103/z8pw-8ckx"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-328",
+    "authors": "Hidenori Sonoda and Hiroshi Suzuki",
+    "title": "A basis of the gradient flow exact renormalization group for gauge theory",
+    "arxivId": "2506.23567",
+    "arxivUrl": "https://arxiv.org/abs/2506.23567",
+    "inspireUrl": "https://inspirehep.net/literature/2940176",
+    "journalRef": "PTEP 2025 (2025) 093B05",
+    "doiUrl": "https://doi.org/10.1093/ptep/ptaf115"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-329",
+    "authors": "Jun Dong, Tim Jeric, Tatsuo Kobayashi, Ryusei Nishida, Hajime Otsuka",
+    "title": "On discrete gauging and non-invertible selection rules",
+    "arxivId": "2507.02375",
+    "arxivUrl": "https://arxiv.org/abs/2507.02375",
+    "inspireUrl": "https://inspirehep.net/literature/2941982",
+    "journalRef": "Phys.Rev.D 113 (2026) 056028",
+    "doiUrl": "https://doi.org/10.1103/nsvv-l2dy"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-330",
+    "authors": "Yoshiki Fukusumi, Yuma Furuta",
+    "title": "Homomorphism, substructure and ideal: Elementary but rigorous aspects of renormalization group or hierarchical structure of topological orders",
+    "arxivId": "2506.23155",
+    "arxivUrl": "https://arxiv.org/abs/2506.23155",
+    "inspireUrl": "https://inspirehep.net/literature/2940257",
+    "journalRef": "Phys.Rev.B 113 (2026) 155103",
+    "doiUrl": "https://doi.org/10.1103/1t7d-sjcq"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-331",
+    "authors": "Keiya Ishiguro, Takafumi Kai, Tatsuo Kobayashi, Hajime Otsuka",
+    "title": "Stringy Constraints on Modular Flavor Models",
+    "arxivId": "2508.12392",
+    "arxivUrl": "https://arxiv.org/abs/2508.12392",
+    "inspireUrl": "https://inspirehep.net/literature/2961741",
+    "journalRef": "",
+    "doiUrl": ""
+  },
+  {
+    "reportNumber": "KYUSHU-HET-332",
+    "authors": "Wataru Harada, Justin Kaidi, Yuya Kusuki, Yuefeng Liu",
+    "title": "New Crosscap States",
+    "arxivId": "2508.18357",
+    "arxivUrl": "https://arxiv.org/abs/2508.18357",
+    "inspireUrl": "https://inspirehep.net/literature/2964069",
+    "journalRef": "PTEP 2026 (2026) 033B03",
+    "doiUrl": "https://doi.org/10.1093/ptep/ptag022"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-333",
+    "authors": "Shota Komatsu, Yuya Kusuki, Marco Meineri, Hirosi Ooguri",
+    "title": "Continuous Family of Conformal Field Theories Implies Exactly Marginal Operators",
+    "arxivId": "2512.11045",
+    "arxivUrl": "https://arxiv.org/abs/2512.11045",
+    "inspireUrl": "https://inspirehep.net/literature/3092510",
+    "journalRef": "Phys.Rev.Lett. 136 (2026) 241603",
+    "doiUrl": "https://doi.org/10.1103/4759-7qj2"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-334",
+    "authors": "Tatsuo Kobayashi, Hajime Otsuka, Tsutomu T. Yanagida",
+    "title": "Non-invertible Symmetry as a Solution to the Strong CP Problem in a GUT-inspired Standard Model",
+    "arxivId": "2508.12287",
+    "arxivUrl": "https://arxiv.org/abs/2508.12287",
+    "inspireUrl": "https://inspirehep.net/literature/2961778",
+    "journalRef": "Phys.Rev.D 113 (2026) 055016",
+    "doiUrl": "https://doi.org/10.1103/vbd5-5cp3"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-335",
+    "authors": "Justin Kaidi, Xiaoyi Shi, Soichiro Shimamori, Zhengdi Sun",
+    "title": "The SymTFT for N-ality Defects: Part I",
+    "arxivId": "2509.19429",
+    "arxivUrl": "https://arxiv.org/abs/2509.19429",
+    "inspireUrl": "https://inspirehep.net/literature/2973105",
+    "journalRef": "",
+    "doiUrl": ""
+  },
+  {
+    "reportNumber": "KYUSHU-HET-336",
+    "authors": "Sotaro Nagao and Hiroshi Suzuki",
+    "title": "Yang-Mills $\\beta$ function in the gradient flow exact renormalization group",
+    "arxivId": "2508.16828",
+    "arxivUrl": "https://arxiv.org/abs/2508.16828",
+    "inspireUrl": "https://inspirehep.net/literature/2963562",
+    "journalRef": "PTEP 2025 (2025) 123B03",
+    "doiUrl": "https://doi.org/10.1093/ptep/ptaf152"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-337",
+    "authors": "Soma Onoda, Osamu Fukushima, Ryusuke Hamazaki, Okuto Morikawa",
+    "title": "Eigenstate Thermalization Hypothesis with Projective Representation",
+    "arxivId": "2509.01931",
+    "arxivUrl": "https://arxiv.org/abs/2509.01931",
+    "inspireUrl": "https://inspirehep.net/literature/2966138",
+    "journalRef": "JHEP 06 (2026) 138",
+    "doiUrl": "https://doi.org/10.1007/JHEP06(2026)138"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-338",
+    "authors": "Shuntaro Aoki, Hajime Otsuka, Ryota Yanagida",
+    "title": "Heavy Field Effects on Inflationary Models in Light of ACT Data",
+    "arxivId": "2509.06739",
+    "arxivUrl": "https://arxiv.org/abs/2509.06739",
+    "inspireUrl": "https://inspirehep.net/literature/2967446",
+    "journalRef": "JCAP 11 (2025) 088",
+    "doiUrl": "https://doi.org/10.1088/1475-7516/2025/11/088"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-339",
+    "authors": "Tatsuo Kobayashi, Ryusei Nishida, Hajime Otsuka",
+    "title": "Non-Invertible Selection Rules on Heterotic Non-Abelian Orbifolds",
+    "arxivId": "2509.10019",
+    "arxivUrl": "https://arxiv.org/abs/2509.10019",
+    "inspireUrl": "https://inspirehep.net/literature/2969248",
+    "journalRef": "JHEP 03 (2026) 158",
+    "doiUrl": "https://doi.org/10.1007/JHEP03(2026)158"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-340",
+    "authors": "Tatsuo Kobayashi, Hajime Otsuka, Morimitsu Tanimoto, Tsutomu T. Yanagida",
+    "title": "GUT-motivated non-invertible symmetry as a solution to the strong CP problem and the neutrino CP-violating phase",
+    "arxivId": "2510.01680",
+    "arxivUrl": "https://arxiv.org/abs/2510.01680",
+    "inspireUrl": "https://inspirehep.net/literature/3034034",
+    "journalRef": "Phys.Rev.D 113 (2026) 095034",
+    "doiUrl": "https://doi.org/10.1103/f7bw-qlgs"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-341",
+    "authors": "Yuma Furuta, Yuya Kusuki, Toshiki Onagi",
+    "title": "Transmission Coefficients from Phantom Currents",
+    "arxivId": "2511.00356",
+    "arxivUrl": "https://arxiv.org/abs/2511.00356",
+    "inspireUrl": "https://inspirehep.net/literature/3076136",
+    "journalRef": "Phys.Rev.D 113 (2026) 045008",
+    "doiUrl": "https://doi.org/10.1103/fdfb-tkz4"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-342",
+    "authors": "Shohei Okawa, Yuji Omura",
+    "title": "Novel bounds on neutrino portal dark matter from leptonic meson decays",
+    "arxivId": "2511.08102",
+    "arxivUrl": "https://arxiv.org/abs/2511.08102",
+    "inspireUrl": "https://inspirehep.net/literature/3081701",
+    "journalRef": "JHEP 03 (2026) 074",
+    "doiUrl": "https://doi.org/10.1007/JHEP03(2026)074"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-343",
+    "authors": "Jan Albert, Yamato Honda, Justin Kaidi, Yunqin Zheng",
+    "title": "Haagerup Symmetry in $(E_8)_1$?",
+    "arxivId": "2512.08225",
+    "arxivUrl": "https://arxiv.org/abs/2512.08225",
+    "inspireUrl": "https://inspirehep.net/literature/3091068",
+    "journalRef": "Phys.Rev.Lett. 136 (2026) 091603",
+    "doiUrl": "https://doi.org/10.1103/6tzz-tvp7"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-344",
+    "authors": "Yuya Kusuki, Sridip Pal, Hiroyasu Tajima",
+    "title": "Entanglement Asymmetry from Resource Theory: Application to Weak and Strong Symmetry",
+    "arxivId": "",
+    "arxivUrl": "",
+    "inspireUrl": "",
+    "journalRef": "",
+    "doiUrl": ""
+  },
+  {
+    "reportNumber": "KYUSHU-HET-345",
+    "authors": "Tatsuo Kobayashi, Hajime Otsuka",
+    "title": "Generalized CP from non-invertible selection rules",
+    "arxivId": "2512.16376",
+    "arxivUrl": "https://arxiv.org/abs/2512.16376",
+    "inspireUrl": "https://inspirehep.net/literature/3093976",
+    "journalRef": "",
+    "doiUrl": ""
+  },
+  {
+    "reportNumber": "KYUSHU-HET-346",
+    "authors": "Tim Jeric, Tatsuo Kobayashi, Hajime Otsuka, Maki Takeuchi, Hikaru Uchida",
+    "title": "Modular weights of wave functions on magnetized torus",
+    "arxivId": "2512.18574",
+    "arxivUrl": "https://arxiv.org/abs/2512.18574",
+    "inspireUrl": "https://inspirehep.net/literature/3094735",
+    "journalRef": "JHEP 05 (2026) 006",
+    "doiUrl": "https://doi.org/10.1007/JHEP05(2026)006"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-347",
+    "authors": "Yuichiro Nakai, Hajime Otsuka, Yoshihiro Shigekami, Zhihao Zhang",
+    "title": "The Minimal Supersymmetric Standard Model with Non-Invertible Selection Rules",
+    "arxivId": "2512.21509",
+    "arxivUrl": "https://arxiv.org/abs/2512.21509",
+    "inspireUrl": "https://inspirehep.net/literature/3095765",
+    "journalRef": "Eur.Phys.J.C 86 (2026) 970",
+    "doiUrl": "https://doi.org/[link removed]"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-348",
+    "authors": "Okuto Morikawa, Shoya Ogawa, Soma Onoda",
+    "title": "Geometric phase of exceptional point as quantum resonance in complex scaling method",
+    "arxivId": "2512.24528",
+    "arxivUrl": "https://arxiv.org/abs/2512.24528",
+    "inspireUrl": "https://inspirehep.net/literature/3096391",
+    "journalRef": "Phys.Rev.A 113 (2026) 052225",
+    "doiUrl": "https://doi.org/10.1103/pf6y-lxzp"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-349",
+    "authors": "Federico Mescia, Shohei Okawa, Joel Swallow, Claudio Toni",
+    "title": "Dark Matter emission at Belle II and NA62 in Minimal Flavor Violation framework",
+    "arxivId": "2601.08907",
+    "arxivUrl": "https://arxiv.org/abs/2601.08907",
+    "inspireUrl": "https://inspirehep.net/literature/3104997",
+    "journalRef": "Phys.Rev.D 113 (2026) 095014",
+    "doiUrl": "https://doi.org/10.1103/7dlz-bwlz"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-350",
+    "authors": "Ryuichiro Kitano, Shohei Okawa",
+    "title": "UV cut-off of the Standard Model and proton decays",
+    "arxivId": "2601.16297",
+    "arxivUrl": "https://arxiv.org/abs/2601.16297",
+    "inspireUrl": "https://inspirehep.net/literature/3110767",
+    "journalRef": "JHEP 10 (2026) 074",
+    "doiUrl": "https://doi.org/10.1007/JHEP10(2026)074"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-351",
+    "authors": "Okuto Morikawa, Hiroshi Suzuki",
+    "title": "Direct numerical simulation of the 't Hooft partition function and (de)confining phases",
+    "arxivId": "2601.20159",
+    "arxivUrl": "https://arxiv.org/abs/2601.20159",
+    "inspireUrl": "https://inspirehep.net/literature/3112510",
+    "journalRef": "PoS LATTICE2025 (2026) 182",
+    "doiUrl": "https://doi.org/10.22323/1.518.0182"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-352",
+    "authors": "Jun Dong, Tatsuo Kobayashi, Shuhei Miyamoto, Hajime Otsuka",
+    "title": "Yukawa Textures with Enhanced Symmetries in Heterotic Calabi-Yau Compactifications",
+    "arxivId": "2603.00864",
+    "arxivUrl": "https://arxiv.org/abs/2603.00864",
+    "inspireUrl": "https://inspirehep.net/literature/3124684",
+    "journalRef": "JHEP 06 (2026) 273",
+    "doiUrl": "https://doi.org/10.1007/JHEP06(2026)273"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-353",
+    "authors": "Hiroshi Okada, Hajime Otsuka",
+    "title": "Dynamical CP Violation from Non-Invertible Selection Rules",
+    "arxivId": "2604.04423",
+    "arxivUrl": "https://arxiv.org/abs/2604.04423",
+    "inspireUrl": "https://inspirehep.net/literature/3139381",
+    "journalRef": "JHEP 08 (2026) 078",
+    "doiUrl": "https://doi.org/10.1007/JHEP08(2026)078"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-354",
+    "authors": "Justin Kaidi",
+    "title": "Introduction to Generalized Symmetries",
+    "arxivId": "2603.08798",
+    "arxivUrl": "https://arxiv.org/abs/2603.08798",
+    "inspireUrl": "https://inspirehep.net/literature/3128125",
+    "journalRef": "",
+    "doiUrl": ""
+  },
+  {
+    "reportNumber": "KYUSHU-HET-355",
+    "authors": "Sorato Nagao and Hiroshi Suzuki",
+    "title": "Gauge invariant non-pertubative Wilson action in quantum electrodynamics",
+    "arxivId": "2603.11626",
+    "arxivUrl": "https://arxiv.org/abs/2603.11626",
+    "inspireUrl": "https://inspirehep.net/literature/3128725",
+    "journalRef": "PTEP 2026 (2026) 073B01",
+    "doiUrl": "https://doi.org/10.1093/ptep/ptag085"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-356",
+    "authors": "Jun Dong, Tatsuo Kobayashi, Shuhei Miyamoto, Ryusei Nishida, Hajime Otsuka",
+    "title": "Residual group-like symmetries in selection rules without group actions",
+    "arxivId": "2603.14836",
+    "arxivUrl": "https://arxiv.org/abs/2603.14836",
+    "inspireUrl": "https://inspirehep.net/literature/3129872",
+    "journalRef": "",
+    "doiUrl": ""
+  },
+  {
+    "reportNumber": "KYUSHU-HET-357",
+    "authors": "Takeshi Araki, Kento Asai, Yohei Nakashima, Osamu Seto, Takashi Shimomura, and Yoshiki Uchida",
+    "title": "Dark photon and U(1)$_{B-L}$ gauge boson from dark Higgs boson decays at FASER and SHiP",
+    "arxivId": "2603.28882",
+    "arxivUrl": "https://arxiv.org/abs/2603.28882",
+    "inspireUrl": "https://inspirehep.net/literature/3137626",
+    "journalRef": "JHEP 10 (2026) 257",
+    "doiUrl": "https://doi.org/10.1007/JHEP10(2026)257"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-358",
+    "authors": "Tatsuo Kobayashi, Hajime Otsuka, Hikaru Uchida",
+    "title": "Massive modes on magnetized blow-up manifold of T2/ZN",
+    "arxivId": "2604.06635",
+    "arxivUrl": "https://arxiv.org/abs/2604.06635",
+    "inspireUrl": "https://inspirehep.net/literature/3141830",
+    "journalRef": "",
+    "doiUrl": ""
+  },
+  {
+    "reportNumber": "KYUSHU-HET-359",
+    "authors": "Riasat Sheikh, Takashi Toma, Koji Tsumura",
+    "title": "Two component pseudo-Nambu-Goldstone-boson dark matter",
+    "arxivId": "2604.12435",
+    "arxivUrl": "https://arxiv.org/abs/2604.12435",
+    "inspireUrl": "https://inspirehep.net/literature/3144758",
+    "journalRef": "",
+    "doiUrl": ""
+  },
+  {
+    "reportNumber": "KYUSHU-HET-360",
+    "authors": "Yamato Honda, Justin Kaidi, Ippo Orii",
+    "title": "Parafermionizing the Monster",
+    "arxivId": "2605.10902",
+    "arxivUrl": "https://arxiv.org/abs/2605.10902",
+    "inspireUrl": "https://inspirehep.net/literature/3154253",
+    "journalRef": "JHEP 08 (2026) 204",
+    "doiUrl": "https://doi.org/10.1007/JHEP08(2026)204"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-361",
+    "authors": "Motoko Fujiwara, Takashi Toma",
+    "title": "Boosted dark matter via semi-annihilation in a radiative neutrino mass model",
+    "arxivId": "2606.02751",
+    "arxivUrl": "https://arxiv.org/abs/2606.02751",
+    "inspireUrl": "https://inspirehep.net/literature/3164806",
+    "journalRef": "JHEP 08 (2026) 207",
+    "doiUrl": "https://doi.org/10.1007/JHEP08(2026)207"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-362",
+    "authors": "Tomohiro Abe, Motoko Fujiwara, Junji Hisano",
+    "title": "Sommerfeld Enhancement in Spin-1 Electroweak Dark Matter",
+    "arxivId": "2606.16442",
+    "arxivUrl": "https://arxiv.org/abs/2606.16442",
+    "inspireUrl": "https://inspirehep.net/literature/3168820",
+    "journalRef": "",
+    "doiUrl": ""
+  },
+  {
+    "reportNumber": "KYUSHU-HET-363",
+    "authors": "Soma Onoda",
+    "title": "Lattice chiral non-Abelian gauge symmetry via bosonization",
+    "arxivId": "2606.12358",
+    "arxivUrl": "https://arxiv.org/abs/2606.12358",
+    "inspireUrl": "https://inspirehep.net/literature/3167493",
+    "journalRef": "",
+    "doiUrl": ""
+  },
+  {
+    "reportNumber": "KYUSHU-HET-364",
+    "authors": "Yuma Furuta, Wataru Harada, Yuya Kusuki, Yin Tang",
+    "title": "Complex Conformal Manifolds",
+    "arxivId": "2606.30720",
+    "arxivUrl": "https://arxiv.org/abs/2606.30720",
+    "inspireUrl": "https://inspirehep.net/literature/3175044",
+    "journalRef": "",
+    "doiUrl": ""
+  },
+  {
+    "reportNumber": "KYUSHU-HET-365",
+    "authors": "Yamato Honda, Justin Kaidi, Yuichi Koga, Yuefeng Liu",
+    "title": "Maximal Enhancements in Eight-Dimensional Non-Supersymmetric Heterotic Strings",
+    "arxivId": "2608.19166",
+    "arxivUrl": "https://arxiv.org/abs/2608.19166",
+    "inspireUrl": "https://inspirehep.net/literature/3192750",
+    "journalRef": "",
+    "doiUrl": ""
+  },
+  {
+    "reportNumber": "KYUSHU-HET-366",
+    "authors": "Haruto Kitagawa, Coh Miyao, Satsuki Nishimura, Hajime Otsuka",
+    "title": "Revisiting One-Zero and Two-Zero Neutrino Mass Textures in Light of Recent Oscillation and Cosmological Data",
+    "arxivId": "2607.08384",
+    "arxivUrl": "https://arxiv.org/abs/2607.08384",
+    "inspireUrl": "https://inspirehep.net/literature/3178785",
+    "journalRef": "",
+    "doiUrl": ""
+  },
+  {
+    "reportNumber": "KYUSHU-HET-367",
+    "authors": "Yoshiki Fukusumi, Yuma Furuta",
+    "title": "Organizing transitions and their cascades: Generalized symmetry enforcement in massless flows or Higgs transitions",
+    "arxivId": "2608.08428",
+    "arxivUrl": "https://arxiv.org/abs/2608.08428",
+    "inspireUrl": "https://inspirehep.net/literature/3188987",
+    "journalRef": "",
+    "doiUrl": ""
+  },
+  {
+    "reportNumber": "KYUSHU-HET-368",
+    "authors": "Haruto Kitagawa, Satsuki Nishimura, Hajime Otsuka",
+    "title": "Uncovering Hidden Leptonic Correlations with Flow Matching and Autoencoders",
+    "arxivId": "2608.15042",
+    "arxivUrl": "https://arxiv.org/abs/2608.15042",
+    "inspireUrl": "https://inspirehep.net/literature/3191495",
+    "journalRef": "",
+    "doiUrl": ""
+  },
+  {
+    "reportNumber": "KYUSHU-HET-369",
+    "authors": "Tatsuo Kobayashi, Hajime Otsuka, Morimitsu Tanimoto, Kei Yamamoto",
+    "title": "Textures of dimension-six operators in the SMEFT with non-invertible selection rules",
+    "arxivId": "2608.21707",
+    "arxivUrl": "https://arxiv.org/abs/2608.21707",
+    "inspireUrl": "https://inspirehep.net/literature/3195223",
+    "journalRef": "",
+    "doiUrl": ""
+  },
+  {
+    "reportNumber": "KYUSHU-HET-370",
+    "authors": "Yukiya Furuta, Tatsuo Kobayashi, Tomoyasu Kori, Shuhei Miyamoto, Ryusei Nishida, Hajime Otsuka",
+    "title": "Note on arithmetic structure of modulus vacua in flux compactifications",
+    "arxivId": "2608.24054",
+    "arxivUrl": "https://arxiv.org/abs/2608.24054",
+    "inspireUrl": "https://inspirehep.net/literature/3195661",
+    "journalRef": "JHEP 10 (2026) 160",
+    "doiUrl": "https://doi.org/10.1007/JHEP10(2026)160"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-371",
+    "authors": "Hiroshi Suzuki",
+    "title": "Quantum tunneling from pertubation theory revisited",
+    "arxivId": "2609.10134",
+    "arxivUrl": "https://arxiv.org/abs/2609.10134",
+    "inspireUrl": "https://inspirehep.net/literature/3202006",
+    "journalRef": "",
+    "doiUrl": ""
+  },
+  {
+    "reportNumber": "KYUSHU-HET-372",
+    "authors": "Yuya Kusuki, Hiroyasu Tajima, Shion Yamashika",
+    "title": "The Role of Completeness in Probing Symmetry Breaking",
+    "arxivId": "2609.16153",
+    "arxivUrl": "https://arxiv.org/abs/2609.16153",
+    "inspireUrl": "https://inspirehep.net/literature/3203886",
+    "journalRef": "",
+    "doiUrl": ""
+  },
+  {
+    "reportNumber": "KYUSHU-HET-373",
+    "authors": "Takafumi Kai, Justin Kaidi, Katsumi Kina, Hajime Otsuka",
+    "title": "Fermion Hierarchies from Fricke Modular Symmetry",
+    "arxivId": "2610.29754",
+    "arxivUrl": "https://arxiv.org/abs/2610.29754",
+    "inspireUrl": "https://inspirehep.net/literature/3217382",
+    "journalRef": "",
+    "doiUrl": ""
+  },
+  {
+    "reportNumber": "KYUSHU-HET-374",
+    "authors": "Yuya Kusuki, Kosei Suzuyama, Yin Tang",
+    "title": "Entanglement Requires Fluctuations at Conformal Interfaces",
+    "arxivId": "2610.02309",
+    "arxivUrl": "https://arxiv.org/abs/2610.02309",
+    "inspireUrl": "https://inspirehep.net/literature/3210956",
+    "journalRef": "",
+    "doiUrl": ""
+  },
+  {
+    "reportNumber": "KYUSHU-HET-375",
+    "authors": "Riasat Sheikh, Takashi Toma, Koji Tsumura",
+    "title": "Exothermic nuclear recoils from thermal quasi-pNGB dark matter",
+    "arxivId": "2610.09516",
+    "arxivUrl": "https://arxiv.org/abs/2610.09516",
+    "inspireUrl": "https://inspirehep.net/literature/3212502",
+    "journalRef": "Phys.Lett.B 884 (2027) 141188",
+    "doiUrl": "https://doi.org/10.1016/j.physletb.2026.141188"
+  },
+  {
+    "reportNumber": "KYUSHU-HET-376",
+    "authors": "Sotaro Nagao and Hiroshi Suzuki",
+    "title": "Gauge-invariant nonpertubative Wilson action in quantum electrodynamics II",
+    "arxivId": "2610.19485",
+    "arxivUrl": "https://arxiv.org/abs/2610.19485",
+    "inspireUrl": "https://inspirehep.net/literature/3215098",
+    "journalRef": "",
+    "doiUrl": ""
+  },
+  {
+    "reportNumber": "KYUSHU-HET-377",
+    "authors": "Hajime Otsuka and Ryo Yokokura",
+    "title": "Non-Invertible Froggatt-Nielsen Symmetry",
+    "arxivId": "2610.21688",
+    "arxivUrl": "https://arxiv.org/abs/2610.21688",
+    "inspireUrl": "https://inspirehep.net/literature/3215639",
+    "journalRef": "",
+    "doiUrl": ""
+  },
+  {
+    "reportNumber": "KYUSHU-HET-378",
+    "authors": "Yin Tang and W. Zhu",
+    "title": "Monodromy Defects of 3D Wilson–Fisher Criticality on the Fuzzy Sphere",
+    "arxivId": "2610.31269",
+    "arxivUrl": "https://arxiv.org/abs/2610.31269",
+    "inspireUrl": "https://inspirehep.net/literature/3218156",
+    "journalRef": "",
+    "doiUrl": ""
+  },
+  {
+    "reportNumber": "KYUSHU-HET-379",
+    "authors": "Yuya Kusuki and Yin Tang",
+    "title": "Entanglement Bounds on Cardy Growth in Higher Dimensions",
+    "arxivId": "2610.37449",
+    "arxivUrl": "https://arxiv.org/abs/2610.37449",
+    "inspireUrl": "https://inspirehep.net/literature/3219572",
+    "journalRef": "",
+    "doiUrl": ""
+  },
+  {
+    "reportNumber": "KYUSHU-HET-380",
+    "authors": "Justin Kaidi",
+    "title": "Hecke Relations from Self-Duality",
+    "arxivId": "2611.05002",
+    "arxivUrl": "https://arxiv.org/abs/2611.05002",
+    "inspireUrl": "https://inspirehep.net/literature/3222765",
+    "journalRef": "",
+    "doiUrl": ""
+  },
+  {
+    "reportNumber": "KYUSHU-HET-381",
+    "authors": "Sorato Nagao and Hiroshi Suzuki",
+    "title": "Wilsonian exact renormalization group flow in the gauged Nambu--Jona-Lasinio model",
+    "arxivId": "2611.00559",
+    "arxivUrl": "https://arxiv.org/abs/2611.00559",
+    "inspireUrl": "https://inspirehep.net/literature/3221825",
+    "journalRef": "",
+    "doiUrl": ""
+  },
+  {
+    "reportNumber": "KYUSHU-HET-382",
+    "authors": "Yuma Furuta, Wataru Harada, Yuya Kusuki, Yin Tang",
+    "title": "Analytic Bounds on Conformal Defect Spectra",
+    "arxivId": "2611.08582",
+    "arxivUrl": "https://arxiv.org/abs/2611.08582",
+    "inspireUrl": "https://inspirehep.net/literature/3225640",
+    "journalRef": "",
+    "doiUrl": ""
+  },
+  {
+    "reportNumber": "KYUSHU-HET-383",
+    "authors": "Yin Tang and W. Zhu",
+    "title": "Accessing Continuous Monodromy Defects of the 3D Conformal Field Theory on the Fuzzy Sphere",
+    "arxivId": "2611.08102",
+    "arxivUrl": "https://arxiv.org/abs/2611.08102",
+    "inspireUrl": "https://inspirehep.net/literature/3225472",
+    "journalRef": "",
+    "doiUrl": ""
+  },
+  {
+    "reportNumber": "KYUSHU-HET-384",
+    "authors": "Yuichi Koga, Hajime Otsuka",
+    "title": "Geometric Bounds on Axion-Photon Couplings in Non-Supersymmetric Heterotic Compactifications",
+    "arxivId": "2611.17467",
+    "arxivUrl": "https://arxiv.org/abs/2611.17467",
+    "inspireUrl": "https://inspirehep.net/literature/3228677",
+    "journalRef": "",
+    "doiUrl": ""
+  },
+  {
+    "reportNumber": "KYUSHU-HET-385",
+    "authors": "Riasat Sheikh, Koji Tsumura",
+    "title": "Suppressed Direct Detection of Dark Matter from a Non-Invertible Selection Rule",
+    "arxivId": "2611.15030",
+    "arxivUrl": "https://arxiv.org/abs/2611.15030",
+    "inspireUrl": "https://inspirehep.net/literature/3227794",
+    "journalRef": "",
+    "doiUrl": ""
+  },
+  {
+    "reportNumber": "KYUSHU-HET-386",
+    "authors": "Justin Kaidi",
+    "title": "The (5,5) String",
+    "arxivId": "2611.17275",
+    "arxivUrl": "https://arxiv.org/abs/2611.17275",
+    "inspireUrl": "https://inspirehep.net/literature/3228211",
+    "journalRef": "",
+    "doiUrl": ""
+  },
+  {
+    "reportNumber": "KYUSHU-HET-387",
+    "authors": "Sorato Nagao and Hiroshi Suzuki",
+    "title": "Wilsonian renormalization group flow in QED with the Pauli term",
+    "arxivId": "2611.19778",
+    "arxivUrl": "https://arxiv.org/abs/2611.19778",
+    "inspireUrl": "https://inspirehep.net/literature/3229926",
+    "journalRef": "",
+    "doiUrl": ""
+  },
+  {
+    "reportNumber": "KYUSHU-HET-388",
+    "authors": "Yuma Furuta, So Matsuura",
+    "title": "Positive diagonal congruence and weight transformations of Ihara zeta functions",
+    "arxivId": "",
+    "arxivUrl": "",
+    "inspireUrl": "",
+    "journalRef": "",
+    "doiUrl": ""
+  },
+  {
+    "reportNumber": "KYUSHU-HET-389",
+    "authors": "Kento Asai, Shohei Okawa, and Riasat Sheikh",
+    "title": "Probing dark matter electromagnetic properties in ancient minerals",
+    "arxivId": "",
+    "arxivUrl": "",
+    "inspireUrl": "",
+    "journalRef": "",
+    "doiUrl": ""
+  },
+  {
+    "reportNumber": "KYUSHU-HET-390",
+    "authors": "Yuma Furuta, Yuya Kusuki, Toshiki Onagi, and Yin Tang",
+    "title": "Energy and Charge Transmission at Conformal Interfaces: Relations and Bounds",
+    "arxivId": "2611.27002",
+    "arxivUrl": "https://arxiv.org/abs/2611.27002",
+    "inspireUrl": "https://inspirehep.net/literature/3231776",
+    "journalRef": "",
+    "doiUrl": ""
+  },
+  {
+    "reportNumber": "KYUSHU-HET-391",
+    "authors": "Yoshiki Fukusumi, Yuma Furuta",
+    "title": "Pairing and modular: Generalized electrons and quasiholes inside the $\\boxtimes$ of topological orders",
+    "arxivId": "2611.27378",
+    "arxivUrl": "https://arxiv.org/abs/2611.27378",
+    "inspireUrl": "https://inspirehep.net/literature/3231682",
+    "journalRef": "",
+    "doiUrl": ""
+  },
+  {
+    "reportNumber": "KYUSHU-HET-392",
+    "authors": "Yuma Furuta, Yuya Kusuki, Toshiki Onagi, and Yin Tang",
+    "title": "Identifying Renormalization Group Interfaces of Massless WZW Flows \\(\\widehat{\\mathfrak{su}}(2)_k \\to \\widehat{\\mathfrak{su}}(2)_1\\)",
+    "arxivId": "2611.33354",
+    "arxivUrl": "https://arxiv.org/abs/2611.33354",
+    "inspireUrl": "https://inspirehep.net/literature/3233860",
+    "journalRef": "",
+    "doiUrl": ""
+  }
+]
