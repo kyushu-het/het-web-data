@@ -129,9 +129,11 @@
       line-height: 1.5;
     }
 
-    /* 重なりを防ぐため th の sticky は解除し、標準の表ヘッダーに戻します */
     .het-table th {
-      background-color: var(--bg-header);
+      position: sticky;
+      top: 62px; /* 検索ツールバーの高さに合わせて固定 */
+      z-index: 80;
+      background-color: #F8FAFC; /* 下の文字が透けないように不透明な背景色 */
       color: var(--text-muted);
       font-weight: 600;
       text-align: left;
