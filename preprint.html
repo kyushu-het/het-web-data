@@ -99,6 +99,10 @@
       background-color: #eaeef2;
       text-decoration: none;
     }
+    .pub-info, .pub-info a {
+      color: #137333;
+      font-weight: 500;
+    }
     .center-msg {
       text-align: center;
       padding: 32px;
@@ -183,7 +187,7 @@
               <div class="paper-authors">${esc(item.authors)}</div>
             </td>
             <td class="nowrap">${arxivBtn}${inspireBtn}</td>
-            <td>${pubHtml}</td>
+            <td class="pub-info">${pubHtml}</td>
           </tr>
         `;
       }).join('');
