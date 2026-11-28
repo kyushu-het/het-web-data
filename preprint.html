@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>KYUSHU-HET Preprints & Papers</title>
 
-  <!-- 1. KaTeX の CSS / JS を読み込み -->
+  <!-- KaTeX CSS / JS の読み込み -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
@@ -138,7 +138,6 @@
       line-height: 1.5;
     }
 
-    /* ヘッダー固定 */
     .het-table th {
       position: sticky;
       top: 0;
@@ -320,9 +319,9 @@
         let pubHtml = '<span class="status-preprint">Preprint</span>';
         if (item.journalRef) {
           if (item.doiUrl) {
-            pubHtml = `<a href="${esc(item.doiUrl)}" target="_blank" rel="noopener" class="badge badge-pub">${esc(item.journalRef)}</a>`;
+            pubHtml = `<a href="${esc(item.doiUrl)}" target="_blank" rel="noopener" class="badge badge-pub">${formatTitleAndMath(item.journalRef)}</a>`;
           } else {
-            pubHtml = `<span class="badge badge-pub">${esc(item.journalRef)}</span>`;
+            pubHtml = `<span class="badge badge-pub">${formatTitleAndMath(item.journalRef)}</span>`;
           }
         }
 
@@ -330,7 +329,7 @@
           <tr>
             <td class="report-no">${esc(item.reportNumber)}</td>
             <td>
-              <div class="paper-title">${esc(item.title)}</div>
+              <div class="paper-title">${formatTitleAndMath(item.title)}</div>
               <div class="paper-authors">${esc(item.authors)}</div>
             </td>
             <td>${linksHtml}</td>
@@ -339,11 +338,34 @@
         `;
       }).join('');
 
-      // 2. DOM挿入後に KaTeX の自動レンダリングを実行
       renderMath();
     }
 
-    // KaTeX レンダリング実行ヘルパー
+    // $ で囲まれた数式ブロックを保護しつつ、外側の ^ や _ を <sup> / <sub> に変換
+    function formatTitleAndMath(str) {
+      if (!str) return '';
+
+      // $...$ または $$...$$ を区切りとして分割
+      const parts = String(str).split(/(\$\$[\s\S]*?\$\$|\$[^\$]+?\$)/g);
+
+      return parts.map((part, idx) => {
+        // 奇数番目は数式ブロック ($...$ または $$...$$) なので HTMLエスケープのみ
+        if (idx % 2 === 1) {
+          return esc(part);
+        }
+
+        // 偶数番目は通常の文字列：HTMLエスケープ後に ^ や _ を置換
+        let text = esc(part);
+        return text
+          // 波括弧付き: X^{abc} -> X<sup>abc</sup>, X_{abc} -> X<sub>abc</sub>
+          .replace(/([a-zA-Z0-9\)])\^\{([^}]+)\}/g, '$1<sup>$2</sup>')
+          .replace(/([a-zA-Z0-9\)])\_\{([^}]+)\}/g, '$1<sub>$2</sub>')
+          // 括弧なし単一記号: X^2 -> X<sup>2</sup>, X_i -> X<sub>i</sub>
+          .replace(/([a-zA-Z0-9\)])\^([a-zA-Z0-9+-])/g, '$1<sup>$2</sup>')
+          .replace(/([a-zA-Z0-9\)])\_([a-zA-Z0-9+-])/g, '$1<sub>$2</sub>');
+      }).join('');
+    }
+
     function renderMath() {
       if (typeof renderMathInElement === 'function') {
         const tbody = document.getElementById('pubTableBody');
@@ -354,7 +376,7 @@
             { left: '\\(', right: '\\)', display: false },
             { left: '\\[', right: '\\]', display: true }
           ],
-          throwOnError: false // パースエラー時に赤文字クラッシュさせず生テキストを表示
+          throwOnError: false
         });
       }
     }
