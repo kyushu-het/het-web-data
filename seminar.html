@@ -428,23 +428,35 @@
       renderMath();
     }
 
-    // $ で囲まれた数式ブロックを保護しつつ、外側の ^ や _ を <sup> / <sub> に変換
+    // $$, $, \(\), \[\] の各記法に対応した数式・テキスト整形関数
     function formatTitleAndMath(str) {
       if (!str) return '';
 
-      const parts = String(str).split(/(\$\$[\s\S]*?\$\$|\$[^\$]+?\$)/g);
+      const parts = String(str).split(/(\$\$[\s\S]*?\$\$|\$[^\$]+?\$|\\+\[[\s\S]*?\\+\]|\\+\([\s\S]*?\\+\))/g);
 
       return parts.map((part, idx) => {
         if (idx % 2 === 1) {
-          return esc(part);
+          let mathBlock = part.replace(/^\\+\(/, '\\(').replace(/\\+\)$/, '\\)');
+          mathBlock = mathBlock.replace(/^\\+\[/, '\\[').replace(/\\+\]$/, '\\]');
+          return esc(mathBlock);
         }
 
-        let text = esc(part);
-        return text
-          .replace(/([a-zA-Z0-9\)])\^\{([^}]+)\}/g, '$1<sup>$2</sup>')
-          .replace(/([a-zA-Z0-9\)])\_\{([^}]+)\}/g, '$1<sub>$2</sub>')
-          .replace(/([a-zA-Z0-9\)])\^([a-zA-Z0-9+-])/g, '$1<sup>$2</sup>')
-          .replace(/([a-zA-Z0-9\)])\_([a-zA-Z0-9+-])/g, '$1<sub>$2</sub>');
+        let text = part;
+
+        const safeMathRegex = /(\\[a-zA-Z]+(?:\{[^}]*\}|[\^_]\{[^}]*\}|[\^_][a-zA-Z0-9+-])*)/g;
+        text = text.replace(safeMathRegex, '$$$1$$');
+
+        const subParts = text.split(/(\$[^\$]+?\$)/g);
+        return subParts.map((sub, sIdx) => {
+          if (sIdx % 2 === 1) {
+            return esc(sub);
+          }
+          return esc(sub)
+            .replace(/([a-zA-Z0-9\)])\^\{([^}]+)\}/g, '$1<sup>$2</sup>')
+            .replace(/([a-zA-Z0-9\)])\_\{([^}]+)\}/g, '$1<sub>$2</sub>')
+            .replace(/([a-zA-Z0-9\)])\^([a-zA-Z0-9+-]+)/g, '$1<sup>$2</sup>')
+            .replace(/([a-zA-Z0-9\)])\_([a-zA-Z0-9]+)/g, '$1<sub>$2</sub>');
+        }).join('');
       }).join('');
     }
 
