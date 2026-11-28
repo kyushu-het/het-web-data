@@ -4,6 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>KYUSHU-HET Preprints & Papers</title>
+
+  <!-- 1. KaTeX の CSS / JS を読み込み -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+
   <style>
     :root {
       --text-main: #2D2D2D;
@@ -112,7 +118,7 @@
       white-space: nowrap;
     }
 
-    /* テーブルのスクロール枠：内部スクロールを確立してstickyを正常に機能させる */
+    /* テーブルのスクロール枠 */
     .het-table-container {
       width: 100%;
       max-height: calc(100vh - 80px);
@@ -132,7 +138,7 @@
       line-height: 1.5;
     }
 
-    /* ヘッダー：コンテナの最上部(top: 0)に吸着固定（392の上に被さりません） */
+    /* ヘッダー固定 */
     .het-table th {
       position: sticky;
       top: 0;
@@ -332,6 +338,25 @@
           </tr>
         `;
       }).join('');
+
+      // 2. DOM挿入後に KaTeX の自動レンダリングを実行
+      renderMath();
+    }
+
+    // KaTeX レンダリング実行ヘルパー
+    function renderMath() {
+      if (typeof renderMathInElement === 'function') {
+        const tbody = document.getElementById('pubTableBody');
+        renderMathInElement(tbody, {
+          delimiters: [
+            { left: '$$', right: '$$', display: true },
+            { left: '$', right: '$', display: false },
+            { left: '\\(', right: '\\)', display: false },
+            { left: '\\[', right: '\\]', display: true }
+          ],
+          throwOnError: false // パースエラー時に赤文字クラッシュさせず生テキストを表示
+        });
+      }
     }
 
     const searchInput = document.getElementById('searchBox');
