@@ -341,28 +341,40 @@
       renderMath();
     }
 
-    // $ で囲まれた数式ブロックを保護しつつ、外側の ^ や _ を <sup> / <sub> に変換
+    // $ で囲まれていない LaTeX コマンド（\Gamma 等）や記法（^2, _i 等）を自動補正
     function formatTitleAndMath(str) {
       if (!str) return '';
 
-      // $...$ または $$...$$ を区切りとして分割
+      // 1. 最初から $...$ または $$...$$ で囲まれている部分を保護して分割
       const parts = String(str).split(/(\$\$[\s\S]*?\$\$|\$[^\$]+?\$)/g);
 
       return parts.map((part, idx) => {
-        // 奇数番目は数式ブロック ($...$ または $$...$$) なので HTMLエスケープのみ
+        // 奇数番目は正規の数式ブロックなのでそのまま保持
         if (idx % 2 === 1) {
           return esc(part);
         }
 
-        // 偶数番目は通常の文字列：HTMLエスケープ後に ^ や _ を置換
-        let text = esc(part);
-        return text
-          // 波括弧付き: X^{abc} -> X<sup>abc</sup>, X_{abc} -> X<sub>abc</sub>
-          .replace(/([a-zA-Z0-9\)])\^\{([^}]+)\}/g, '$1<sup>$2</sup>')
-          .replace(/([a-zA-Z0-9\)])\_\{([^}]+)\}/g, '$1<sub>$2</sub>')
-          // 括弧なし単一記号: X^2 -> X<sup>2</sup>, X_i -> X<sub>i</sub>
-          .replace(/([a-zA-Z0-9\)])\^([a-zA-Z0-9+-])/g, '$1<sup>$2</sup>')
-          .replace(/([a-zA-Z0-9\)])\_([a-zA-Z0-9+-])/g, '$1<sub>$2</sub>');
+        let text = part;
+
+        // 2. $ の外側にある \command や連続する数式塊を自動で $...$ で包む
+        const mathTokenRegex = /(\\[a-zA-Z]+(?:\{[^}]*\}|[\^_]\{[^}]*\}|[\^_][a-zA-Z0-9+-]|[\(\)\/+\-*=><]|[\s]+(?=\\[a-zA-Z]+|[+\-*=><→\(\)]))*)/g;
+        text = text.replace(mathTokenRegex, (match) => {
+          const trimmed = match.trim();
+          return trimmed ? `$${trimmed}$` : match;
+        });
+
+        // 3. 自動補正された $...$ を再度分割し、残った単独の ^ や _ を <sup> / <sub> に変換
+        const subParts = text.split(/(\$[^\$]+?\$)/g);
+        return subParts.map((sub, sIdx) => {
+          if (sIdx % 2 === 1) {
+            return esc(sub);
+          }
+          return esc(sub)
+            .replace(/([a-zA-Z0-9\)])\^\{([^}]+)\}/g, '$1<sup>$2</sup>')
+            .replace(/([a-zA-Z0-9\)])\_\{([^}]+)\}/g, '$1<sub>$2</sub>')
+            .replace(/([a-zA-Z0-9\)])\^([a-zA-Z0-9+-])/g, '$1<sup>$2</sup>')
+            .replace(/([a-zA-Z0-9\)])\_([a-zA-Z0-9+-])/g, '$1<sub>$2</sub>');
+        }).join('');
       }).join('');
     }
 
