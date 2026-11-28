@@ -4,6 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>KYUSHU-HET Seminars</title>
+
+  <!-- KaTeX CSS / JS の読み込み -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+
   <style>
     :root {
       --text-main: #2D2D2D;
@@ -113,7 +119,7 @@
       white-space: nowrap;
     }
 
-    /* テーブルのスクロール枠：内部スクロールを確立してstickyを正常に機能させる */
+    /* テーブルのスクロール枠 */
     .het-table-container {
       width: 100%;
       max-height: calc(100vh - 80px);
@@ -123,18 +129,16 @@
       position: relative;
     }
 
-    /* 列幅固定・最小幅の確保 */
     .het-table {
       width: 100%;
-      min-width: 680px;      /* 狭い画面でも押し潰れを防止 */
-      table-layout: fixed;   /* thの%配分を強制維持 */
+      min-width: 680px;
+      table-layout: fixed;
       border-collapse: separate;
       border-spacing: 0;
       font-size: 0.88rem;
       line-height: 1.5;
     }
 
-    /* ヘッダー：コンテナの最上部(top: 0)に吸着固定（先頭行の上に被さりません） */
     .het-table th {
       position: sticky;
       top: 0;
@@ -153,7 +157,7 @@
       padding: 12px 14px;
       border-bottom: 1px solid var(--border-color);
       vertical-align: top;
-      word-break: break-word;     /* 長い文字列・数式の枠外はみ出し防止 */
+      word-break: break-word;
       overflow-wrap: break-word;
     }
 
@@ -161,7 +165,6 @@
       background-color: #FAFAFA;
     }
 
-    /* Upcomingの行をほんのり青みがかった背景で強調 */
     .row-upcoming {
       background-color: #F8FAFD;
     }
@@ -343,10 +346,7 @@
           }
         });
 
-        // 今後の予定: 直近が上（昇順）
         upcoming.sort((a, b) => a._dateObj - b._dateObj);
-
-        // 過去の記録: 新しい順（降順）
         past.sort((a, b) => {
           if (!a._dateObj) return 1;
           if (!b._dateObj) return -1;
@@ -397,9 +397,9 @@
           speakerHtml += `<div class="speaker-affil">${esc(affiliation)}</div>`;
         }
 
-        let contentHtml = `<div class="seminar-title">${esc(title)}</div>`;
+        let contentHtml = `<div class="seminar-title">${formatTitleAndMath(title)}</div>`;
         if (abstract) {
-          contentHtml += `<div class="seminar-abstract">${esc(abstract)}</div>`;
+          contentHtml += `<div class="seminar-abstract">${formatTitleAndMath(abstract)}</div>`;
         }
 
         let badgeHtml = '<div class="badge-group">';
@@ -424,6 +424,43 @@
           </tr>
         `;
       }).join('');
+
+      renderMath();
+    }
+
+    // $ で囲まれた数式ブロックを保護しつつ、外側の ^ や _ を <sup> / <sub> に変換
+    function formatTitleAndMath(str) {
+      if (!str) return '';
+
+      const parts = String(str).split(/(\$\$[\s\S]*?\$\$|\$[^\$]+?\$)/g);
+
+      return parts.map((part, idx) => {
+        if (idx % 2 === 1) {
+          return esc(part);
+        }
+
+        let text = esc(part);
+        return text
+          .replace(/([a-zA-Z0-9\)])\^\{([^}]+)\}/g, '$1<sup>$2</sup>')
+          .replace(/([a-zA-Z0-9\)])\_\{([^}]+)\}/g, '$1<sub>$2</sub>')
+          .replace(/([a-zA-Z0-9\)])\^([a-zA-Z0-9+-])/g, '$1<sup>$2</sup>')
+          .replace(/([a-zA-Z0-9\)])\_([a-zA-Z0-9+-])/g, '$1<sub>$2</sub>');
+      }).join('');
+    }
+
+    function renderMath() {
+      if (typeof renderMathInElement === 'function') {
+        const tbody = document.getElementById('seminarTableBody');
+        renderMathInElement(tbody, {
+          delimiters: [
+            { left: '$$', right: '$$', display: true },
+            { left: '$', right: '$', display: false },
+            { left: '\\(', right: '\\)', display: false },
+            { left: '\\[', right: '\\]', display: true }
+          ],
+          throwOnError: false
+        });
+      }
     }
 
     const searchInput = document.getElementById('searchBox');
